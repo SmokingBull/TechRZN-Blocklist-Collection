@@ -1,7 +1,7 @@
 import requests
 import os
 
-# Deine 11 Quellen - Vollständig und korrekt
+# Deine 11 Quellen
 SOURCES = {
     "hagezi_pro": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_48.txt",
     "hagezi_bypass": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_52.txt",
@@ -16,6 +16,9 @@ SOURCES = {
     "dan_pollock": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_4.txt"
 }
 
+# NEU: Die HaGeZi Whitelist URL
+HAGEZI_WHITELIST_URL = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/whitelist-referral.txt"
+
 def clean_line(line):
     line = line.strip()
     if line and not line.startswith(('#', '!', '[', ' ')):
@@ -26,15 +29,22 @@ def main():
     combined_set = set()
     whitelist = set()
 
-    # Whitelist laden oder erstellen
+    # 1. Deine eigene lokale Whitelist laden
     if os.path.exists("whitelist.txt"):
         with open("whitelist.txt", "r") as f:
             for line in f:
                 domain = clean_line(line)
                 if domain: whitelist.add(domain)
-    else:
-        with open("whitelist.txt", "w") as f:
-            f.write("# TechRZN Whitelist\n")
+
+    # 2. Die externe HaGeZi Whitelist laden
+    try:
+        print("Lade HaGeZi Referral Whitelist...")
+        r_white = requests.get(HAGEZI_WHITELIST_URL, timeout=15)
+        for line in r_white.text.splitlines():
+            domain = clean_line(line)
+            if domain: whitelist.add(domain)
+    except Exception as e:
+        print(f"Hinweis: HaGeZi Whitelist konnte nicht geladen werden: {e}")
 
     if not os.path.exists("lists"):
         os.makedirs("lists")
@@ -46,6 +56,7 @@ def main():
             individual_list = []
             for line in lines:
                 cleaned = clean_line(line)
+                # Nur hinzufügen, wenn NICHT auf der kombinierten Whitelist
                 if cleaned and cleaned not in whitelist:
                     individual_list.append(cleaned)
                     combined_set.add(cleaned)
