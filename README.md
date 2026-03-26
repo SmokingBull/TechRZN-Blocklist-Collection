@@ -9,43 +9,43 @@
 ![Rules](https://img.shields.io/badge/Total_Rules-1M+-success?style=flat-square)
 ![Status](https://img.shields.io/badge/Service-Automated-orange?style=flat-square)
 
-Willkommen beim TechRZN Filter-Hub. Hier findest du optimierte DNS-Blocklisten für AdGuard Home, Pi-hole und Technitium. Alle Listen werden alle 24 Stunden automatisch von Duplikaten und Fehlern bereinigt.
+Willkommen beim TechRZN Filter-Hub. Diese "All-in-One" Liste kombiniert die besten Filterquellen der Community, entfernt Duplikate und wendet eine eigene Whitelist an.
 
 ---
 
-## 🚀 Option 1: Die Master-Liste (Empfohlen)
-Die ultimative All-in-One Lösung. Enthält alle unten aufgeführten Listen in einer einzigen, performanten Datei.
+## 🚀 Die Master-Liste (Empfohlen)
+Die ultimative Lösung für AdGuard Home, Pi-hole und Technitium.
 
 **Link für deinen DNS-Filter:**
 > `https://raw.githubusercontent.com/SmokingBull/my-blocklist-collection/main/combined_blocklist.txt`
 
 ---
 
-## 🧩 Option 2: Einzelne Module
-Du möchtest volle Kontrolle? Hier kannst du die Filter nach Kategorien getrennt abonnieren:
+## 🧩 Einzelne Module & Urheberrecht
+Ein großer Dank geht an die Community-Projekte, auf denen diese Sammlung basiert. Hier kannst du die Module einzeln beziehen oder die Original-Projekte besuchen:
 
-| Modul | Fokus / Schutzbereich | Direkt-Link (Raw) |
-| :--- | :--- | :--- |
-| **🇩🇪 German Filter** | Beste Performance für DE/AT/CH | [Link](https://raw.githubusercontent.com/SmokingBull/my-blocklist-collection/main/lists/german_filter.txt) |
-| **🎮 Gambling** | Sperrt Glücksspiel & Wetten | [Link](https://raw.githubusercontent.com/SmokingBull/my-blocklist-collection/main/lists/hagezi_gambling.txt) |
-| **🛡️ Cyber Security** | Malware, Phishing & Botnets | [Link](https://raw.githubusercontent.com/SmokingBull/my-blocklist-collection/main/lists/adguard_security.txt) |
-| **📺 Smart-TV** | Unterbindet TV-Tracking | [Link](https://raw.githubusercontent.com/SmokingBull/my-blocklist-collection/main/lists/smart_tv.txt) |
-| **💻 Windows** | Microsoft Telemetrie & Werbung | [Link](https://raw.githubusercontent.com/SmokingBull/my-blocklist-collection/main/lists/windows_telemetry.txt) |
-| **⚠️ Fake Shops** | Schutz vor Betrugsseiten | [Link](https://raw.githubusercontent.com/SmokingBull/my-blocklist-collection/main/lists/hagezi_fake.txt) |
-| **📍 IP-Blocklist** | Bösartige IP-Adressen | [Link](https://raw.githubusercontent.com/SmokingBull/my-blocklist-collection/main/lists/techrzn_custom.txt) |
-
----
-
-## ⚙️ Schnelle Einrichtung
-Kopiere einfach den gewünschten Link und füge ihn in deinem System hinzu:
-* **AdGuard Home:** Filter -> DNS-Sperrlisten -> Sperrliste hinzufügen.
-* **Pi-hole:** Group Management -> Adlists -> URL einfügen.
+| Modul | Urheber / Quelle | Fokus | Link (Raw) |
+| :--- | :--- | :--- | :--- |
+| **🇩🇪 German Filter** | [AdGuard Team](https://github.com/AdguardTeam/FiltersRegistry) | Optimiert für DE/AT/CH | [Link](https://raw.githubusercontent.com/SmokingBull/my-blocklist-collection/main/lists/german_filter.txt) |
+| **🎮 Gambling** | [HaGeZi](https://github.com/hagezi/dns-blocklists) | Glücksspiel & Wetten | [Link](https://raw.githubusercontent.com/SmokingBull/my-blocklist-collection/main/lists/hagezi_gambling.txt) |
+| **🛡️ Security** | [AdGuard Team](https://adguard.com) | Malware & Phishing | [Link](https://raw.githubusercontent.com/SmokingBull/my-blocklist-collection/main/lists/adguard_security.txt) |
+| **📺 Smart-TV** | [AdGuard Team](https://github.com/AdguardTeam/HostlistsRegistry) | TV-Tracking | [Link](https://raw.githubusercontent.com/SmokingBull/my-blocklist-collection/main/lists/smart_tv.txt) |
+| **💻 Windows** | [AdGuard / Crazy-Max](https://github.com/crazy-max/WindowsSpyBlocker) | Telemetrie | [Link](https://raw.githubusercontent.com/SmokingBull/my-blocklist-collection/main/lists/windows_telemetry.txt) |
+| **⚠️ Fake Shops** | [HaGeZi](https://github.com/hagezi/dns-blocklists) | Betrugsseiten | [Link](https://raw.githubusercontent.com/SmokingBull/my-blocklist-collection/main/lists/hagezi_fake.txt) |
+| **📍 TechRZN Custom** | [SmokingBull](https://github.com/SmokingBull) | Eigene Blockliste | [Link](https://raw.githubusercontent.com/SmokingBull/my-blocklist-collection/main/lists/techrzn_custom.txt) |
 
 ---
 
-## ☕ Support my Work
-Wenn dir diese Listen helfen, freue ich mich über einen digitalen Kaffee:
-[**Hier unterstützen via PayPal**](https://www.paypal.me/DEIN_NAME)
+## ⚙️ Installation & Whitelist
+1. Kopiere einen der Links oben.
+2. Füge ihn in AdGuard Home unter **Filter -> DNS-Sperrlisten** hinzu.
+3. **Whitelist:** Falls eine Seite fälschlich blockiert wird, trage sie einfach in die `whitelist.txt` in diesem Repo ein.
 
 ---
-*Maintained in Kleve • Stand: März 2026*
+
+## ☕ Support
+Wenn dir diese Zusammenstellung hilft, freue ich mich über einen Kaffee:
+[**Unterstützen via PayPal**](https://www.paypal.me/DEIN_NAME)
+
+---
+*Disclaimer: Alle Rechte an den Listen liegen bei den jeweiligen Urhebern. Dieses Projekt dient der effizienten Zusammenführung für den privaten Gebrauch.*
