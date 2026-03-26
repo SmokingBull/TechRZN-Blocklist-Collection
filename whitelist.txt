@@ -43,3 +43,12 @@ paypal.com
 stripe.com
 visa.com
 mastercard.com
+
+# --- UGREEN NAS (UGOS) UPDATES & CLOUD ---
+ugreen.com
+ugreen.cn
+ugnas.com
+api.ugnas.com
+update.ugnas.com
+cloud.ugnas.com
+docker.ugnas.com
