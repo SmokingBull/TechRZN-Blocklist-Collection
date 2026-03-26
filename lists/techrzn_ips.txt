@@ -1,0 +1,4 @@
+# TechRZN Blocklist: techrzn_ips
+# Status: Automatisch bereinigt & ge-whitelistet
+
+404: Not Found
