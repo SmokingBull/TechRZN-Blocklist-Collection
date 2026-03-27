@@ -2,6 +2,10 @@
   <img src="techrzn-dns.png" width="400" alt="TechRZN DNS Logo">
 </p>
 
+<p align="center">
+  Sprache: 🇩🇪 <b>[Deutsch]</b> | 🇺🇸 <a href="README.en.md">[English]</a>
+</p>
+
 # 🛡️ TechRZN-Blocklist-Collection
 ### High-Performance Blocklists • Täglich aktualisiert • 100% Bereinigt
 
@@ -84,4 +88,4 @@ Besonderer Dank gilt den Quellen, die dieses Projekt ermöglichen:
 * **[Dan Pollock](https://someonewhocares.org/hosts/):** Legendärer Hosts-Klassiker.
 
 ---
-*Maintained with ❤️ by TechRZN • Stand: März 2026*
+*Maintained with ❤️ by TechRZN in Kleve • Stand: März 2026*
