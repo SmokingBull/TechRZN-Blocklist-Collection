@@ -2,6 +2,10 @@
   <img src="techrzn-dns.png" width="400" alt="TechRZN DNS Logo">
 </p>
 
+<p align="center">
+  Language: 🇺🇸 <b>[English]</b> | 🇩🇪 <a href="README.md">[Deutsch]</a>
+</p>
+
 # 🛡️ TechRZN-Blocklist-Collection
 ### High-Performance Blocklists • Updated Daily • 100% Cleaned
 
@@ -65,12 +69,12 @@ For best performance with this collection (1M+ rules), we recommend configuring 
 ### 2️⃣ DNS Server Configuration
 * **DNSSEC:** Enabled ✅
 * **Blocking Mode:** `Default` ✅
-* **Blocking Response TTL:** `300` seconds ✅
+* **Blocking Response TTL:** `10` seconds ✅
 
 ### 3️⃣ Private Inverse DNS Servers
 * **Use private reverse DNS resolvers:** Enabled ✅
 * **Enable hostname resolution for clients:** Enabled ✅
-* **Upstream Timeout:** `2` seconds ✅
+* **Upstream Timeout:** `6` seconds ✅
 * **DNS Server:** Please enter your **local router's DNS IP** (e.g., FRITZ!Box).
 
 ---
