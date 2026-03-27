@@ -89,3 +89,10 @@ Besonderer Dank gilt den Quellen, die dieses Projekt ermöglichen:
 
 ---
 *Maintained with ❤️ by TechRZN in Kleve • Stand: März 2026*
+
+---
+
+## ❤️ TechRZN unterstützen
+Die tägliche Pflege der 1M+ Regeln und der Betrieb der 2,5 Gbit/s Test-Infrastruktur auf dem UGREEN NAS (64 GB RAM) kosten Zeit und Ressourcen. Wenn dir meine Arbeit hilft, freue ich mich über deine Unterstützung!
+
+[![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/cw/TechRZN_DNS)
