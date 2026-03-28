@@ -1,4 +1,4 @@
-# TechRZN Blocklist: hagezi_windows
+# TechRZN Blocklist Module: hagezi_windows
 # Source: https://adguardteam.github.io/HostlistsRegistry/assets/filter_63.txt
 
 ||a-ring-fallback.msedge.net^

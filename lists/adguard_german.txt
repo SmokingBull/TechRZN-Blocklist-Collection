@@ -1,4 +1,4 @@
-# TechRZN Blocklist: adguard_german
+# TechRZN Blocklist Module: adguard_german
 # Source: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_6_German/filter.txt
 
 $csp=script-src 'self' data: 'unsafe-inline' 'unsafe-hashes' 'unsafe-eval' static.veevcdn.co,domain=filmpalast.to

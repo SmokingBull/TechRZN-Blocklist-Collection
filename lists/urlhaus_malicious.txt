@@ -1,4 +1,4 @@
-# TechRZN Blocklist: urlhaus_malicious
+# TechRZN Blocklist Module: urlhaus_malicious
 # Source: https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt
 
 ||0-rw1-t.jelvax.in.net^

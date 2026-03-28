@@ -1,4 +1,4 @@
-# TechRZN Blocklist: hagezi_fake
+# TechRZN Blocklist Module: hagezi_fake
 # Source: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt
 
 ||01broker.com^

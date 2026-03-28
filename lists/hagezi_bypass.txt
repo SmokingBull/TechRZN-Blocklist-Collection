@@ -1,4 +1,4 @@
-# TechRZN Blocklist: hagezi_bypass
+# TechRZN Blocklist Module: hagezi_bypass
 # Source: https://adguardteam.github.io/HostlistsRegistry/assets/filter_52.txt
 
 ||0.6gpaactivities.pce-cihazlari.com.tr^

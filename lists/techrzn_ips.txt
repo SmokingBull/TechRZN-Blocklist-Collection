@@ -1,4 +1,4 @@
-# TechRZN Blocklist: techrzn_ips
+# TechRZN Blocklist Module: techrzn_ips
 # Source: https://raw.githubusercontent.com/SmokingBull/malicious-ip-blocklist/main/deny-ip-list.txt
 
 1.1.118.75

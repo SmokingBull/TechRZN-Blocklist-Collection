@@ -1,4 +1,4 @@
-# TechRZN Blocklist: smart_tv
+# TechRZN Blocklist Module: smart_tv
 # Source: https://adguardteam.github.io/HostlistsRegistry/assets/filter_7.txt
 
 @@||hbbtv.kika.de^

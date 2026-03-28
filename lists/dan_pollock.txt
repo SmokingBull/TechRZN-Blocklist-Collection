@@ -1,4 +1,4 @@
-# TechRZN Blocklist: dan_pollock
+# TechRZN Blocklist Module: dan_pollock
 # Source: https://adguardteam.github.io/HostlistsRegistry/assets/filter_4.txt
 
 0.0.0.0 0.nextyourcontent.com

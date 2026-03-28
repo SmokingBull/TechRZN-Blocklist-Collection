@@ -1,4 +1,4 @@
-# TechRZN Blocklist: fake_science
+# TechRZN Blocklist Module: fake_science
 # Source: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science
 
 ||1010press.com^

@@ -1,4 +1,4 @@
-# TechRZN Blocklist: phishing_de
+# TechRZN Blocklist Module: phishing_de
 # Source: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe
 
 ||0-230-23.rest^
