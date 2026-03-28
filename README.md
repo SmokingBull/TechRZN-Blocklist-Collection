@@ -25,8 +25,19 @@ Willkommen beim **TechRZN Filter-Hub**. Dieses Repository bietet eine hochoptimi
 
 ---
 
+## ❤️ Support & Community
+Wenn dir der **TechRZN Filter-Hub** hilft, dein Netzwerk sicherer zu machen, freue ich mich über deine Unterstützung!
+
+<p align="center">
+  <a href="https://patreon.com/TechRZN">
+    <img src="https://img.shields.io/badge/PATREON-UNTERSTÜTZER_WERDEN-orange?style=for-the-badge&logo=patreon&logoColor=white" height="45" />
+  </a>
+</p>
+
+---
+
 ## 🚀 Direkt-Einbindung (Schnellzugriff)
-> **All-in-One Lösung:** Die Master-Liste enthält bereits alle **14 unten aufgeführten Module** in einer einzigen Datei. Ein Link für den kompletten Schutz.
+> **All-in-One Lösung:** Die Master-Liste enthält bereits alle **14 unten aufgeführten Module** in einer einzigen Datei.
 
 <p align="center">
   <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/combined_blocklist.txt">
