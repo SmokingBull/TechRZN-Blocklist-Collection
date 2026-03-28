@@ -57,6 +57,18 @@ Um "Overblocking" zu vermeiden, nutzt TechRZN ein zweistufiges Verfahren:
 
 ---
 
+## 🛠️ Erweiterte Whitelist (Referral Fix)
+Um zu verhindern, dass nützliche Weiterleitungen (z. B. aus E-Mails oder Preisvergleichen) geblockt werden, empfehle ich die Einbindung meiner Referral-Allowlist.
+
+* **Format:** AdBlock / AdGuard Home
+* **Quelle:** Basierend auf HaGeZi's Referral-Allowlist, optimiert für das TechRZN-Setup.
+
+**Einbindung in AdGuard Home:**
+Kopiere den Inhalt der [ALLOWLIST_REF.txt](./ALLOWLIST_REF.txt) direkt in deine **Benutzerdefinierten Filterregeln**.
+
+---
+
+
 ## ⚙️ Optimale AdGuard Home Einstellungen
 Für die beste Performance mit dieser Kollektion (1M+ Regeln) empfehlen wir, dein AdGuard Home wie folgt zu konfigurieren:
 
