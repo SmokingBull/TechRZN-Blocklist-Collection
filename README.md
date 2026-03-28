@@ -57,7 +57,7 @@ Um "Overblocking" zu vermeiden und eine reibungslose User-Experience (z.B. bei T
 * **Technik:** Das Python-Backend erkennt Subdomains automatisch und bereinigt alle 14 Blocklisten in Echtzeit.
 
 **Einbindung in AdGuard Home (DNS-Erlaubnislisten):**
-`https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/whitelist.txt`
+(https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/whitelist.txt)
 
 ---
 
