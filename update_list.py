@@ -1,7 +1,7 @@
 import requests
 import os
 
-# Die 14 Core-Module mit Zuordnung für die Danksagung (TechRZN Stack)
+# Die 14 Core-Module (TechRZN Stack)
 SOURCES = {
     "hagezi_pro": ("https://adguardteam.github.io/HostlistsRegistry/assets/filter_48.txt", "HaGeZi (Gold Standard)"),
     "hagezi_bypass": ("https://adguardteam.github.io/HostlistsRegistry/assets/filter_52.txt", "HaGeZi (VPN/Proxy)"),
@@ -28,13 +28,13 @@ def clean_line(line):
 def is_whitelisted(domain, whitelist_set):
     """
     Prüft, ob die Domain oder eine ihrer übergeordneten Domains auf der Whitelist steht.
-    Beispiel: 'login.1und1.de' wird gegen '1und1.de' geprüft.
+    Ermöglicht das automatische Whitelisten von Subdomains (z.B. login.1und1.de).
     """
     if domain in whitelist_set:
         return True
     
     parts = domain.split('.')
-    # Prüfe alle übergeordneten Ebenen (z.B. 1und1.de, de)
+    # Wir prüfen von rechts nach links (de -> 1und1.de -> login.1und1.de)
     for i in range(len(parts) - 1):
         parent = '.'.join(parts[i+1:])
         if parent in whitelist_set:
@@ -45,19 +45,20 @@ def main():
     combined_set = set()
     global_whitelist = set()
 
-    # 1. Lokale Whitelist laden
+    # 1. Whitelist laden
     if os.path.exists("whitelist.txt"):
         with open("whitelist.txt", "r", encoding='utf-8') as f:
             for line in f:
                 domain = clean_line(line)
                 if domain:
-                    # Entferne eventuelle Wildcard-Präfixe wie *.
+                    # Entfernt eventuelle *. Präfixe für die Logik
                     global_whitelist.add(domain.replace('*.', ''))
 
+    # 2. Ordner 'lists' sicherstellen
     if not os.path.exists("lists"):
         os.makedirs("lists")
 
-    # 3. Quellen verarbeiten
+    # 3. Alle 14 Quellen verarbeiten
     for name, (url, credit) in SOURCES.items():
         try:
             r = requests.get(url, timeout=25)
@@ -66,7 +67,7 @@ def main():
                 individual_list = []
                 for line in lines:
                     cleaned = clean_line(line)
-                    # Hier wird die neue intelligente Whitelist-Prüfung genutzt:
+                    # Hier greift die intelligente Prüfung für Unterseiten:
                     if cleaned and not is_whitelisted(cleaned, global_whitelist):
                         individual_list.append(cleaned)
                         combined_set.add(cleaned)
@@ -87,7 +88,7 @@ def main():
         except Exception as e:
             print(f"❌ Exception at {name}: {e}")
 
-    # 4. Masterliste speichern
+    # 4. Masterliste (All-in-One) speichern
     with open("combined_blocklist.txt", "w", encoding='utf-8') as f:
         f.write("############################################################\n")
         f.write("# TechRZN Masterlist - Combined Protection Stack\n")
@@ -96,7 +97,7 @@ def main():
         for item in sorted(combined_set):
             f.write(f"{item}\n")
     
-    print("\n--- All 14 modules updated with smart whitelisting. ---")
+    print("\n--- Update complete: 14 modules processed with smart whitelisting. ---")
 
 if __name__ == "__main__":
     main()
