@@ -3,7 +3,7 @@
 <br>
 
 <p align="center">
-  <img src="techrzn-dns.png" width="450" alt="TechRZN DNS Logo" />
+  <img src="techrzn.png" width="650" alt="TechRZN DNS Filter-Hub" />
 </p>
 
 <p align="center">
