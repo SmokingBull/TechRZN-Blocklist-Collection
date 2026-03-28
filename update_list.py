@@ -1,7 +1,7 @@
 import requests
 import os
 
-# Die 14 Core-Module (TechRZN Stack)
+# Deine 14 Sperrlisten
 SOURCES = {
     "hagezi_pro": ("https://adguardteam.github.io/HostlistsRegistry/assets/filter_48.txt", "HaGeZi (Gold Standard)"),
     "hagezi_bypass": ("https://adguardteam.github.io/HostlistsRegistry/assets/filter_52.txt", "HaGeZi (VPN/Proxy)"),
@@ -19,19 +19,17 @@ SOURCES = {
     "fake_science": ("https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science", "RPiList (Fake-Science)")
 }
 
-# Externe HaGeZi Whitelist (Referrals/Affiliate)
+# Quelle für die HaGeZi-Whitelist
 REMOTE_WHITELIST_URL = "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/adblock/whitelist-referral.txt"
 
 def clean_line(line):
     line = line.strip()
     if line and not line.startswith(('#', '!', '[', ' ')):
-        # Entfernt Adblock-Syntax wie ||domain.com^
         cleaned = line.replace('||', '').replace('^', '')
         return cleaned.split('#')[0].split('!')[0].strip()
     return None
 
 def is_whitelisted(domain, whitelist_set):
-    """Prüft Domain und alle Subdomains gegen die kombinierte Whitelist."""
     if domain in whitelist_set:
         return True
     parts = domain.split('.')
@@ -43,36 +41,40 @@ def is_whitelisted(domain, whitelist_set):
 
 def main():
     combined_set = set()
-    global_whitelist = set()
+    final_whitelist = set()
 
-    # 1. EIGENE LOKALE WHITELIST LADEN
+    # 1. Deine persönlichen Einträge aus 'whitelist.txt' laden
     if os.path.exists("whitelist.txt"):
         with open("whitelist.txt", "r", encoding='utf-8') as f:
             for line in f:
                 d = clean_line(line)
-                if d: global_whitelist.add(d.replace('*.', ''))
-        print(f"📂 Lokale Whitelist geladen.")
+                if d: final_whitelist.add(d.replace('*.', ''))
+        print(f"📂 Persönliche whitelist.txt eingelesen.")
 
-    # 2. EXTERNE HAGEZI WHITELIST LADEN & HINZUFÜGEN
+    # 2. HaGeZi Whitelist laden und hinzufügen
     try:
-        print(f"⏳ Lade HaGeZi Referral-Whitelist von GitHub...")
+        print("⏳ Lade HaGeZi Referral-Liste...")
         r_white = requests.get(REMOTE_WHITELIST_URL, timeout=15)
         if r_white.status_code == 200:
-            count = 0
             for line in r_white.text.splitlines():
                 d = clean_line(line)
-                if d:
-                    global_whitelist.add(d)
-                    count += 1
-            print(f"✅ HaGeZi-Whitelist integriert (+{count} Einträge).")
+                if d: final_whitelist.add(d)
     except Exception as e:
-        print(f"⚠️ Fehler beim Laden der externen Whitelist: {e}")
+        print(f"⚠️ Fehler bei HaGeZi Whitelist: {e}")
 
-    # 3. ORDNER 'LISTS' SICHERSTELLEN
-    if not os.path.exists("lists"):
-        os.makedirs("lists")
+    # 3. Die kombinierte MASTER-WHITELIST speichern (neue Datei)
+    with open("generated_whitelist.txt", "w", encoding='utf-8') as f:
+        f.write("############################################################\n")
+        f.write("# TechRZN Master Whitelist (Personal + HaGeZi Referral)\n")
+        f.write("# Nutze diese URL in AdGuard Home!\n")
+        f.write("############################################################\n\n")
+        for domain in sorted(final_whitelist):
+            f.write(f"{domain}\n")
+    print(f"✅ Master-Whitelist erstellt: generated_whitelist.txt ({len(final_whitelist)} Einträge)")
 
-    # 4. QUELLEN VERARBEITEN
+    # 4. Blocklisten verarbeiten
+    if not os.path.exists("lists"): os.makedirs("lists")
+
     for name, (url, credit) in SOURCES.items():
         try:
             r = requests.get(url, timeout=25)
@@ -81,33 +83,23 @@ def main():
                 individual_list = []
                 for line in lines:
                     cleaned = clean_line(line)
-                    # Hier greift die kombinierte Whitelist-Logik
-                    if cleaned and not is_whitelisted(cleaned, global_whitelist):
+                    if cleaned and not is_whitelisted(cleaned, final_whitelist):
                         individual_list.append(cleaned)
                         combined_set.add(cleaned)
                 
-                filename = os.path.join("lists", f"{name}.txt")
-                with open(filename, "w", encoding='utf-8') as f:
-                    f.write(f"############################################################\n")
-                    f.write(f"# TechRZN Blocklist Module: {name}\n")
-                    f.write(f"# Credits: {credit} | Whitelisted by TechRZN & HaGeZi\n")
-                    f.write(f"############################################################\n\n")
+                with open(os.path.join("lists", f"{name}.txt"), "w", encoding='utf-8') as f:
+                    f.write(f"# TechRZN Module: {name}\n\n")
                     for item in sorted(set(individual_list)):
                         f.write(f"{item}\n")
-                print(f"✅ Created: {filename}")
         except Exception as e:
-            print(f"❌ Error at {name}: {e}")
+            print(f"❌ Fehler bei {name}")
 
-    # 5. MASTERLISTE SPEICHERN
+    # 5. Master-Blockliste speichern
     with open("combined_blocklist.txt", "w", encoding='utf-8') as f:
-        f.write("############################################################\n")
-        f.write("# TechRZN Masterlist - Combined & Whitelisted Stack\n")
-        f.write("# Credits: HaGeZi, RPiList, AdGuard, URLHaus, Dan Pollock\n")
-        f.write("############################################################\n\n")
+        f.write("# TechRZN Master Blocklist\n\n")
         for item in sorted(combined_set):
             f.write(f"{item}\n")
-    
-    print(f"\n--- Fertig! Gesamtanzahl Regeln: {len(combined_set)} ---")
+    print("🚀 Setup in Kleve erfolgreich aktualisiert!")
 
 if __name__ == "__main__":
     main()
