@@ -1,4 +1,9 @@
+############################################################
 # TechRZN Blocklist Module: phishing_de
+# Maintainer: TechRZN (Kleve)
+# Original Source & Credits: RPiList (Banking-Schutz)
+# Updated: March 2026
+############################################################
 
 ||0-230-23.rest^
 ||00-202828spas.cfd^

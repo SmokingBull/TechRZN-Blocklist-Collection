@@ -1,4 +1,9 @@
+############################################################
 # TechRZN Blocklist Module: techrzn_ips
+# Maintainer: TechRZN (Kleve)
+# Original Source & Credits: SmokingBull / TechRZN
+# Updated: March 2026
+############################################################
 
 1.1.118.75
 1.1.176.18

@@ -1,4 +1,9 @@
+############################################################
 # TechRZN Blocklist Module: hagezi_pro
+# Maintainer: TechRZN (Kleve)
+# Original Source & Credits: HaGeZi (Gold Standard)
+# Updated: March 2026
+############################################################
 
 ||0--0.info^
 ||0--4.com^

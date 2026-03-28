@@ -1,4 +1,9 @@
+############################################################
 # TechRZN Blocklist Module: hagezi_fake
+# Maintainer: TechRZN (Kleve)
+# Original Source & Credits: HaGeZi (Fake DNS)
+# Updated: March 2026
+############################################################
 
 ||01broker.com^
 ||01crypto.com^

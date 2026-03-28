@@ -1,4 +1,9 @@
+############################################################
 # TechRZN Blocklist Module: fake_science
+# Maintainer: TechRZN (Kleve)
+# Original Source & Credits: RPiList (Fake-Science)
+# Updated: March 2026
+############################################################
 
 ||1010press.com^
 ||1088.email^

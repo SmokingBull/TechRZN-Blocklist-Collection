@@ -1,4 +1,9 @@
+############################################################
 # TechRZN Blocklist Module: notserious
+# Maintainer: TechRZN (Kleve)
+# Original Source & Credits: RPiList (Anti-Fakeshop)
+# Updated: March 2026
+############################################################
 
 ||007drones.de^
 ||009972.com^

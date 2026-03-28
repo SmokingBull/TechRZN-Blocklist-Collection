@@ -1,4 +1,9 @@
+############################################################
 # TechRZN Blocklist Module: adguard_german
+# Maintainer: TechRZN (Kleve)
+# Original Source & Credits: AdGuard Team
+# Updated: March 2026
+############################################################
 
 $csp=script-src 'self' data: 'unsafe-inline' 'unsafe-hashes' 'unsafe-eval' static.veevcdn.co,domain=filmpalast.to
 $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.to,badfilter

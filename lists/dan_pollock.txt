@@ -1,4 +1,9 @@
+############################################################
 # TechRZN Blocklist Module: dan_pollock
+# Maintainer: TechRZN (Kleve)
+# Original Source & Credits: Dan Pollock (Classic)
+# Updated: March 2026
+############################################################
 
 0.0.0.0 0.nextyourcontent.com
 0.0.0.0 006.free-counter.co.uk

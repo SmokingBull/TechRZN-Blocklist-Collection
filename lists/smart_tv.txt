@@ -1,4 +1,9 @@
+############################################################
 # TechRZN Blocklist Module: smart_tv
+# Maintainer: TechRZN (Kleve)
+# Original Source & Credits: AdGuard / TechRZN
+# Updated: March 2026
+############################################################
 
 @@||hbbtv.kika.de^
 @@||hbbtv.prosieben.de^

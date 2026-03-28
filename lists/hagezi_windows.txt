@@ -1,4 +1,9 @@
+############################################################
 # TechRZN Blocklist Module: hagezi_windows
+# Maintainer: TechRZN (Kleve)
+# Original Source & Credits: HaGeZi (Windows Telemetry)
+# Updated: March 2026
+############################################################
 
 ||a-ring-fallback.msedge.net^
 ||a-ring-ipv6only.msedge.net^

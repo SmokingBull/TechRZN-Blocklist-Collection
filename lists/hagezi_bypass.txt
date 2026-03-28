@@ -1,4 +1,9 @@
+############################################################
 # TechRZN Blocklist Module: hagezi_bypass
+# Maintainer: TechRZN (Kleve)
+# Original Source & Credits: HaGeZi (VPN/Proxy)
+# Updated: March 2026
+############################################################
 
 ||0.6gpaactivities.pce-cihazlari.com.tr^
 ||0.6gpaactivities.pulsaudio.ro^
