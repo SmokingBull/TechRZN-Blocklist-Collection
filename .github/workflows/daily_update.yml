@@ -3,7 +3,10 @@ name: Daily Blocklist Update
 on:
   schedule:
     - cron: '0 0 * * *' # Täglich um Mitternacht
-  workflow_dispatch: # Erlaubt manuelles Starten über den "Actions" Tab
+  workflow_dispatch: # Erlaubt manuelles Starten
+
+permissions:
+  contents: write # WICHTIG: Erlaubt der Action, die whitelist.txt und Listen hochzuladen
 
 jobs:
   build:
@@ -11,6 +14,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }} # Nutzt das Standard-Token für den Push
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -27,8 +32,11 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          # Wir fügen einfach alles hinzu, was sich geändert hat (-A)
           git add -A
-          # Commit nur, wenn es wirklich Änderungen gibt
-          git commit -m "Update Blocklists $(date +'%Y-%m-%d')" || echo "No changes to commit"
-          git push
+          # Nur committen, wenn sich wirklich etwas geändert hat
+          if ! git diff --quiet --cached; then
+            git commit -m "TechRZN Auto-Update: $(date +'%Y-%m-%d')"
+            git push
+          else
+            echo "No changes to commit"
+          fi
