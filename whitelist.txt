@@ -9,6 +9,24 @@ vodafone.de
 o2online.de
 eon-highspeed.com
 
+# --- GAMING & BATTLE.NET (Login, Patching & CDNs) ---
+battle.net
+blizzard.com
+battlenet.com
+blz-contentstack.com
+akamaized.net
+edgecastcdn.net
+steampowered.com
+steamcommunity.com
+steamstatic.com
+epicgames.com
+playstation.net
+xboxlive.com
+nintendo.com
+ea.com
+origin.com
+ubisoft.com
+
 # --- SYSTEM & UPDATES ---
 microsoft.com
 windowsupdate.com
@@ -22,18 +40,6 @@ android.com
 microsoftonline.com
 live.com
 office.com
-
-# --- GAMING & BATTLE.NET (Login & Patching) ---
-battle.net
-blizzard.com
-battlenet.com
-blz-contentstack.com
-steampowered.com
-steamcommunity.com
-steamstatic.com
-epicgames.com
-playstation.net
-xboxlive.com
 
 # --- UGREEN NAS (UGOS) UPDATES & CLOUD ---
 ugreen.com
@@ -54,11 +60,9 @@ time.google.com
 
 # --- CDNs, CAPTCHAS & INFRASTRUKTUR ---
 akamai.net
-akamaized.net
 fastly.net
 cloudflare.com
 cloudfront.net
-edgecastcdn.net
 recaptcha.net
 hcaptcha.com
 github.com
