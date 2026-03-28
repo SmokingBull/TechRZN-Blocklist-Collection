@@ -1,3 +1,14 @@
+# --- PROVIDER LOGIN & SERVICES (Anti-Block) ---
+telekom.com
+telekom.de
+t-online.de
+1und1.de
+online.de
+1und1-intern.de
+vodafone.de
+o2online.de
+eon-highspeed.com
+
 # --- SYSTEM & UPDATES ---
 microsoft.com
 windowsupdate.com
@@ -8,6 +19,32 @@ google.com
 googleapis.com
 gstatic.com
 android.com
+microsoftonline.com
+live.com
+office.com
+
+# --- GAMING & BATTLE.NET (Login & Patching) ---
+battle.net
+blizzard.com
+battlenet.com
+blz-contentstack.com
+steampowered.com
+steamcommunity.com
+steamstatic.com
+epicgames.com
+playstation.net
+xboxlive.com
+
+# --- UGREEN NAS (UGOS) UPDATES & CLOUD ---
+ugreen.com
+ugreen.cn
+ugnas.com
+
+# --- AVM FRITZ!BOX UPDATES & SERVICES ---
+avm.de
+myfritz.net
+fritz.box
+jussieu.fr
 
 # --- ZEIT-SYNCHRONISATION (NTP) ---
 pool.ntp.org
@@ -15,28 +52,26 @@ time.windows.com
 time.apple.com
 time.google.com
 
-# --- CONTENT DELIVERY NETWORKS (CDNs) & CAPTCHAS ---
+# --- CDNs, CAPTCHAS & INFRASTRUKTUR ---
 akamai.net
+akamaized.net
 fastly.net
 cloudflare.com
 cloudfront.net
+edgecastcdn.net
 recaptcha.net
 hcaptcha.com
-
-# --- MESSENGER & KOMMUNIKATION ---
-whatsapp.com
-whatsapp.net
-signal.org
-telegram.org
-
-# --- DOWNLOADS & INFRASTRUKTUR ---
 github.com
 githubusercontent.com
 docker.com
 debian.org
 ubuntu.com
 
-# --- ZAHLUNGSDIENSTE & CREATOR PLATFORMS ---
+# --- MESSENGER & PAYMENTS ---
+whatsapp.com
+whatsapp.net
+signal.org
+telegram.org
 paypal.com
 stripe.com
 visa.com
@@ -44,24 +79,13 @@ mastercard.com
 patreon.com
 patreonusercontent.com
 
-# --- PROVIDER LOGIN & SERVICES (Anti-Block) ---
-telekom.com
-t-online.de
-idm.telekom.com
-accounts.login.idm.telekom.com
-
-# --- UGREEN NAS (UGOS) UPDATES & CLOUD ---
-ugreen.com
-ugreen.cn
-ugnas.com
-api.ugnas.com
-update.ugnas.com
-cloud.ugnas.com
-docker.ugnas.com
-
-# --- AVM FRITZ!BOX UPDATES & SERVICES ---
-avm.de
-update.avm.de
-download.avm.de
-myfritz.net
-jussieu.fr
+# --- STREAMING & MEDIA ---
+netflix.com
+nflxext.com
+nflxvideo.net
+nflxso.net
+disneyplus.com
+amazon.de
+primevideo.com
+youtube.com
+ytimg.com
