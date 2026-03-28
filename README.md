@@ -25,8 +25,8 @@ Willkommen beim **TechRZN Filter-Hub**. Dieses Repository bietet eine täglich a
 ## 🚀 Die Master-Liste (Empfohlen)
 Die ultimative Lösung für dein Setup. Enthält alle **14 unten aufgeführten Module** in einer einzigen, performanten Datei.
 
-**Link für deinen DNS-Filter:**
-> `https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/combined_blocklist.txt`
+**Einbindung in AdGuard Home:**
+[![Master-List](https://img.shields.io/badge/Master--Liste_URL-Kopieren-success?style=for-the-badge&logo=adguard&logoColor=white)](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/combined_blocklist.txt)
 
 ---
 
@@ -71,7 +71,7 @@ Für maximale Performance mit 1M+ Regeln (getestet auf **UGREEN NAS / 2,5 Gbit/s
 
 ### 2️⃣ Sicherheit & Filterung
 * **DNSSEC:** Aktiviert ✅
-* **Sperrmodus:** `Standard` ✅
+* **Sperermodus:** `Standard` ✅
 * **Gültigkeitsdauer blockierter Antwort:** `300` Sekunden ✅
 
 ---
