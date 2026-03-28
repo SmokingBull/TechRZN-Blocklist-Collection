@@ -3234,6 +3234,7 @@ smopo.ch
 smsgott.de
 sn-online.de,blick.de
 sn-online.de,goettinger-tageblatt.de,waz-online.de,maz-online.de,ostsee-zeitung.de,dnn.de
+sn.at
 snanews.de
 snowsociety.com
 soeren-hentzschel.at

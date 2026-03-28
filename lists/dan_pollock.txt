@@ -10689,6 +10689,7 @@
 0.0.0.0 www.abetterinternet.com
 0.0.0.0 www.abnehmenkabofit.de
 0.0.0.0 www.actiondesk.com
+0.0.0.0 www.activetrap.com
 0.0.0.0 www.ad-center.com
 0.0.0.0 www.ad-souk.com
 0.0.0.0 www.ad-up.com
@@ -10736,6 +10737,7 @@
 0.0.0.0 www.ads2srv.com
 0.0.0.0 www.ads345.com
 0.0.0.0 www.adscience.nl
+0.0.0.0 www.adselector.com
 0.0.0.0 www.adsensecustomsearchads.com
 0.0.0.0 www.adserver-espnet.sportszone.net
 0.0.0.0 www.adserver.co.il
@@ -10850,6 +10852,7 @@
 0.0.0.0 www.banstex.com
 0.0.0.0 www.bar.ry2002.02-ry014.snpr.hotmx.hair.zaam.net
 0.0.0.0 www.barjacity.com
+0.0.0.0 www.basealloys.com
 0.0.0.0 www.baseequip.com
 0.0.0.0 www.bazarusmassazha.com
 0.0.0.0 www.bbelements.com
@@ -11078,6 +11081,7 @@
 0.0.0.0 www.cydoor.com
 0.0.0.0 www.da-ads.com
 0.0.0.0 www.dadparty.com
+0.0.0.0 www.dailyazure.com
 0.0.0.0 www.dalesnewzealand.co.nz
 0.0.0.0 www.danair.es
 0.0.0.0 www.darkrro.com
@@ -11382,6 +11386,7 @@
 0.0.0.0 www.informereng.com
 0.0.0.0 www.inkscape.es
 0.0.0.0 www.inkscape.fr
+0.0.0.0 www.instantcross.com
 0.0.0.0 www.intela.com
 0.0.0.0 www.interstitialzone.com
 0.0.0.0 www.invitefashion.com
@@ -11612,6 +11617,7 @@
 0.0.0.0 www.newmedia.plus.com
 0.0.0.0 www.newnorth.net
 0.0.0.0 www.news6health.com
+0.0.0.0 www.newshello.com
 0.0.0.0 www.newtrees.plus.com
 0.0.0.0 www.nextgenstats.com
 0.0.0.0 www.nextlnk7.com
@@ -11920,6 +11926,7 @@
 0.0.0.0 www.statsession.com
 0.0.0.0 www.statsff.com
 0.0.0.0 www.stattrax.com
+0.0.0.0 www.steelbucks.com
 0.0.0.0 www.stellarium.fr
 0.0.0.0 www.stiffnetwork.com
 0.0.0.0 www.stihil.com

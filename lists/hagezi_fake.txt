@@ -332,6 +332,7 @@
 ||alfakherstore.de^
 ||alfcasino1.com^
 ||alfdever.com^
+||alfiag.cfd^
 ||alfinanz.ch^
 ||alfonline.de^
 ||alfonsa.de^
@@ -2274,7 +2275,6 @@
 ||childsafetyseat-shop.com^
 ||chillgod.com^
 ||chilllady.com^
-||china-hifi-audio.com^
 ||chinesecanadianvoice.ca^
 ||chooseridge.com^
 ||chordiom.com^
@@ -4160,6 +4160,7 @@
 ||fast-fatbike.com^
 ||fastbikes.com.br^
 ||fasteastbv.com^
+||fastenergy24.com^
 ||fastenerk.com^
 ||fasteupills.shop^
 ||fastforextradelab.com^
@@ -4682,6 +4683,7 @@
 ||futurmarket.com^
 ||fuwamof.shop^
 ||fvkiwanis.org^
+||fwertty.shop^
 ||fx-vantage.com^
 ||fxandco.com^
 ||fxcapitalbank.com^
@@ -6263,6 +6265,7 @@
 ||igx.talentway-at.com^
 ||igzd.talentway-at.com^
 ||ihforex.com^
+||ihljpbdo.shop^
 ||ihrbedarf.com^
 ||ihremed.de^
 ||ihrepotenzmittel.de^
@@ -8302,6 +8305,7 @@
 ||mercedes-parts-and-more.de^
 ||mercimunich.de^
 ||mergpath.com^
+||meridianunitedholdingsnet.digital^
 ||meritdeteno.com^
 ||merlin-apotheke.com^
 ||merlin-kinderladen.com^
@@ -8408,6 +8412,7 @@
 ||mineralsolutions.de^
 ||miniflix.de^
 ||minimalsurvival.com^
+||miningrid.com^
 ||mininomade.de^
 ||miniwelpenparadies.com^
 ||minosec.com^
@@ -9007,6 +9012,7 @@
 ||next-neu.de^
 ||nextbinary.com^
 ||nextcareerflow.online^
+||nextchain.at^
 ||nextgenglobalenterprise45.cc^
 ||nextproconnect.online^
 ||nexus-reputation.com^
@@ -10012,6 +10018,7 @@
 ||pixulovesk.click^
 ||pk.toys^
 ||pl.vivami.co^
+||placidco.com^
 ||planeoboden.com^
 ||planetebike24.de^
 ||planetoption.net^
@@ -11060,6 +11067,7 @@
 ||saramaud.com^
 ||sarasarade.shop^
 ||sardinenbarberlinava.shop^
+||sarlcresmar.com^
 ||sarvamits.com^
 ||saskiabader.de^
 ||satisfiedfurniture.com^
@@ -14176,6 +14184,7 @@
 ||zigaretten-bestellen.net^
 ||zigaretten-steuerfrei-bestellen.com^
 ||zigber.com^
+||zignalor.at^
 ||zigoff.de^
 ||zilool.com^
 ||zimmerpflanzens.com^
@@ -14228,3 +14237,4 @@
 ||zybux.shop^
 ||zynexorai.at^
 ||zyphorbit-at.com^
+||zyphorbit.at^
