@@ -4693,6 +4693,7 @@
 ||dns.luma-medien.com^
 ||dns.lupine.solutions^
 ||dns.lvl-network.de^
+||dns.lvolland.fr^
 ||dns.lvqing.eu.org^
 ||dns.mafyuh.io^
 ||dns.mahiro.online^
