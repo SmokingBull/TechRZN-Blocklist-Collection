@@ -10983,6 +10983,7 @@
 0.0.0.0 www.cidersunjt.com
 0.0.0.0 www.cig-arrete.com
 0.0.0.0 www.cjkassociates.co.in
+0.0.0.0 www.claimedmoney.com
 0.0.0.0 www.claimfreerewards.com
 0.0.0.0 www.clearacreonline.com
 0.0.0.0 www.clearalgorithm.com
@@ -11166,6 +11167,7 @@
 0.0.0.0 www.exe-file.de
 0.0.0.0 www.expolearn.com
 0.0.0.0 www.expoteam.net
+0.0.0.0 www.expressmails.com
 0.0.0.0 www.exteriorteam.com
 0.0.0.0 www.extrabrick.com
 0.0.0.0 www.extreme-dm.com
@@ -11273,6 +11275,7 @@
 0.0.0.0 www.gavelandcap.com
 0.0.0.0 www.gbinnie.plus.com
 0.0.0.0 www.gekorn.com
+0.0.0.0 www.generaldocs.com
 0.0.0.0 www.gentleshadeox.pro
 0.0.0.0 www.georgewatson.plus.com
 0.0.0.0 www.get-express-vpn.com
@@ -11349,6 +11352,7 @@
 0.0.0.0 www.hits-football.com
 0.0.0.0 www.hitstats.co.uk
 0.0.0.0 www.homewares.org
+0.0.0.0 www.homininfossil.cfd
 0.0.0.0 www.hooqy.com
 0.0.0.0 www.hotchatdate.com
 0.0.0.0 www.hotgiftzone.com
@@ -11437,6 +11441,7 @@
 0.0.0.0 www.khanomtour.com
 0.0.0.0 www.kids-in-sandbox.com
 0.0.0.0 www.kidsinsandbox.info
+0.0.0.0 www.kindnations.com
 0.0.0.0 www.kindwebdg.site
 0.0.0.0 www.kitaramarketplace.com
 0.0.0.0 www.kitaramedia.com
@@ -11964,6 +11969,7 @@
 0.0.0.0 www.tbitcoin.me
 0.0.0.0 www.teafortune.com
 0.0.0.0 www.techadvisorpro.name
+0.0.0.0 www.technocost.com
 0.0.0.0 www.teltech.hu
 0.0.0.0 www.telusplanet.net
 0.0.0.0 www.tenantbackgronudsearch.com
