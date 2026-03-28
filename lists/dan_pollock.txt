@@ -6362,8 +6362,6 @@
 0.0.0.0 manage001.adtech.us
 0.0.0.0 manage2-phone7alerts.com
 0.0.0.0 mandialrelay.fr
-0.0.0.0 mangler3.generals.ea.com
-0.0.0.0 mangler4.generals.ea.com
 0.0.0.0 manntv.oewabox.at
 0.0.0.0 manuel.theonion.com
 0.0.0.0 maphonortea.com
