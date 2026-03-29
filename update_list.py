@@ -1,9 +1,11 @@
 import requests
 import os
 import sys
+from multiprocessing import Pool, cpu_count
 
-# Die 14 TechRZN Core-Module
+# Die TechRZN Module inkl. dem neuen Tracking-Modul
 SOURCES = {
+    "techrzn_tracking": ("https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_tracking.txt", "TechRZN (Tracking Master)"),
     "hagezi_pro": ("https://adguardteam.github.io/HostlistsRegistry/assets/filter_48.txt", "HaGeZi (Gold Standard)"),
     "hagezi_bypass": ("https://adguardteam.github.io/HostlistsRegistry/assets/filter_52.txt", "HaGeZi (VPN/Proxy)"),
     "hagezi_threat": ("https://adguardteam.github.io/HostlistsRegistry/assets/filter_44.txt", "HaGeZi (Threat Intel)"),
@@ -30,92 +32,77 @@ def clean_line(line):
         return cleaned.split('#')[0].split('!')[0].strip()
     return None
 
-def is_whitelisted(domain, whitelist_set):
-    if not domain: return False
-    if domain in whitelist_set:
-        return True
-    parts = domain.split('.')
-    for i in range(len(parts) - 1):
-        parent = '.'.join(parts[i+1:])
-        if parent in whitelist_set:
-            return True
-    return False
+def process_source(args):
+    """Verarbeitet eine einzelne Quelle parallel."""
+    name, url, credit, whitelist_set = args
+    try:
+        r = requests.get(url, timeout=30)
+        r.raise_for_status()
+        lines = r.text.splitlines()
+        
+        individual_set = set()
+        for line in lines:
+            cleaned = clean_line(line)
+            if cleaned and cleaned not in whitelist_set:
+                individual_set.add(cleaned)
+        
+        # Datei lokal speichern
+        os.makedirs("lists", exist_ok=True)
+        with open(os.path.join("lists", f"{name}.txt"), "w", encoding='utf-8') as f:
+            f.write(f"# TechRZN Module: {name} | Source: {credit}\n\n")
+            f.write("\n".join(sorted(individual_set)))
+            
+        print(f"✅ Finished: {name} ({len(individual_set)} unique domains)")
+        return individual_set
+    except Exception as e:
+        print(f"❌ Error in {name}: {e}")
+        return set()
 
 def main():
-    combined_set = set()
     final_whitelist = set()
 
-    # 1. Lokale Whitelist laden
+    # 1. Whitelists laden (wie gehabt)
     try:
         if os.path.exists("whitelist.txt"):
             with open("whitelist.txt", "r", encoding='utf-8', errors='ignore') as f:
                 for line in f:
                     d = clean_line(line)
                     if d: final_whitelist.add(d.replace('*.', ''))
-            print(f"📂 Lokale Whitelist geladen.")
-    except Exception as e:
-        print(f"⚠️ Fehler beim Lesen von whitelist.txt: {e}")
-
-    # 2. Externe HaGeZi Whitelist laden
-    try:
-        print("⏳ Lade HaGeZi Referral-Liste...")
+        
         r_white = requests.get(REMOTE_WHITELIST_URL, timeout=15)
-        r_white.raise_for_status()
-        for line in r_white.text.splitlines():
-            d = clean_line(line)
-            if d: final_whitelist.add(d)
-        print(f"✅ HaGeZi-Whitelist integriert.")
-    except Exception as e:
-        print(f"⚠️ Fehler bei Remote Whitelist: {e}")
-
-    # 3. Whitelist.txt neu schreiben (TechRZN Branding)
-    try:
+        if r_white.status_code == 200:
+            for line in r_white.text.splitlines():
+                d = clean_line(line)
+                if d: final_whitelist.add(d)
+        
+        # Whitelist speichern
         with open("whitelist.txt", "w", encoding='utf-8') as f:
-            f.write("############################################################\n")
-            f.write("# TechRZN-DNS - Master Whitelist (Kombiniert)\n")
-            f.write("# Repository: TechRZN-DNS / TechRZN-Blocklist-Collection\n")
-            f.write("############################################################\n\n")
-            for domain in sorted(final_whitelist):
-                f.write(f"{domain}\n")
-        print(f"✅ whitelist.txt erfolgreich aktualisiert.")
+            f.write("# TechRZN-DNS - Master Whitelist\n\n")
+            f.write("\n".join(sorted(final_whitelist)))
     except Exception as e:
-        print(f"❌ Kritischer Fehler beim Schreiben der Whitelist: {e}")
-        sys.exit(1)
+        print(f"⚠️ Whitelist Error: {e}")
 
-    # 4. Blocklisten verarbeiten
-    if not os.path.exists("lists"):
-        os.makedirs("lists")
+    # 2. Multiprocessing Vorbereitung
+    tasks = [(name, url, credit, final_whitelist) for name, (url, credit) in SOURCES.items()]
+    
+    print(f"🚀 Starting parallel processing with {cpu_count()} cores...")
+    
+    # 3. Parallel alle Quellen abarbeiten
+    with Pool(processes=cpu_count()) as pool:
+        results = pool.map(process_source, tasks)
 
-    for name, (url, credit) in SOURCES.items():
-        try:
-            r = requests.get(url, timeout=30)
-            r.raise_for_status()
-            lines = r.text.splitlines()
-            individual_list = []
-            for line in lines:
-                cleaned = clean_line(line)
-                if cleaned and not is_whitelisted(cleaned, final_whitelist):
-                    individual_list.append(cleaned)
-                    combined_set.add(cleaned)
-            
-            with open(os.path.join("lists", f"{name}.txt"), "w", encoding='utf-8') as f:
-                f.write(f"# TechRZN Module: {name} | Source: {credit}\n\n")
-                for item in sorted(set(individual_list)):
-                    f.write(f"{item}\n")
-            print(f"✅ Created: lists/{name}.txt")
-        except Exception as e:
-            print(f"❌ Fehler bei Quelle {name}: {e}")
+    # 4. Master-Liste erstellen (Deduplizierung)
+    print("🧹 Deduplicating all lists to Master...")
+    combined_set = set().union(*results)
 
-    # 5. Master-Blockliste speichern
     try:
         with open("combined_blocklist.txt", "w", encoding='utf-8') as f:
-            f.write("# TechRZN Master Blocklist - All-in-One\n\n")
-            for item in sorted(combined_set):
-                f.write(f"{item}\n")
-        print("\n🚀 Alle TechRZN-DNS Listen erfolgreich aktualisiert!")
+            f.write("# TechRZN Master Blocklist - All-in-One\n")
+            f.write(f"# Total unique entries: {len(combined_set)}\n\n")
+            f.write("\n".join(sorted(combined_set)))
+        print(f"\n✨ Success! Master list contains {len(combined_set)} entries.")
     except Exception as e:
-        print(f"❌ Fehler beim Speichern der Master-Liste: {e}")
-        sys.exit(1)
+        print(f"❌ Final Save Error: {e}")
 
 if __name__ == "__main__":
     main()
