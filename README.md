@@ -74,11 +74,19 @@ Wenn dir der **TechRZN Filter-Hub** hilft, dein Netzwerk sicherer zu machen, fre
 
 </details>
 
+---
+
+## 🛡️ Die TechRZN Whitelist (Empfohlen)
+> **Stabilität & Kompatibilität:** Damit wichtige Systemdienste (z.B. Windows Updates, Apple iCloud, Streaming-Logins) trotz der massiven Sperrlisten reibungslos funktionieren, haben wir eine globale Whitelist integriert.
+
 <p align="center">
   <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/whitelist.txt">
-    <img src="https://img.shields.io/badge/WHITELIST-LINK_KOPIEREN-blue?style=for-the-badge&logo=github&logoColor=white" height="35" />
+    <img src="https://img.shields.io/badge/WHITELIST-LINK_KOPIEREN-blue?style=for-the-badge&logo=github&logoColor=white" height="45" />
   </a>
 </p>
+
+* **Funktion:** Verhindert "False Positives" (versehentliche Sperrung legitimer Seiten).
+* **Pflege:** Wird kontinuierlich erweitert, um die beste "Out-of-the-Box" Erfahrung zu garantieren.
 
 ---
 
