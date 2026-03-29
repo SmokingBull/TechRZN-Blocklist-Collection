@@ -4,23 +4,33 @@ import sys
 from multiprocessing import Pool, cpu_count
 from datetime import datetime
 
-# Deine Quellen (identisch mit deinem Setup)
-SOURCES = {
+# --- GRUPPE 1: MASTER SOURCES (Diese landen in der kombinierten Liste) ---
+MASTER_SOURCES = {
+    "techrzn_ads": ("https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_ads.txt", "TechRZN Ads"),
     "techrzn_tracking": ("https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_tracking.txt", "TechRZN Tracking"),
+    "techrzn_malware": ("https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_malware.txt", "TechRZN Malware"),
+    "techrzn_phishing": ("https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_phishing.txt", "TechRZN Phishing"),
+    "techrzn_threat_intel": ("https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_threat_intel.txt", "TechRZN Threat Intel"),
+    "techrzn_fakeshops": ("https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_fakeshops.txt", "TechRZN Fakeshops"),
+    "techrzn_squatting": ("https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_domain_squatting.txt", "TechRZN Squatting"),
+    "techrzn_gambling": ("https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_gambling.txt", "TechRZN Gambling"),
+    "techrzn_crypto": ("https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_crypto.txt", "TechRZN Crypto"),
+    "techrzn_dating": ("https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_dating.txt", "TechRZN Dating"),
+    "techrzn_spam": ("https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_spam.txt", "TechRZN Spam"),
+    "techrzn_fake_science": ("https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_fake_science.txt", "TechRZN Fake Science"),
+    "techrzn_bypass": ("https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_bypass.txt", "TechRZN Bypass"),
+    "techrzn_ips": ("https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/lists/techrzn_ips.txt", "TechRZN IPs"),
     "hagezi_pro": ("https://adguardteam.github.io/HostlistsRegistry/assets/filter_48.txt", "HaGeZi Pro"),
-    "hagezi_bypass": ("https://adguardteam.github.io/HostlistsRegistry/assets/filter_52.txt", "HaGeZi Bypass"),
-    "hagezi_threat": ("https://adguardteam.github.io/HostlistsRegistry/assets/filter_44.txt", "HaGeZi Threat"),
-    "techrzn_ips": ("https://raw.githubusercontent.com/SmokingBull/malicious-ip-blocklist/main/deny-ip-list.txt", "TechRZN IPs"),
-    "hagezi_windows": ("https://adguardteam.github.io/HostlistsRegistry/assets/filter_63.txt", "HaGeZi Windows"),
-    "smart_tv": ("https://adguardteam.github.io/HostlistsRegistry/assets/filter_7.txt", "Smart TV"),
     "urlhaus_malicious": ("https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt", "URLHaus"),
-    "hagezi_gambling": ("https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.mini.txt", "HaGeZi Gambling"),
-    "hagezi_fake": ("https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt", "HaGeZi Fake"),
     "adguard_german": ("https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_6_German/filter.txt", "AdGuard German"),
     "dan_pollock": ("https://adguardteam.github.io/HostlistsRegistry/assets/filter_4.txt", "Dan Pollock"),
-    "notserious": ("https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/notserious", "Anti-Fakeshop"),
-    "phishing_de": ("https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe", "Banking-Schutz"),
-    "fake_science": ("https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Fake-Science", "Fake-Science")
+    "notserious": ("https://raw.githubusercontent.com/notserious/Anti-FakeShop/main/fakeshops.txt", "Anti-Fakeshop")
+}
+
+# --- GRUPPE 2: SPECIAL SOURCES (Werden einzeln verarbeitet, NICHT im Master) ---
+SPECIAL_SOURCES = {
+    "techrzn_porn": ("https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_porn.txt", "TechRZN Porn"),
+    "techrzn_jugendschutz": ("https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_jugendschutz.txt", "TechRZN Jugendschutz")
 }
 
 REMOTE_WHITELIST_URL = "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/adblock/whitelist-referral.txt"
@@ -58,7 +68,6 @@ def process_source(args):
 
 def main():
     final_whitelist = set()
-    # Whitelist Logik (bleibt gleich)
     try:
         if os.path.exists("whitelist.txt"):
             with open("whitelist.txt", "r", encoding='utf-8', errors='ignore') as f:
@@ -72,35 +81,53 @@ def main():
                 if d: final_whitelist.add(d)
     except: pass
 
-    tasks = [(name, url, credit, final_whitelist) for name, (url, credit) in SOURCES.items()]
+    # --- Verarbeitung beider Gruppen ---
+    # Wir werfen alles in den Pool, damit die Einzel-Listen in /lists/ erstellt werden
+    ALL_SOURCES = {**MASTER_SOURCES, **SPECIAL_SOURCES}
+    tasks = [(name, url, credit, final_whitelist) for name, (url, credit) in ALL_SOURCES.items()]
     
     with Pool(processes=cpu_count()) as pool:
-        results_data = pool.map(process_source, tasks)
+        results_map = pool.map(process_source, tasks)
+        # Erstelle ein Mapping von Name zu Ergebnis
+        results_dict = dict(zip(ALL_SOURCES.keys(), results_map))
 
-    all_domains = []
+    # --- Master Deduplizierung (Nur MASTER_SOURCES) ---
+    master_domains = []
     total_raw_lines = 0
-    for domains, raw_count in results_data:
-        all_domains.extend(domains)
+    for name in MASTER_SOURCES.keys():
+        domains, raw_count = results_dict[name]
+        master_domains.extend(domains)
         total_raw_lines += raw_count
 
-    # Master Deduplizierung
-    combined_set = set(all_domains)
+    combined_set = set(master_domains)
     duplicates_removed = total_raw_lines - len(combined_set)
     timestamp = datetime.now().strftime("%d. %B %Y um %H:%M")
 
+    # Speichern der Master-Liste
     try:
         with open("combined_blocklist.txt", "w", encoding='utf-8') as f:
             f.write("############################################################\n")
-            f.write("# TechRZN Master Blocklist - All-in-One\n")
+            f.write("# TechRZN Master Blocklist - All-in-One (Performance)\n")
+            f.write("# Ohne Jugendschutz / Porn - für maximale Kompatibilität\n")
             f.write(f"# Aktualisiert: {timestamp}\n")
             f.write(f"# Roh-Einträge: ca. {total_raw_lines:,}\n".replace(',', '.'))
             f.write(f"# Einzigartige Regeln: {len(combined_set):,}\n".replace(',', '.'))
-            f.write(f"# Entfernte Duplikate: {duplicates_removed:,}\n".replace(',', '.'))
             f.write("############################################################\n\n")
             f.write("\n".join(sorted(combined_set)))
-        print(f"✨ Master-Liste erstellt: {len(combined_set)} Regeln (Dedupliziert).")
+        print(f"✨ Master-Liste erstellt: {len(combined_set)} Regeln.")
     except Exception as e:
-        print(f"Fehler: {e}")
+        print(f"Fehler Master-Liste: {e}")
+
+    # --- Spezial-Listen (Jugendschutz / Porn separat speichern) ---
+    for name in SPECIAL_SOURCES.keys():
+        domains, raw_count = results_dict[name]
+        if domains:
+            output_file = f"techrzn_{name.split('_')[1]}.txt" # Ergibt techrzn_porn.txt etc.
+            with open(output_file, "w", encoding='utf-8') as f:
+                f.write(f"# TechRZN Special Module: {name.upper()}\n")
+                f.write(f"# Stand: {timestamp} | Regeln: {len(domains)}\n\n")
+                f.write("\n".join(sorted(domains)))
+            print(f"🔞 Spezial-Liste erstellt: {output_file}")
 
 if __name__ == "__main__":
     main()
