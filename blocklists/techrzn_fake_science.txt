@@ -1,5 +1,4 @@
-### TechRZN - FAKE_SCIENCE BLOCKLIST ###
-# Einträge: 1352
+### TechRZN - FAKE_SCIENCE ###
 
 ||1010press.com^
 ||1088.email^

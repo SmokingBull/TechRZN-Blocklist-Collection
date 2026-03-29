@@ -1,5 +1,4 @@
-### TechRZN - CRYPTO BLOCKLIST ###
-# Einträge: 76518
+### TechRZN - CRYPTO ###
 
 ||0-ico.com^
 ||0.0.0.0adminer.com^
@@ -5539,12 +5538,10 @@
 ||ad.adwo.com^
 ||ad.antpool.com^
 ||ad.api.moji.com^
-||ad.atdmt.com^
 ||ad.caiyunapp.com^
 ||ad.cdn.sex^
 ||ad.cn.doubleclick.net^
 ||ad.dev.360.cn^
-||ad.doubleclick.net^
 ||ad.dqwjzm.com^
 ||ad.duapps.com^
 ||ad.flurry.com^
@@ -16815,7 +16812,6 @@
 ||google-analytics.com^
 ||google.com.tokensale.ws^
 ||googleads.g.doubleclick.net^
-||googleadservices.com^
 ||googleadsserving.cn^
 ||googleanalytcs.com^
 ||googlecommerce.com^
@@ -59886,6 +59882,7 @@
 ||mine.ar-net.info^
 ||mine.beta.aeon-pool.com^
 ||mine.bitcoin.cz^
+||mine.blank.drawpad.org^
 ||mine.blazepool.com^
 ||mine.btcd.xpool.ca^
 ||mine.bz^
@@ -61135,6 +61132,7 @@
 ||my-zarinsk.ru^
 ||my.adsmogo.com^
 ||my.cur.lv^
+||my.domain^
 ||my.ether-wallet.co^
 ||my.ethervvallet.com^
 ||my.ethervvallet.eu^
@@ -63694,6 +63692,7 @@
 ||nimiq.ag^
 ||nimiq.agency^
 ||nimiq.com^
+||nimiq.icemining.ca^
 ||nimiq.net^
 ||nimiq.network^
 ||nimiq.terorie.com^
@@ -63703,6 +63702,7 @@
 ||nimiqtest.net^
 ||nimpool.io^
 ||nimuecrypto.com^
+||nimwss-us-shark.lolopool.com^
 ||ninaning.com^
 ||ninemsn.imrworldwide.com^
 ||ning.ethosdistro.com^
@@ -67123,7 +67123,6 @@
 ||refereum-ico.eu^
 ||refereum-token.com^
 ||refereum.com.erc-20.claims^
-||referrer.disqus.com^
 ||refresh-js.bitbucket.io^
 ||refreshnerer27.info^
 ||refreshnerer27rb.info^
@@ -67703,10 +67702,15 @@
 ||s002.monerise.com^
 ||s003.monerise.com^
 ||s003.papoto.com^
+||s01.hostcontent.live^
 ||s01.ppoi.org^
 ||s01.vidtod.me^
 ||s01.vidtodo.pro^
 ||s02.vidtod.me^
+||s03.hostcontent.live^
+||s04.hostcontent.live^
+||s05.hostcontent.live^
+||s07.hostcontent.live^
 ||s1.2mdn.net^
 ||s1.2miners.com^
 ||s1.cmfu.com^
@@ -67717,6 +67721,7 @@
 ||s1.vidtod.me^
 ||s10.cnzz.com^
 ||s100.cnzz.com^
+||s100.hostcontent.live^
 ||s101.cnzz.com^
 ||s102.cnzz.com^
 ||s103.cnzz.com^
@@ -67727,6 +67732,7 @@
 ||s108.cnzz.com^
 ||s109.cnzz.com^
 ||s11.cnzz.com^
+||s11.hostcontent.live^
 ||s110.cnzz.com^
 ||s111.cnzz.com^
 ||s112.cnzz.com^
@@ -67738,6 +67744,7 @@
 ||s118.cnzz.com^
 ||s119.cnzz.com^
 ||s12.cnzz.com^
+||s12.hostcontent.live^
 ||s120.cnzz.com^
 ||s121.cnzz.com^
 ||s122.cnzz.com^
@@ -67750,6 +67757,7 @@
 ||s129.cnzz.com^
 ||s12ghkc.zzz.com.ua^
 ||s13.cnzz.com^
+||s13.hostcontent.live^
 ||s130.cnzz.com^
 ||s131.cnzz.com^
 ||s132.cnzz.com^
@@ -70213,7 +70221,6 @@
 ||syn.suprnova.cc^
 ||synagogalasjmabda.download^
 ||sync-dsp.ad-m.asia^
-||sync-tm.everesttech.net^
 ||sync.1rx.io^
 ||sync.adaptv.advertising.com^
 ||sync.adotmob.com^
@@ -74610,6 +74617,7 @@
 ||xmr-usa.dwarfpool.com^
 ||xmr-wallet.com^
 ||xmr.101010.pl^
+||xmr.2miners.com^
 ||xmr.5b6b7b.ru^
 ||xmr.748pz.net^
 ||xmr.alimabi.cn^
