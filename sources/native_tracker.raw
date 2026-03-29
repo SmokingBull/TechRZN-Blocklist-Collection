@@ -1,1 +1,20 @@
+# Microsoft (Windows, Office, MSN)
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native-microsoft.txt
 
+# Apple (iOS, macOS, tvOS)
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native-apple.txt
+
+# Amazon (Devices, Shopping, Video)
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native-amazon.txt
+
+# Samsung (Handys & TVs)
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native-samsung.txt
+
+# LG webOS (Smart-TVs)
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native-lgwebos.txt
+
+# Xiaomi
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native-xiaomi.txt
+
+# TikTok (Fingerprinting)
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native-tiktok.txt
