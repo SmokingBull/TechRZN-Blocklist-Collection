@@ -1,1 +1,24 @@
+version: 2
+updates:
+  # 1. Checkt deine GitHub Actions (die deine Listen bauen)
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      action-updates:
+        patterns:
+          - "*"
 
+  # 2. Falls du Python-Skripte für die Listen-Logik nutzt
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  # 3. Falls du Docker-Container in deinem Repo definierst
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"
