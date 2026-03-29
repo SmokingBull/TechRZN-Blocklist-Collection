@@ -102,6 +102,7 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 /nativendo.js
 /nativendo/*
 /o2-layer.
+/pagead2.$domain=g.doubleclick.net|googlesyndication.com|imasdk.googleapis.com
 /partner/werbung-
 /partneradzwerk/*
 /pic/werbung/*
@@ -226,6 +227,7 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 2ertalk.de,android-hilfe.de,grillsportverein.de,hardwareluxx.de,macuser.de,toyota-forum.de,usp-forum.de
 2ertalk.de,autoextrem.de,skodacommunity.de,toyota-forum.de,usp-forum.de
 2ix2.com
+2mdn.net$domain=autobild.de|imasdk.googleapis.com
 3c-bap.gmx.ch,3c-bap.gmx.at,3c-bap.gmx.net,3c.web.de
 3c-bap.web.de,3c-bap.gmx.net
 3c.gmx.net
@@ -277,6 +279,7 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 @@/http(s?):[\s\S]*\.[a-z]{2,4}\/im[-_a-z]{1,15}\/?([-_.a-z])?([-_.a-z]{1,})\/[\s\S]*[-_a-zA-Z0-9]{8,}\.[a-z]{3,4}/$~third-party,image,domain=giga.de|wieistmeineip.de|smart-wohnen.net|immobilienscout24.de|quoka.de|tichyseinblick.de|aachener-nachrichten.de|aachener-zeitung.de|airliners.de|bikerszene.de|brieffreunde.de|digitalfernsehen.de|donnerwetter.de|e-hausaufgaben.de|epochtimes.de|fanfiktion.de|fid-gesundheitswissen.de|formel1.de|fremdwort.de|frustfrei-lernen.de|gamersglobal.de|gameswelt.de|gartendialog.de|gevestor.de|gut-erklaert.de|hausgarten.net|iban-rechner.de|inside-handy.de|kindergeld.org|laut.de|liga3-online.de|motorsport-total.com|moviejones.de|netzwelt.de|news.de|nickles.de|nw.de|pferde.de|pixelio.de|playfront.de|prad.de|psychic.de|roemische-zahlen.net|rp-online.de|skodacommunity.de|spielen.de|spielfilm.de|transfermarkt.de|truckscout24.at|truckscout24.de|unicum.de|virtualnights.com|weristdeinfreund.de|weser-kurier.de|wetteronline.de|windows-7-forum.net|wintotal.de|wize.life|t-online.de|tvinfo.de|wallstreet-online.de|meinestadt.de|wieistmeineip.ch|wieistmeineip.at|boersennews.de|express.de|computerbild.de|berliner-zeitung.de|rimondo.com|play3.de|kicker.de|berliner-kurier.de|ksta.de|rundschau-online.de|rheinische-anzeigenblaetter.de|quotenmeter.de|gartenlexikon.de|fussballdaten.de
 @@/iqadcontroller.$script,domain=manager-magazin.de
 @@/js/adbl_checkurl.js$domain=cool-web.de|fun-seiten.de|web-spiele.de|gps-cache.de|photo-alben.de|wetter-vorhersage.de|coolsoftware.de|kryptografie.de
+@@/public/*/img/*$domain=live.vodafone.de
 @@20min.ch$generichide
 @@20min.rcmd.tda.io$domain=20min.ch
 @@24auto.de/bilder/
@@ -645,6 +648,7 @@ $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.t
 @@image.capital.de
 @@imagenetz.de/werbebanner-ad.js
 @@images.mein-mmo.de/magazin$image,domain=mein-mmo.de
+@@images.t-online.de
 @@imagesrv.adition.com/1x1.gif$domain=joyn.de
 @@imagesrv.adition.com/banners$domain=finya.de|t-online.de|freenet.de|spiegel.de|kicker.de|quoka.de|fanfiktion.de|meinestadt.de
 @@imagesrv.adition.com/js/adition.js$domain=finya.de|t-online.de|freenet.de|spiegel.de|kicker.de|quoka.de|fanfiktion.de|meinestadt.de
@@ -1069,6 +1073,7 @@ _bannerwerbung/
 _bg_werbung.
 _oben_ad.
 _unten_ad.
+_video_ads/$domain=imasdk.googleapis.com
 _werbe_layer.
 _werbeanzeigen/
 _werbebanner.
@@ -1175,6 +1180,7 @@ adrolays.de$domain=autobild.de
 adrolays.de$third-party
 ads.goldbach-germany.de
 ads4allweb.de$third-party
+adsafeprotected.com$domain=autobild.de|imasdk.googleapis.com
 adsby.de$third-party
 adscads.de$third-party
 adserver.adtech.de/?advideo/$replace=/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/\$1<\/VAST>/
@@ -1292,6 +1298,7 @@ amateurseite.com$popup,third-party
 amateursexfilme.biz$domain=pornohutdeutsch.net
 amazon-adsystem.com$domain=autobild.de|gofeminin.de
 amazon-adsystem.com$important,domain=xmedia-recode.de
+amazon.de
 amazon.de$domain=spieletest.at
 amazona.de
 amazonaws.com/bnp_657x209_$domain=finanzen.net
@@ -1911,6 +1918,7 @@ cavallo.de
 ccstatic.toggo.de/cc-static-files/bumper-video/$redirect=noopmp4-1s,domain=toggo.de
 cdn.atf-tagmanager.de/config$third-party
 cdn.daydeal.ch/xml/daydeal/$third-party
+cdn.flashtalking.com$domain=autobild.de|imasdk.googleapis.com
 cdn.greenvideo.io/pbjs/gvpb.js
 cdn.lineaget.com/widget/widget.js$domain=thinkpad-forum.de
 cdn.pear.focus.de/clients/widget.js
@@ -2413,6 +2421,7 @@ eltern.de,stern.de
 elternforen.com/images/banner_
 elternforen.com/images/elternforen_banner.png
 elternforen.com/images/kinderwagen-banner-
+email.t-online.de
 email.t-online.de/res/*/frame/anzeige_hor.gif
 embed.contentverticals.de$third-party
 emergency-live.com
@@ -2837,6 +2846,7 @@ futurezone.de,imtest.de,leckerschmecker.me,news38.de
 fuw.ch
 fvnws.ch
 g.doubleclick.net
+g.doubleclick.net$domain=autobild.de|gofeminin.de|imasdk.googleapis.com
 ga-online.de
 ga.de
 gabot.de
@@ -3780,6 +3790,7 @@ lite-magazin.de/wp-content/uploads/*/276x220px-
 lite-magazin.de/wp-content/uploads/*/629x220.
 lite-magazin.de/wp-content/uploads/*_276x600-
 literaturcafe.de
+live.vodafone.de
 livenet.ch
 livestreamde.com
 liveticker.com
@@ -3807,6 +3818,7 @@ lokalo.de/wp-content/uploads/*.mp4
 lokalo.de/wp-content/uploads/*/estricher_hof_anim_
 lokalo.de/wp-content/uploads/*/tts-banner-
 lokalo24.de,kreiszeitung.de,merkur.de,tz.de,hna.de
+lokalwerben.t-online.de
 lokalwissen.de
 lolabrause.ch
 lolchampion.de
@@ -4613,6 +4625,7 @@ port01.com/uploads/banner/
 portale.news*/banners/$third-party
 portugalforum.org/data/ads/
 ppac.de$third-party
+pr.t-online.de
 pr0gramm.com
 prad.de
 pragerzeitung.cz
@@ -5144,6 +5157,7 @@ smartdroid.de
 smarthomes.de
 smartphonemag.de
 smartphonevergleich.de,batterie.org
+smartstream.tv$domain=imasdk.googleapis.com
 smiley-bedeutung.de
 smopo.ch
 smsdate.com$popup
@@ -5250,6 +5264,7 @@ sportwetten.org/wp-content/uploads/*-400x300-
 sportwetten.org/wp-content/uploads/*-banner-
 spot-on-news.de
 spotlight.offerista.com$third-party
+spotxchange.com$domain=imasdk.googleapis.com
 spox.com
 spox.com/de/xprod/adswitch.html
 sprachen-lernen-online.org/wp-content/uploads/*/skyscraper_
@@ -5349,6 +5364,7 @@ suche.gmx.at/amazon?
 suche.gmx.ch/amazon?
 suche.gmx.net/amazon?
 suche.golem.de
+suche.t-online.de
 suche.t-online.de/web/amazon?
 suche.t-online.de/web/billiger?
 suche.t-online.de/web/ebay?
@@ -5442,6 +5458,7 @@ szene-hamburg.com
 szenebox.org
 szlz.de
 szlz.de,dewezet.de,emderzeitung.de
+t-online.de
 t-online.de,donna-magazin.de,sauerlandkurier.de,ludwigshafen24.de,in-muenchen.de,echo24.de,brokser-heiratsmarkt.de,24vita.de,24rhein.de,come-on.de,bw24.de,24auto.de,costanachrichten.com,buzzfeed.at,buzzfeed.de,hna.de,24garten.de,soester-anzeiger.de
 t-online.de,www-t--online-de.cdn.ampproject.org
 t-rocforum.de
@@ -5521,6 +5538,7 @@ telefon-sex-luder.com/banner/
 telefonsexmitcam.com/images/
 telefonsexwebcam.com/images/livestrip-
 telefonspion.de
+telekom.de
 telepolis.de
 tellows.at
 tellows.de
@@ -5809,6 +5827,7 @@ viversum.de/partnerprogramm/$third-party
 vmagazine.com
 vod-ac-mds.glomex.com/vod/2.0/progressive/$media
 vodafone-direkt.de$third-party
+vodafone.de
 vodafone.de*&tsid=$popup,third-party
 vodafone.de/csp/csp.php?b_id=$third-party
 vogtland-anzeiger.de
