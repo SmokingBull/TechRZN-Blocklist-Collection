@@ -12,7 +12,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/STATUS-INFRASTRUCTURE_ACTIVE-00C853?style=for-the-badge&logo=statuspage&logoColor=white" />
-  <img src="https://img.shields.io/badge/DATABASE-1M%2B_RULES-FF6B6B?style=for-the-badge&logo=databricks&logoColor=white" />
+  <img src="https://img.shields.io/badge/DATABASE-2.2M%2B_RULES-FF6B6B?style=for-the-badge&logo=databricks&logoColor=white" />
   <img src="https://img.shields.io/badge/UPLINK-2.5_GBIT_BACKBONE-7957d5?style=for-the-badge&logo=wi-fi&logoColor=white" />
 </p>
 
@@ -40,15 +40,21 @@ If the **TechRZN Filter-Hub** helps you secure your network, I would be delighte
 ---
 
 ## 🚀 Direct Integration (Quick Access)
-> **All-in-One Solution:** The Master List already contains all **modules listed below** in a single file.
+> **All-in-One Solution:** Due to the massive size (>100MB), the Master List is now split into two parts. **Please subscribe to both** for full protection.
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/combined_blocklist.txt">
-    <img src="https://img.shields.io/badge/MASTER_LIST-COPY_LINK-7957d5?style=for-the-badge&logo=adguard&logoColor=white" height="45" />
+  <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/combined_part1.txt">
+    <img src="https://img.shields.io/badge/MASTER_PART_1-COPY_LINK-7957d5?style=for-the-badge&logo=adguard&logoColor=white" height="45" />
   </a>
   &nbsp;&nbsp;
+  <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/combined_part2.txt">
+    <img src="https://img.shields.io/badge/MASTER_PART_2-COPY_LINK-7957d5?style=for-the-badge&logo=adguard&logoColor=white" height="45" />
+  </a>
+</p>
+
+<p align="center">
   <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/whitelist.txt">
-    <img src="https://img.shields.io/badge/WHITELIST-COPY_LINK-blue?style=for-the-badge&logo=github&logoColor=white" height="45" />
+    <img src="https://img.shields.io/badge/WHITELIST-COPY_LINK-blue?style=for-the-badge&logo=github&logoColor=white" height="35" />
   </a>
 </p>
 
@@ -70,7 +76,6 @@ If the **TechRZN Filter-Hub** helps you secure your network, I would be delighte
 | **TechRZN Squatting** | Blocks imitations of well-known brand names. | 🔍 |
 | **TechRZN IPs** | DNS block for malicious IP addresses. | 🖥️ |
 | **TechRZN Threat Intel**| Protection against active botnets & attack waves. | 🛑 |
-| **TechRZN Porn** | Comprehensive blocking of explicit content. | 🔞 |
 | **TechRZN Gambling** | Blocks casinos, betting & loot boxes. | 🎰 |
 | **TechRZN Crypto** | Stops browser miners & crypto scams. | 🪙 |
 | **TechRZN Dating** | Prevents access to dating platforms. | ❤️ |
@@ -87,7 +92,7 @@ If the **TechRZN Filter-Hub** helps you secure your network, I would be delighte
 ---
 
 ## 🛠️ Proprietary TechRZN Special Modules
-*These lists are hand-curated directly in Kleve and optimized for maximum precision.*
+*These lists are hand-curated directly in Kleve and optimized for maximum precision. (Note: Adult/Parental modules are separate from the Master List).*
 
 | Status | Module | Focus & Protection | Link |
 | :--- | :--- | :--- | :---: |
@@ -97,8 +102,8 @@ If the **TechRZN Filter-Hub** helps you secure your network, I would be delighte
 | 🎣 | **TechRZN Phishing** | **Fraud Protection:** Guards against fake logins and scam sites. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_phishing.txt) |
 | 🛑 | **TechRZN Threat Intel** | **Threat Defense:** Protection against active botnets and cyber attacks. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_threat_intel.txt) |
 | 🛍️ | **TechRZN Fakeshops** | **Shopping Protection:** Blocks fraudulent shops and scam offers. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_fakeshops.txt) |
-| 🔞 | **TechRZN Porn** | **Erotica Filter:** Comprehensive blocking of explicit adult content. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_porn.txt) |
-| 🧒 | **TechRZN Parental** | **Family Safety:** Filters content harmful to minors. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_jugendschutz.txt) |
+| 🔞 | **TechRZN Porn** | **Erotica Filter:** Comprehensive blocking of explicit adult content. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/techrzn_porn.txt) |
+| 🧒 | **TechRZN Parental** | **Family Safety:** Filters content harmful to minors. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/techrzn_jugendschutz.txt) |
 | 🏠 | **TechRZN Squatting** | **Typosquatting Protection:** Blocks fake domains mimicking brands. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_domain_squatting.txt) |
 | 🎰 | **TechRZN Gambling** | **Gambling Protection:** Blocks online casinos and betting providers. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_gambling.txt) |
 | 🪙 | **TechRZN Crypto** | **Crypto Shield:** Blocks miners and cryptocurrency scams. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_crypto.txt) |
@@ -140,11 +145,11 @@ If the **TechRZN Filter-Hub** helps you secure your network, I would be delighte
 <h3>🛡️ AdGuard Home</h3>
 1. Navigate to <b>Filters</b> ➔ <b>DNS Blocklists</b>.<br>
 2. Click <b>Add Blocklist</b> ➔ <b>Add a custom list</b>.<br>
-3. Name: <code>TechRZN Master</code> | URL: Use the button provided above.<br>
+3. Add <b>Part 1</b> and then <b>Part 2</b> as separate lists.<br>
 
 <h3>🥧 Pi-hole</h3>
 1. Go to <b>Adlists</b> in the left menu.<br>
-2. Paste the URL into the <b>Address</b> field and click <b>Add</b>.<br>
+2. Paste both URLs (Part 1 & 2) into the <b>Address</b> field.<br>
 3. <b>Important:</b> Run an update under <i>Tools</i> ➔ <i>Update Gravity</i>.
 </blockquote>
 </details>
@@ -153,7 +158,7 @@ If the **TechRZN Filter-Hub** helps you secure your network, I would be delighte
 <summary><b>⚙️ Optimal AdGuard Home Settings (Recommended)</b></summary>
 <br>
 <blockquote>
-For maximum performance with 1M+ rules (tested on <b>UGREEN NAS / 2.5 Gbit/s</b>):<br><br>
+For maximum performance with 2M+ rules (tested on <b>UGREEN NAS / 2.5 Gbit/s</b>):<br><br>
 <b>1. DNS Cache & TTL</b><br>
 * Cache size: <code>104.857.600</code> (100 MB)<br>
 * Optimistic caching: <b>Enabled</b> ✅<br>
