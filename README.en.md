@@ -1,5 +1,17 @@
 <div align="center">
 
+# TechRZN-Blocklist-Collection
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Maintainer: TechRZN](https://img.shields.io/badge/Maintainer-TechRZN-green.svg)](https://github.com/TechRZN)
+
+**A professional collection of blocklists to enhance security and privacy in networks (DNS, Firewall, NAS).**
+
+---
+</div>
+
+<div align="center">
+
 <br>
 
 <p align="center">
