@@ -218,16 +218,20 @@ Für maximale Performance bei 2M+ Regeln (getestet auf <b>UGREEN NAS / 2,5 Gbit/
 
 ---
 
-## 🛡️ License & Copyright
+<div align="center">
 
-**TechRZN-Blocklist-Collection** is specialized software for network security and is licensed under the **GNU General Public License v3.0 (GPLv3)**.
+---
 
-### Why GPLv3?
-To ensure that this collection remains free and open for everyone. Any improvements or forks of this project must also be shared under the same protective license. Commercial use without contributing back to the community is not permitted under these terms.
+## 🛡️ Lizenz & Urheberrecht
 
-**Copyright (c) 2026 Jörg Berns (TechRZN)** **Location: Kleve, Germany**
+**TechRZN-Blocklist-Collection** ist eine spezialisierte Lösung für Netzwerksicherheit und ist unter der **GNU General Public License v3.0 (GPLv3)** lizenziert.
 
-For the full legal text, please refer to the [LICENSE](LICENSE) file.
+### Warum GPLv3?
+Um sicherzustellen, dass diese Sammlung für alle frei und offen bleibt. Jede Verbesserung oder Abspaltung (Fork) dieses Projekts muss unter derselben Schutzlizenz geteilt werden. Eine kommerzielle Nutzung ohne Rückgabe an die Community ist unter diesen Bedingungen nicht gestattet.
+
+**Copyright (c) 2026 Jörg Berns (TechRZN)** | **Standort: Kleve, Deutschland**
+
+Den vollständigen Gesetzestext findest du in der Datei [LICENSE](LICENSE).
 
 </div>
 
