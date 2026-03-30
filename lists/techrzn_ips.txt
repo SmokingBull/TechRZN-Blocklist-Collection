@@ -1,4 +1,4 @@
-# TechRZN Module: techrzn_ips | Source: SmokingBull / TechRZN
+# TechRZN Module: techrzn_ips | Source: TechRZN IPs
 
 1.1.118.75
 1.1.176.18

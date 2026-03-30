@@ -1,4 +1,4 @@
-# TechRZN Module: dan_pollock | Source: Dan Pollock (Classic)
+# TechRZN Module: dan_pollock | Source: Dan Pollock
 
 0.0.0.0 0.nextyourcontent.com
 0.0.0.0 006.free-counter.co.uk

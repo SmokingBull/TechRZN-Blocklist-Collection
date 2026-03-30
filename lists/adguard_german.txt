@@ -1,4 +1,4 @@
-# TechRZN Module: adguard_german | Source: AdGuard Team
+# TechRZN Module: adguard_german | Source: AdGuard German
 
 $csp=script-src 'self' data: 'unsafe-inline' 'unsafe-hashes' 'unsafe-eval' static.veevcdn.co,domain=filmpalast.to
 $stylesheet,subdocument,third-party,xmlhttprequest,domain=canna-power.to|canna.to,badfilter
