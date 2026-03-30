@@ -218,10 +218,6 @@ Für maximale Performance bei 2M+ Regeln (getestet auf <b>UGREEN NAS / 2,5 Gbit/
 
 ---
 
-<div align="center">
-
----
-
 ## 🛡️ Lizenz & Urheberrecht
 
 **TechRZN-Blocklist-Collection** ist eine spezialisierte Lösung für Netzwerksicherheit und ist unter der **GNU General Public License v3.0 (GPLv3)** lizenziert.
