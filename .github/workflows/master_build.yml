@@ -34,8 +34,6 @@ jobs:
       - name: 💾 Änderungen speichern (Commit & Push)
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: "build: TechRZN Master-Liste automatisch aktualisiert [bot]"
-          # Erlaubt das Hochladen aller Part-Dateien und verhindert den 100MB-Fehler
-          file_pattern: 'combined_part*.txt blocklists/*.txt whitelist.txt'
-          # Erzwingt den Push, um lokale Konflikte zu lösen
-          push_options: '--force'
+          commit_message: "build: TechRZN Master-Liste Hagezi-Style aktualisiert [bot]"
+          # Nur noch die Master-Datei und die Whitelist
+          file_pattern: 'combined_blocklist.txt whitelist.txt'
