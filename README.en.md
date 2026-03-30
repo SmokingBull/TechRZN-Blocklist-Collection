@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  Language: 🇺🇸 <b>[English]</b> | 🇩🇪 <a href="README.md">[Deutsch]</a>
+  Language: <a href="README.md">🇩🇪 <b>[Deutsch]</b></a> | 🇺🇸 <b>[English]</b>
 </p>
 
 <p align="center">
@@ -31,18 +31,18 @@
 ---
 
 ## 🛰️ Mission & Vision
-> **High-Performance Blocklists • Updated Daily • 100% Curated**
+> **High-Performance Blocklists • Updated Daily • 100% Purified**
 
-Welcome to the **TechRZN Filter-Hub**. This repository provides a highly optimized "All-in-One" solution for **AdGuard Home, Pi-hole, and Technitium**. Through automated deduplication and an intelligent whitelist, we guarantee maximum protection without "overblocking."
+Welcome to the **TechRZN Filter-Hub**. This repository provides a highly optimized "All-in-One" solution for **AdGuard Home, Pi-hole, and Technitium**. Through automated deduplication and an intelligent whitelist, we guarantee protection without "overblocking."
 
 ---
 
 ## ❤️ Support & Community
-If the **TechRZN Filter-Hub** helps you secure your network, I would be happy to receive your support on Patreon!
+If the **TechRZN Filter-Hub** helps you secure your network, I appreciate your support on Patreon!
 
 <p align="center">
   <a href="https://patreon.com/TechRZN">
-    <img src="https://img.shields.io/badge/PATREON-BECOME_A_SUPPORTER-orange?style=for-the-badge&logo=patreon&logoColor=white" height="45" />
+    <img src="https://img.shields.io/badge/PATREON-BECOME_A_PATRON-orange?style=for-the-badge&logo=patreon&logoColor=white" height="45" />
   </a>
   <br>
   <img src="https://img.shields.io/badge/Status-Community_Project-orange?style=for-the-badge&logo=patreon" height="25" />
@@ -52,7 +52,9 @@ If the **TechRZN Filter-Hub** helps you secure your network, I would be happy to
 ---
 
 ## 🚀 Direct Integration (Quick Access)
-> **All-in-One Solution:** Due to the massive size (>100MB), the Master List is now split into two parts. **Please subscribe to both parts** to receive full protection.
+> **IMPORTANT:** This is the **TechRZN Master List (All-in-One Solution)**. It bundles all relevant protection modules into a single package.
+
+Due to its massive size (>100MB), the Master List is split into two parts. **Please subscribe to both parts** to obtain full protection.
 
 <p align="center">
   <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/combined_part1.txt">
@@ -65,31 +67,31 @@ If the **TechRZN Filter-Hub** helps you secure your network, I would be happy to
 </p>
 
 <details open>
-<summary><b>📦 What's inside the Master List? (Table of Contents)</b></summary>
+<summary><b>📦 What’s inside the Master List? (Table of Contents)</b></summary>
 <br>
 
-| Module | Protection Effect | Icon |
+| Module | Protective Effect | Icon |
 | :--- | :--- | :---: |
 | **TechRZN Tracking** | Stops data collectors (Windows, Android, iOS, Smart-TV). | 📱 |
-| **TechRZN Ads** | Blocks aggressive ad networks & pop-ups. | 🚫 |
+| **TechRZN Ads** | Blocks aggressive ad networks & popups. | 🚫 |
 | **TechRZN Malware** | Blocks C2 servers and malware sources. | 🛡️ |
 | **TechRZN Phishing** | Defense against fake logins and scam sites. | 🔑 |
 | **TechRZN Fakeshops** | Blocks known fraudulent shops & subscription traps. | 🛒 |
-| **TechRZN Squatting** | Blocks imitations of famous brand names. | 🔍 |
+| **TechRZN Squatting** | Blocks imitations of well-known brand names. | 🔍 |
 | **TechRZN IPs** | DNS block for malicious IP addresses. | 🖥️ |
 | **TechRZN Threat Intel**| Protection against active botnets & attack waves. | 🛑 |
 | **TechRZN Gambling** | Blocks casinos, betting & loot boxes. | 🎰 |
 | **TechRZN Crypto** | Stops browser miners & crypto scams. | 🪙 |
 | **TechRZN Dating** | Prevents access to dating platforms. | ❤️ |
 | **TechRZN Spam** | Filters aggressive mail trackers & spam domains. | 📧 |
-| **TechRZN Bypass** | Prevents VPN/Proxy bypasses within the network. | 🔓 |
+| **TechRZN Bypass** | Prevents VPN/Proxy bypasses in the network. | 🔓 |
 
 </details>
 
 ---
 
 ## 🛡️ The TechRZN Whitelist (Recommended)
-> **Stability & Compatibility:** To ensure that essential system services (e.g., Windows Updates, Apple iCloud, streaming logins) function smoothly despite the massive blocklists, we have integrated a global whitelist.
+> **Stability & Compatibility:** To ensure that vital system services (e.g., Windows Updates, Apple iCloud, streaming logins) function smoothly despite the massive blocklists, we have integrated a global whitelist.
 
 <p align="center">
   <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/whitelist.txt">
@@ -97,27 +99,27 @@ If the **TechRZN Filter-Hub** helps you secure your network, I would be happy to
   </a>
 </p>
 
-* **Purpose:** Prevents "false positives" (accidental blocking of legitimate sites).
+* **Function:** Prevents "False Positives" (accidental blocking of legitimate sites).
 * **Maintenance:** Continuously updated to guarantee the best "out-of-the-box" experience.
 
 ---
 
-## 🔞 Parental Control & Adult-Content (Optional)
+## 🔞 Parental Control & Adult Content (Optional)
 > [!WARNING]
-> **Intentional Separation:** The following lists are **NOT** included in the Master List. We have decided to offer these separately to avoid "overblocking" and to give every user the choice whether to activate these strict filters.
+> **Intentional Separation:** The following lists are **NOT** included in the Master List. We decided to offer them separately to avoid "overblocking" and to give every user the choice to activate these strict filters.
 
 <p align="center">
   <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/techrzn_porn.txt">
     <img src="https://img.shields.io/badge/TECHRZN_PORN-COPY_LINK-red?style=for-the-badge&logo=unstop&logoColor=white" height="40" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/techrzn_jugendschutz.txt">
-    <img src="https://img.shields.io/badge/TECHRZN_PARENTAL-COPY_LINK-red?style=for-the-badge&logo=familysearch&logoColor=white" height="40" />
+  <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/techrzn_parental_control.txt">
+    <img src="https://img.shields.io/badge/TECHRZN_KIDS-COPY_LINK-red?style=for-the-badge&logo=familysearch&logoColor=white" height="40" />
   </a>
 </p>
 
 * **TechRZN Porn:** Comprehensive block of explicit content, erotic portals, and adult ads.
-* **TechRZN Parental Control:** Strict filter for family safety (violence, drugs, age-restricted sites).
+* **TechRZN Kids:** Strict filter for family safety (violence, drugs, harmful content).
 
 ---
 
@@ -127,24 +129,24 @@ If the **TechRZN Filter-Hub** helps you secure your network, I would be happy to
 
 ---
 
-## 🛠️ Specialized TechRZN Modules
+## 🛠️ TechRZN Special Modules
 *These lists are hand-curated directly in Kleve and optimized for maximum precision.*
 
-| Status | Module | Focus & Protection Effect | Link |
+| Status | Module | Focus & Protective Effect | Link |
 | :---: | :--- | :--- | :---: |
-| 🛡️ | **TechRZN Ads** | **Ad-Shield:** Ad networks and trackers. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_ads.txt) |
-| 🕵️‍♂️ | **TechRZN Tracking** | **Privacy:** Blocking of telemetry data. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_tracking.txt) |
-| 🦠 | **TechRZN Malware** | **Malware Defense:** Blocks malware & C2 servers. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_malware.txt) |
-| 🎣 | **TechRZN Phishing** | **Fraud Protection:** Fake logins and scam sites. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_phishing.txt) |
+| 🛡️ | **TechRZN Ads** | **Ad Shield:** Ad networks and trackers. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_ads.txt) |
+| 🕵️‍♂️ | **TechRZN Tracking** | **Tracking:** Telemetry blocking. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_tracking.txt) |
+| 🦠 | **TechRZN Malware** | **Malware Protection:** Blocks malware & C2 servers. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_malware.txt) |
+| 🎣 | **TechRZN Phishing** | **Scam Protection:** Fake logins and scam sites. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_phishing.txt) |
 | 🛑 | **TechRZN Threat Intel** | **Threat Defense:** Botnets and cyberattacks. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_threat_intel.txt) |
-| 🛍️ | **TechRZN Fakeshops** | **Shopping Protection:** Fraud shops and scam offers. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_fakeshops.txt) |
-| 🏠 | **TechRZN Squatting** | **Typosquatting Protection:** Brand imitations. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_domain_squatting.txt) |
-| 🎰 | **TechRZN Gambling** | **Player Protection:** Blocks casinos and betting. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_gambling.txt) |
-| 🪙 | **TechRZN Crypto** | **Crypto-Shield:** Blocks miners and crypto scams. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_crypto.txt) |
-| ❤️ | **TechRZN Dating** | **Dating-Filter:** Access to dating platforms. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_dating.txt) |
-| 📧 | **TechRZN Spam** | **Spam-Protection:** Filters marketing domains. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_spam.txt) |
-| 🧪 | **TechRZN Fake Science** | **Truth-Check:** Pseudo-science & fake news. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_fake_science.txt) |
-| 🔓 | **TechRZN Bypass** | **Tunnel-Block:** VPN and proxy bypass attempts. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_bypass.txt) |
+| 🛍️ | **TechRZN Fakeshops** | **Shopping Protection:** Scam shops and fraudulent offers. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_fakeshops.txt) |
+| 🏠 | **TechRZN Squatting** | **Typo Protection:** Imitations of known brand names. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_domain_squatting.txt) |
+| 🎰 | **TechRZN Gambling** | **Player Protection:** Blocks casinos and betting providers. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_gambling.txt) |
+| 🪙 | **TechRZN Crypto** | **Crypto Shield:** Blocks miners and crypto scams. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_crypto.txt) |
+| ❤️ | **TechRZN Dating** | **Dating Filter:** Access to dating platforms. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_dating.txt) |
+| 📧 | **TechRZN Spam** | **Spam Protection:** Filters aggressive marketing domains. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_spam.txt) |
+| 🧪 | **TechRZN Fake Science** | **Truth Check:** Pseudo-science & fake news. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_fake_science.txt) |
+| 🔓 | **TechRZN Bypass** | **Tunnel Block:** VPN and proxy bypasses. | [🔗](https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_bypass.txt) |
 
 ---
 
@@ -156,12 +158,12 @@ If the **TechRZN Filter-Hub** helps you secure your network, I would be happy to
 <blockquote>
 <h3>🛡️ AdGuard Home</h3>
 1. Go to <b>Filters</b> ➔ <b>DNS Blocklists</b>.<br>
-2. Click <b>Add Blocklist</b> ➔ <b>Add a custom list</b>.<br>
+2. Click on <b>Add Blocklist</b> ➔ <b>Add a custom list</b>.<br>
 3. Add <b>Part 1</b> and then <b>Part 2</b> as separate lists.<br>
 
 <h3>🥧 Pi-hole</h3>
 1. Go to <b>Adlists</b> in the left menu.<br>
-2. Add both URLs (Part 1 & 2) one after another.<br>
+2. Add both URLs (Part 1 & 2) one after the other.<br>
 3. <b>Important:</b> Run an update under <i>Tools</i> ➔ <i>Update Gravity</i>.
 </blockquote>
 </details>
@@ -174,20 +176,20 @@ For maximum performance with 2M+ rules (tested on <b>UGREEN NAS / 2.5 Gbit/s</b>
 <b>1. DNS Cache & TTL</b><br>
 * Cache Size: <code>104.857.600</code> (100 MB)<br>
 * Optimistic Caching: <b>Enabled</b> ✅<br>
-* Override Minimum TTL: <code>3600</code> (1 hour)<br>
+* Minimum TTL: <code>3600</code> (1 hour)<br>
 * Override Maximum TTL: <code>84600</code> (24 hours) ✅<br><br>
 <b>2. Security & Filtering</b><br>
 * DNSSEC: <b>Enabled</b> ✅<br>
 * Blocking Mode: <code>Null IP</code><br>
-* Upstream Timeout: <code>2</code> sec ⚡<br>
-* Blocked Response TTL: <code>300</code> sec
+* Upstream Timeout: <code>2</code> sec. ⚡<br>
+* Blocked Response TTL: <code>300</code> sec.
 </blockquote>
 </details>
 
 ---
 
 ## 🏗️ Hardware Backbone (Kleve, Germany)
-*Validation on enterprise hardware for absolute reliability.*
+*Validation on enterprise-grade hardware for absolute reliability.*
 
 <table align="center" width="100%" style="border-collapse: collapse; background-color: #0d1117; border-radius: 12px; overflow: hidden; border: 1px solid #30363d;">
   <tr>
@@ -202,7 +204,7 @@ For maximum performance with 2M+ rules (tested on <b>UGREEN NAS / 2.5 Gbit/s</b>
   </tr>
   <tr>
     <td align="left" style="padding: 20px;">
-      <b>NETWORK</b><br>2.5 Gbit Hybrid-Power<br>
+      <b>NETWORKING</b><br>2.5 Gbit Hybrid-Power<br>
       <img src="https://img.shields.io/badge/Zyxel_Managed_Switch-00D2FF?style=flat-square" alt="Networking" />
     </td>
     <td align="left" style="padding: 20px;">
@@ -213,6 +215,7 @@ For maximum performance with 2M+ rules (tested on <b>UGREEN NAS / 2.5 Gbit/s</b>
 </table>
 
 ---
+
 <div align="center">
 
 ---
@@ -230,7 +233,7 @@ For the full legal text, please refer to the [LICENSE](LICENSE) file.
 
 </div>
 
-## 🙏 Acknowledgments & Sources
+## 🙏 Credits & Sources
 This project is based on the valuable work of: **HaGeZi**, **RPiList**, **AdGuard Team**, and **Abuse.ch**.
 
 **Status: March 2026**
