@@ -201,11 +201,22 @@ For maximum performance with 2M+ rules (tested on <b>UGREEN NAS / 2.5 Gbit/s</b>
 </table>
 
 ---
+<div align="center">
 
-## ⚖️ License & Copyright
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
-<br>
-**Copyright (c) 2026 Jörg Berns (TechRZN) • Kleve, Germany.**
+---
+
+## 🛡️ License & Copyright
+
+**TechRZN-Blocklist-Collection** is specialized software for network security and is licensed under the **GNU General Public License v3.0 (GPLv3)**.
+
+### Why GPLv3?
+To ensure that this collection remains free and open for everyone. Any improvements or forks of this project must also be shared under the same protective license. Commercial use without contributing back to the community is not permitted under these terms.
+
+**Copyright (c) 2026 Jörg Berns (TechRZN)** | **Location: Kleve, Germany**
+
+For the full legal text, please refer to the [LICENSE](LICENSE) file.
+
+</div>
 
 ## 🙏 Acknowledgments & Sources
 This project is based on the valuable work of: **HaGeZi**, **RPiList**, **AdGuard Team**, and **Abuse.ch**.
