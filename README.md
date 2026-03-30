@@ -1,3 +1,12 @@
+
+# TechRZN-Blocklist-Collection
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Maintainer: TechRZN](https://img.shields.io/badge/Maintainer-TechRZN-green.svg)](https://github.com/TechRZN)
+
+Eine professionelle Sammlung von Blocklisten zur Steigerung der Sicherheit und Privatsphäre in Netzwerken (DNS, Firewall, NAS).
+
+
+
 <div align="center">
 
 <br>
