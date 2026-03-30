@@ -35,7 +35,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "build: TechRZN Master-Liste automatisch aktualisiert [bot]"
-          # WICHTIG: Hier müssen alle Dateien stehen, die der Bot anfassen darf!
-          file_pattern: 'combined_blocklist.txt combined_part1.txt combined_part2.txt blocklists/*.txt whitelist.txt'
-          # WICHTIG: Erzwingt den Push, um den aktuellen Fehler zu beheben
+          # Erlaubt das Hochladen aller Part-Dateien und verhindert den 100MB-Fehler
+          file_pattern: 'combined_part*.txt blocklists/*.txt whitelist.txt'
+          # Erzwingt den Push, um lokale Konflikte zu lösen
           push_options: '--force'
