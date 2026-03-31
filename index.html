@@ -14,142 +14,137 @@
         .status-pulse { animation: pulse 2s infinite; }
         @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .4; } }
         .grid-bg { background-image: radial-gradient(#161b22 1px, transparent 1px); background-size: 20px 20px; }
+        .config-box { background: rgba(0,0,0,0.3); border-left: 4px solid #58a6ff; }
     </style>
 </head>
-<body class="grid-bg min-h-screen antialiased">
+<body class="grid-bg min-h-screen antialiased text-sm">
 
     <nav class="sticky top-0 z-50 glass border-b border-gray-800 px-6 py-4 mb-10">
-        <div class="max-w-6xl mx-auto flex justify-between items-center">
-            <h1 class="text-2xl font-black tracking-tighter text-white">🛰️ TechRZN <span class="text-blue-500 font-light">Filter-Hub</span></h1>
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-black tracking-tighter text-white uppercase italic">🛰️ TechRZN <span class="text-blue-500 font-light">Filter-Hub</span></h1>
             <div class="flex items-center gap-3 bg-green-500/10 px-4 py-2 rounded-full border border-green-500/20">
-                <span class="relative flex h-2 w-2">
-                    <span class="status-pulse absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                    <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
-                </span>
-                <span class="text-[10px] font-bold text-green-500 mono uppercase tracking-widest whitespace-nowrap">2.5 Gbit/s Backbone Active</span>
+                <span class="status-pulse h-2 w-2 rounded-full bg-green-500"></span>
+                <span class="text-[10px] font-bold text-green-500 mono uppercase tracking-widest">2.5 Gbit/s Backbone Active</span>
             </div>
         </div>
     </nav>
 
-    <main class="max-w-6xl mx-auto px-6 pb-20">
+    <main class="max-w-7xl mx-auto px-6 pb-20">
         
-        <section class="mb-12">
-            <div class="p-12 rounded-3xl bg-gradient-to-br from-gray-900 via-[#0d1117] to-black border border-gray-800 relative overflow-hidden">
-                <div class="relative z-10">
-                    <h2 class="text-4xl font-black text-white mb-4 tracking-tight">🛡️ High-Performance DNS Shielding</h2>
-                    <p class="text-gray-400 max-w-2xl text-lg leading-relaxed mb-6">
-                        Professionelle Blocklisten-Sammlung für AdGuard Home, Pi-hole und Unbound. 
-                        Gehostet auf dedizierter Bare-Metal Hardware in <span class="text-blue-400 font-bold underline decoration-blue-500/30">47533 Kleve</span>. 
-                    </p>
-                    <div class="flex gap-4">
-                        <span class="text-xs mono bg-gray-800 text-gray-400 px-3 py-1 rounded">Daily Updates</span>
-                        <span class="text-xs mono bg-gray-800 text-gray-400 px-3 py-1 rounded">Deduplicated</span>
-                    </div>
-                </div>
+        <section class="mb-12 p-10 rounded-3xl bg-gradient-to-br from-gray-900 to-black border border-gray-800 shadow-2xl relative overflow-hidden">
+            <div class="relative z-10">
+                <h2 class="text-3xl font-black text-white mb-2 tracking-tight italic">🛡️ High-Performance DNS Shielding</h2>
+                <p class="text-gray-400 max-w-3xl leading-relaxed mb-6">
+                    Optimierte Blocklisten für AdGuard Home & Pi-hole. Gehostet auf Bare-Metal Power in Kleve.
+                </p>
             </div>
         </section>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-16">
+        <h3 class="text-white font-bold mb-6 flex items-center gap-2 italic uppercase tracking-wider">📦 Blocklisten-Katalog</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mb-16">
             
-            <div class="glass p-5 rounded-2xl flex flex-col justify-between group">
-                <div>
-                    <span class="text-[10px] font-bold mono text-blue-400 bg-blue-400/10 px-2 py-0.5 rounded uppercase tracking-tighter mb-3 inline-block italic">Security / IPS</span>
-                    <h4 class="text-white font-bold text-lg mb-1">TechRZN IPs</h4>
-                    <p class="text-xs text-gray-500 mb-6">Böswillige IPs (Marius Hosting Basis).</p>
-                </div>
-                <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_ips.txt" class="w-full py-2 bg-gray-800 hover:bg-blue-600 text-white text-[11px] font-bold mono text-center rounded-lg transition-colors uppercase italic">Get Raw</a>
+            <div class="glass p-5 rounded-2xl flex flex-col justify-between">
+                <div><span class="text-[10px] font-bold mono text-blue-400 bg-blue-400/10 px-2 py-0.5 rounded uppercase mb-3 inline-block italic">Security / IPS</span>
+                <h4 class="text-white font-bold mb-1">TechRZN IPs</h4><p class="text-xs text-gray-500 mb-4 text-pretty">Böswillige IPs (Marius Hosting Basis).</p></div>
+                <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_ips.txt" class="w-full py-2 bg-gray-800 hover:bg-blue-600 text-white text-[10px] font-bold mono text-center rounded transition-all uppercase italic">Get Raw</a>
             </div>
 
-            <div class="glass p-5 rounded-2xl flex flex-col justify-between group">
-                <div>
-                    <span class="text-[10px] font-bold mono text-blue-400 bg-blue-400/10 px-2 py-0.5 rounded uppercase tracking-tighter mb-3 inline-block italic">Privacy / Ads</span>
-                    <h4 class="text-white font-bold text-lg mb-1">TechRZN Ads</h4>
-                    <p class="text-xs text-gray-500 mb-6">Globaler Werbe- & Tracker-Filter.</p>
-                </div>
-                <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_ads.txt" class="w-full py-2 bg-gray-800 hover:bg-blue-600 text-white text-[11px] font-bold mono text-center rounded-lg transition-colors uppercase italic">Get Raw</a>
+            <div class="glass p-5 rounded-2xl flex flex-col justify-between">
+                <div><span class="text-[10px] font-bold mono text-blue-400 bg-blue-400/10 px-2 py-0.5 rounded uppercase mb-3 inline-block italic">Privacy / Ads</span>
+                <h4 class="text-white font-bold mb-1">TechRZN Ads</h4><p class="text-xs text-gray-500 mb-4">Werbe- & Tracker-Filter.</p></div>
+                <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_ads.txt" class="w-full py-2 bg-gray-800 hover:bg-blue-600 text-white text-[10px] font-bold mono text-center rounded transition-all uppercase italic">Get Raw</a>
             </div>
 
-            <div class="glass p-5 rounded-2xl flex flex-col justify-between group">
-                <div>
-                    <span class="text-[10px] font-bold mono text-red-400 bg-red-400/10 px-2 py-0.5 rounded uppercase tracking-tighter mb-3 inline-block italic">Security / Malware</span>
-                    <h4 class="text-white font-bold text-lg mb-1">TechRZN Malware</h4>
-                    <p class="text-xs text-gray-500 mb-6">Viren, C2-Server & Phishing Schutz.</p>
-                </div>
-                <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_malware.txt" class="w-full py-2 bg-gray-800 hover:bg-red-600 text-white text-[11px] font-bold mono text-center rounded-lg transition-colors uppercase italic">Get Raw</a>
+            <div class="glass p-5 rounded-2xl flex flex-col justify-between border-red-500/20">
+                <div><span class="text-[10px] font-bold mono text-red-400 bg-red-400/10 px-2 py-0.5 rounded uppercase mb-3 inline-block italic">Security / Malware</span>
+                <h4 class="text-white font-bold mb-1">TechRZN Malware</h4><p class="text-xs text-gray-500 mb-4">Schutz vor C2-Servern & Viren.</p></div>
+                <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_malware.txt" class="w-full py-2 bg-gray-800 hover:bg-red-600 text-white text-[10px] font-bold mono text-center rounded transition-all uppercase italic">Get Raw</a>
             </div>
 
-            <div class="glass p-5 rounded-2xl flex flex-col justify-between group">
-                <div>
-                    <span class="text-[10px] font-bold mono text-red-400 bg-red-400/10 px-2 py-0.5 rounded uppercase tracking-tighter mb-3 inline-block italic">Security / Scam</span>
-                    <h4 class="text-white font-bold text-lg mb-1">TechRZN Phishing</h4>
-                    <p class="text-xs text-gray-500 mb-6">Betrug, Fake-Webseiten & Scam.</p>
-                </div>
-                <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_phishing.txt" class="w-full py-2 bg-gray-800 hover:bg-red-600 text-white text-[11px] font-bold mono text-center rounded-lg transition-colors uppercase italic">Get Raw</a>
+            <div class="glass p-5 rounded-2xl flex flex-col justify-between border-red-500/20">
+                <div><span class="text-[10px] font-bold mono text-red-400 bg-red-400/10 px-2 py-0.5 rounded uppercase mb-3 inline-block italic">Security / Scam</span>
+                <h4 class="text-white font-bold mb-1">TechRZN Phishing</h4><p class="text-xs text-gray-500 mb-4">Fake-Webseiten & Betrugsschutz.</p></div>
+                <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_phishing.txt" class="w-full py-2 bg-gray-800 hover:bg-red-600 text-white text-[10px] font-bold mono text-center rounded transition-all uppercase italic">Get Raw</a>
             </div>
 
-            <div class="glass p-5 rounded-2xl flex flex-col justify-between group border-orange-500/10">
-                <div>
-                    <span class="text-[10px] font-bold mono text-orange-400 bg-orange-400/10 px-2 py-0.5 rounded uppercase tracking-tighter mb-3 inline-block italic">Adult / Gambling</span>
-                    <h4 class="text-white font-bold text-lg mb-1">TechRZN Gambling</h4>
-                    <p class="text-xs text-gray-500 mb-6">Glücksspiel, Casinos & Wetten.</p>
-                </div>
-                <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_gambling.txt" class="w-full py-2 bg-gray-800 hover:bg-orange-600 text-white text-[11px] font-bold mono text-center rounded-lg transition-colors uppercase italic">Get Raw</a>
+            <div class="glass p-5 rounded-2xl flex flex-col justify-between border-yellow-500/20">
+                <div><span class="text-[10px] font-bold mono text-yellow-500 bg-yellow-500/10 px-2 py-0.5 rounded uppercase mb-3 inline-block italic">Protection / Youth</span>
+                <h4 class="text-white font-bold mb-1 italic text-yellow-500">TechRZN Jugendschutz</h4><p class="text-xs text-gray-500 mb-4 italic">Blockiert jugendgefährdende Inhalte.</p></div>
+                <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_jugendschutz.txt" class="w-full py-2 bg-gray-800 hover:bg-yellow-600 text-white text-[10px] font-bold mono text-center rounded transition-all uppercase italic">Get Raw</a>
             </div>
 
-            <div class="glass p-5 rounded-2xl flex flex-col justify-between group border-orange-500/10">
-                <div>
-                    <span class="text-[10px] font-bold mono text-orange-400 bg-orange-400/10 px-2 py-0.5 rounded uppercase tracking-tighter mb-3 inline-block italic">Adult / Porn</span>
-                    <h4 class="text-white font-bold text-lg mb-1">TechRZN Porn</h4>
-                    <p class="text-xs text-gray-500 mb-6">Erotik & explizite Inhalte.</p>
-                </div>
-                <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_porn.txt" class="w-full py-2 bg-gray-800 hover:bg-orange-600 text-white text-[11px] font-bold mono text-center rounded-lg transition-colors uppercase italic">Get Raw</a>
+            <div class="glass p-5 rounded-2xl flex flex-col justify-between border-orange-500/20">
+                <div><span class="text-[10px] font-bold mono text-orange-400 bg-orange-400/10 px-2 py-0.5 rounded uppercase mb-3 inline-block italic">Adult / Gambling</span>
+                <h4 class="text-white font-bold mb-1">TechRZN Gambling</h4><p class="text-xs text-gray-500 mb-4">Casinos & Wettanbieter.</p></div>
+                <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_gambling.txt" class="w-full py-2 bg-gray-800 hover:bg-orange-600 text-white text-[10px] font-bold mono text-center rounded transition-all uppercase italic">Get Raw</a>
             </div>
 
-            <div class="glass p-5 rounded-2xl flex flex-col justify-between group border-yellow-500/10">
-                <div>
-                    <span class="text-[10px] font-bold mono text-yellow-400 bg-yellow-400/10 px-2 py-0.5 rounded uppercase tracking-tighter mb-3 inline-block italic">Media / Social</span>
-                    <h4 class="text-white font-bold text-lg mb-1">TechRZN Social</h4>
-                    <p class="text-xs text-gray-500 mb-6">Facebook, TikTok, Instagram & Co.</p>
-                </div>
-                <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_social.txt" class="w-full py-2 bg-gray-800 hover:bg-yellow-600 text-white text-[11px] font-bold mono text-center rounded-lg transition-colors uppercase italic">Get Raw</a>
+            <div class="glass p-5 rounded-2xl flex flex-col justify-between border-orange-500/20">
+                <div><span class="text-[10px] font-bold mono text-orange-400 bg-orange-400/10 px-2 py-0.5 rounded uppercase mb-3 inline-block italic">Adult / Porn</span>
+                <h4 class="text-white font-bold mb-1">TechRZN Porn</h4><p class="text-xs text-gray-500 mb-4">Explizite & Erotik-Inhalte.</p></div>
+                <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_porn.txt" class="w-full py-2 bg-gray-800 hover:bg-orange-600 text-white text-[10px] font-bold mono text-center rounded transition-all uppercase italic">Get Raw</a>
             </div>
 
-            <div class="glass p-5 rounded-2xl flex flex-col justify-between border-green-500/30 bg-green-500/5 group">
-                <div>
-                    <span class="text-[10px] font-bold mono text-green-400 bg-green-400/10 px-2 py-0.5 rounded uppercase tracking-tighter mb-3 inline-block italic tracking-[0.2em]">Recommended</span>
-                    <h4 class="text-white font-bold text-lg mb-1 italic">TechRZN Whitelist</h4>
-                    <p class="text-xs text-gray-500 mb-6">Stabilität & Kompatibilität.</p>
-                </div>
-                <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/whitelist/techrzn_whitelist.txt" class="w-full py-2 bg-green-600 hover:bg-green-500 text-white text-[11px] font-bold mono text-center rounded-lg transition-colors uppercase italic">Get Raw</a>
+            <div class="glass p-5 rounded-2xl flex flex-col justify-between">
+                <div><span class="text-[10px] font-bold mono text-gray-400 bg-gray-400/10 px-2 py-0.5 rounded uppercase mb-3 inline-block italic">Media / Social</span>
+                <h4 class="text-white font-bold mb-1">TechRZN Social</h4><p class="text-xs text-gray-500 mb-4">TikTok, Facebook, Insta & Co.</p></div>
+                <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_social.txt" class="w-full py-2 bg-gray-800 hover:bg-white hover:text-black text-white text-[10px] font-bold mono text-center rounded transition-all uppercase italic">Get Raw</a>
+            </div>
+
+            <div class="glass p-5 rounded-2xl flex flex-col justify-between border-green-500/30 bg-green-500/5">
+                <div><span class="text-[10px] font-bold mono text-green-400 bg-green-400/10 px-2 py-0.5 rounded uppercase mb-3 inline-block italic tracking-widest">System</span>
+                <h4 class="text-white font-bold mb-1 italic">TechRZN Whitelist</h4><p class="text-xs text-gray-500 mb-4">Stability & Compatibility.</p></div>
+                <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/whitelist/techrzn_whitelist.txt" class="w-full py-2 bg-green-600 hover:bg-green-500 text-white text-[10px] font-bold mono text-center rounded transition-all uppercase italic">Get Raw</a>
             </div>
 
         </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            <div class="glass p-8 rounded-3xl relative overflow-hidden">
-                <div class="absolute top-0 right-0 p-4 opacity-10 text-4xl italic font-black mono uppercase">Power</div>
-                <h4 class="text-white font-bold mb-6 flex items-center gap-2 italic underline decoration-blue-500 underline-offset-8">🖥️ Bare-Metal Power</h4>
-                <ul class="space-y-4 text-sm mono">
-                    <li class="flex justify-between border-b border-gray-800/50 pb-2"><span class="text-gray-500">Node:</span> <span class="text-blue-400">UGREEN DXP4800 Plus</span></li>
-                    <li class="flex justify-between border-b border-gray-800/50 pb-2"><span class="text-gray-500">Memory:</span> <span>64 GB DDR5 RAM</span></li>
-                    <li class="flex justify-between"><span class="text-gray-500">Storage:</span> <span>80 TB WD Red Pro RAID</span></li>
+        <h3 class="text-white font-bold mb-6 flex items-center gap-2 italic uppercase tracking-wider">⚙️ Optimale AdGuard Home Einstellungen</h3>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-16">
+            <div class="glass p-8 rounded-3xl config-box relative">
+                <h4 class="text-white font-bold mb-4 uppercase text-xs tracking-widest">DNS Server & Upstream</h4>
+                <div class="mono text-[11px] space-y-2 bg-black/40 p-4 rounded-xl text-blue-300">
+                    <p>// Empfohlene Upstreams für maximale Geschwindigkeit</p>
+                    <p>https://dns.quad9.net/dns-query</p>
+                    <p>https://dns.cloudflare.com/dns-query</p>
+                    <div class="h-px bg-gray-800 my-2"></div>
+                    <p>// Parallel-Anfrage für minimalen Ping aktivieren</p>
+                </div>
+            </div>
+            <div class="glass p-8 rounded-3xl config-box relative border-l-green-500">
+                <h4 class="text-white font-bold mb-4 uppercase text-xs tracking-widest">Cache & Performance</h4>
+                <ul class="space-y-2 text-xs italic">
+                    <li class="flex justify-between border-b border-gray-800 pb-1"><span>Optimistic Caching:</span> <span class="text-green-500">Aktiviert</span></li>
+                    <li class="flex justify-between border-b border-gray-800 pb-1"><span>DNS Cache Größe:</span> <span class="text-white">4.294.967.296 (4 GB)</span></li>
+                    <li class="flex justify-between"><span>TTL Minimum:</span> <span class="text-white">3600s (1h)</span></li>
                 </ul>
             </div>
-            <div class="glass p-8 rounded-3xl relative overflow-hidden">
-                <div class="absolute top-0 right-0 p-4 opacity-10 text-4xl italic font-black mono uppercase">Network</div>
-                <h4 class="text-white font-bold mb-6 flex items-center gap-2 italic underline decoration-green-500 underline-offset-8">⚡ Network Topology</h4>
-                <ul class="space-y-4 text-sm mono">
-                    <li class="flex justify-between border-b border-gray-800/50 pb-2"><span class="text-gray-500">Uplink:</span> <span class="text-green-400">250M Hybrid Fiber</span></li>
-                    <li class="flex justify-between border-b border-gray-800/50 pb-2"><span class="text-gray-500">Switching:</span> <span>2.5 Gbit/s Managed</span></li>
-                    <li class="flex justify-between"><span class="text-gray-500">DNS:</span> <span>Unbound Local Resolver</span></li>
+        </div>
+
+        <h3 class="text-white font-bold mb-6 flex items-center gap-2 italic uppercase tracking-wider">🏗️ Kleve Node 01 Backbone</h3>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div class="glass p-8 rounded-3xl">
+                <h4 class="text-white font-bold mb-4 italic">🖥️ Hardware Layer</h4>
+                <ul class="space-y-4 text-xs mono">
+                    <li class="flex justify-between border-b border-gray-800 pb-2"><span class="text-gray-500">Core:</span> <span class="text-blue-400 italic">UGREEN NAS DXP4800 Plus</span></li>
+                    <li class="flex justify-between border-b border-gray-800 pb-2"><span class="text-gray-500">RAM:</span> <span>64 GB DDR5</span></li>
+                    <li class="flex justify-between"><span class="text-gray-500">RAID:</span> <span>80 TB WD Red Pro</span></li>
+                </ul>
+            </div>
+            <div class="glass p-8 rounded-3xl">
+                <h4 class="text-white font-bold mb-4 italic">⚡ Connectivity Layer</h4>
+                <ul class="space-y-4 text-xs mono">
+                    <li class="flex justify-between border-b border-gray-800 pb-2"><span class="text-gray-500">ISP:</span> <span class="text-green-400">250M Hybrid Fiber</span></li>
+                    <li class="flex justify-between border-b border-gray-800 pb-2"><span class="text-gray-500">LAN:</span> <span>2.5 Gbit/s Backbone</span></li>
+                    <li class="flex justify-between"><span class="text-gray-500">Security:</span> <span>IPv6/CGNAT + Cloudflare WAF</span></li>
                 </ul>
             </div>
         </div>
 
     </main>
 
-    <footer class="border-t border-gray-800 py-10 text-center">
-        <p class="text-[10px] text-gray-600 mono tracking-[0.5em] uppercase italic">TechRZN Infrastructure - Kleve Node 01</p>
+    <footer class="border-t border-gray-800 py-10 text-center opacity-40">
+        <p class="text-[9px] mono tracking-[1em] uppercase italic">Managed by TechRZN-DNS | Kleve, DE</p>
     </footer>
 
 </body>
