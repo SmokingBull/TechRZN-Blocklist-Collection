@@ -1,17 +1,6 @@
 version: 2
 updates:
-  # Prüft deine GitHub Actions im Hauptverzeichnis
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
-
-  # Prüft deine requirements.txt im Hauptverzeichnis
-  - package-ecosystem: "pip"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-    open-pull-requests-limit: 5
-    labels:
-      - "security"
-      - "dependencies"
