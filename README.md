@@ -24,7 +24,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/STATUS-INFRASTRUKTUR_AKTIV-00C853?style=for-the-badge&logo=statuspage&logoColor=white" />
-  <img src="https://img.shields.io/badge/DATENBANK-2.2M%2B_REGELN-FF6B6B?style=for-the-badge&logo=databricks&logoColor=white" />
+  <img src="https://img.shields.io/badge/DATENBANK-OPTIMIERT-FF6B6B?style=for-the-badge&logo=databricks&logoColor=white" />
   <img src="https://img.shields.io/badge/UPLINK-2.5_GBIT_BACKBONE-7957d5?style=for-the-badge&logo=wi-fi&logoColor=white" />
 </p>
 
@@ -33,7 +33,7 @@
 ## 🛰️ Mission & Vision
 > **High-Performance Blocklisten • Täglich aktualisiert • 100% Bereinigt**
 
-Willkommen beim **TechRZN Filter-Hub**. Dieses Repository bietet eine hochoptimierte "All-in-One" Lösung für **AdGuard Home, Pi-hole und Technitium**. Durch automatisierte Deduplizierung und eine intelligente Whitelist garantieren wir Schutz ohne "Overblocking".
+Willkommen beim **TechRZN Filter-Hub**. Dieses Repository bietet eine hochoptimierte Lösung für **AdGuard Home, Pi-hole und Technitium**. Durch automatisierte Deduplizierung und eine intelligente Whitelist garantieren wir Schutz ohne "Overblocking".
 
 ---
 
@@ -51,45 +51,6 @@ Wenn dir der **TechRZN Filter-Hub** hilft, dein Netzwerk sicherer zu machen, fre
 
 ---
 
-## 🚀 Direkt-Einbindung (Schnellzugriff)
-> **WICHTIG:** Dies ist die **TechRZN Master-Liste (All-in-One Lösung)**. Sie bündelt alle relevanten Schutzmodule in einem Paket.
-
-Aufgrund der massiven Größe (>100MB) ist diese Master-Liste in zwei Teile aufgeteilt. **Bitte abonniere beide Teile**, um den vollen Schutz zu erhalten.
-
-<p align="center">
-  <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/combined_part1.txt">
-    <img src="https://img.shields.io/badge/MASTER_TEIL_1-LINK_KOPIEREN-7957d5?style=for-the-badge&logo=adguard&logoColor=white" height="45" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/combined_part2.txt">
-    <img src="https://img.shields.io/badge/MASTER_TEIL_2-LINK_KOPIEREN-7957d5?style=for-the-badge&logo=adguard&logoColor=white" height="45" />
-  </a>
-</p>
-
-<details open>
-<summary><b>📦 Was steckt in der Master-Liste? (Inhaltsverzeichnis)</b></summary>
-<br>
-
-| Modul | Schutzwirkung | Icon |
-| :--- | :--- | :---: |
-| **TechRZN Tracking** | Stoppt Datensammler (Windows, Android, iOS, Smart-TV). | 📱 |
-| **TechRZN Ads** | Blockiert aggressive Werbenetzwerke & Popups. | 🚫 |
-| **TechRZN Malware** | Sperrt C2-Server und Schadsoftware-Quellen. | 🛡️ |
-| **TechRZN Phishing** | Abwehr von Fake-Logins und Scam-Seiten. | 🔑 |
-| **TechRZN Fakeshops** | Sperrt bekannte Betrugsshops & Abofallen. | 🛒 |
-| **TechRZN Squatting** | Blockiert Imitate bekannter Markennamen. | 🔍 |
-| **TechRZN IPs** | DNS-Sperre für bösartige IP-Adressen. | 🖥️ |
-| **TechRZN Threat Intel**| Schutz vor aktiven Botnetzen & Angriffswellen. | 🛑 |
-| **TechRZN Gambling** | Blockiert Casinos, Wetten & Lootboxen. | 🎰 |
-| **TechRZN Crypto** | Stoppt Browser-Miner & Krypto-Scams. | 🪙 |
-| **TechRZN Dating** | Unterbindet Zugriff auf Partnerbörsen. | ❤️ |
-| **TechRZN Spam** | Filtert aggressive Mail-Tracker & Spam-Domains. | 📧 |
-| **TechRZN Bypass** | Verhindert VPN/Proxy-Umgehungen im Netzwerk. | 🔓 |
-
-</details>
-
----
-
 ## 🛡️ Die TechRZN Whitelist (Empfohlen)
 > **Stabilität & Kompatibilität:** Damit wichtige Systemdienste (z.B. Windows Updates, Apple iCloud, Streaming-Logins) trotz der massiven Sperrlisten reibungslos funktionieren, haben wir eine globale Whitelist integriert.
 
@@ -104,28 +65,17 @@ Aufgrund der massiven Größe (>100MB) ist diese Master-Liste in zwei Teile aufg
 
 ---
 
-## 🔞 Jugendschutz & Adult-Content (Optional)
+## 🔞 Jugendschutz (Optional)
 > [!WARNING]
-> **Bewusste Trennung:** Die folgenden Listen sind **NICHT** in der Master-Liste enthalten. Wir haben uns dazu entschieden, diese separat anzubieten, um "Overblocking" zu vermeiden und jedem Nutzer die Wahl zu lassen, ob er diese strikten Filter aktivieren möchte.
+> **Bewusste Trennung:** Diese Liste wird separat angeboten, um "Overblocking" zu vermeiden und jedem Nutzer die Wahl zu lassen, ob er diesen strikten Filter aktivieren möchte.
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/techrzn_porn.txt">
-    <img src="https://img.shields.io/badge/TECHRZN_PORN-LINK_KOPIEREN-red?style=for-the-badge&logo=unstop&logoColor=white" height="40" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/techrzn_jugendschutz.txt">
+  <a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_jugendschutz.txt">
     <img src="https://img.shields.io/badge/TECHRZN_JUGENDSCHUTZ-LINK_KOPIEREN-red?style=for-the-badge&logo=familysearch&logoColor=white" height="40" />
   </a>
 </p>
 
-* **TechRZN Porn:** Umfassende Sperre von expliziten Inhalten, Erotik-Portalen und Adult-Ads.
 * **TechRZN Jugendschutz:** Strenger Filter für Family-Safety (Gewalt, Drogen, jugendgefährdende Seiten).
-
----
-
-> [!IMPORTANT]
-> **Der TechRZN Performance-Vorteil:** Würdest du alle Quellen einzeln einbinden, müsste dein System über **5,5 Millionen** Einträge verwalten. Die TechRZN-Engine filtert Redundanzen und Dubletten heraus, sodass nur **~2,2 Millionen hocheffektive Regeln** übrig bleiben.
-> **Ergebnis:** Maximaler Schutz bei ca. **60% weniger Systemlast** und spürbar schnelleren DNS-Antwortzeiten.
 
 ---
 
@@ -159,11 +109,11 @@ Aufgrund der massiven Größe (>100MB) ist diese Master-Liste in zwei Teile aufg
 <h3>🛡️ AdGuard Home</h3>
 1. Gehe zu <b>Filter</b> ➔ <b>DNS-Sperrlisten</b>.<br>
 2. Klicke auf <b>Sperrliste hinzufügen</b> ➔ <b>Benutzerdefinierte Liste</b>.<br>
-3. Füge <b>Teil 1</b> und dann <b>Teil 2</b> als separate Listen hinzu.<br>
+3. Füge die Links der gewünschten TechRZN-Module ein.<br>
 
 <h3>🥧 Pi-hole</h3>
 1. Gehe zu <b>Adlists</b> im linken Menü.<br>
-2. Füge beide URLs (Teil 1 & 2) nacheinander ein.<br>
+2. Füge die Modul-URLs nacheinander ein.<br>
 3. <b>Wichtig:</b> Führe unter <i>Tools</i> ➔ <i>Update Gravity</i> ein Update aus.
 </blockquote>
 </details>
@@ -172,7 +122,7 @@ Aufgrund der massiven Größe (>100MB) ist diese Master-Liste in zwei Teile aufg
 <summary><b>⚙️ Optimale AdGuard Home Einstellungen (Empfohlen)</b></summary>
 <br>
 <blockquote>
-Für maximale Performance bei 2M+ Regeln (getestet auf <b>UGREEN NAS / 2,5 Gbit/s</b>):<br><br>
+Für maximale Performance (getestet auf <b>UGREEN NAS / 2,5 Gbit/s</b>):<br><br>
 <b>1. DNS-Cache & TTL</b><br>
 * Cache-Größe: <code>104.857.600</code> (100 MB)<br>
 * Optimistisches Caching: <b>Aktiviert</b> ✅<br>
@@ -223,9 +173,6 @@ Für maximale Performance bei 2M+ Regeln (getestet auf <b>UGREEN NAS / 2,5 Gbit/
 ## 🛡️ Lizenz & Urheberrecht
 
 **TechRZN-Blocklist-Collection** ist eine spezialisierte Lösung für Netzwerksicherheit und ist unter der **GNU General Public License v3.0 (GPLv3)** lizenziert.
-
-### Warum GPLv3?
-Um sicherzustellen, dass diese Sammlung für alle frei und offen bleibt. Jede Verbesserung oder Abspaltung (Fork) dieses Projekts muss unter derselben Schutzlizenz geteilt werden. Eine kommerzielle Nutzung ohne Rückgabe an die Community ist unter diesen Bedingungen nicht gestattet.
 
 **Copyright (c) 2026 Jörg Berns (TechRZN)** | **Standort: Kleve, Deutschland**
 
