@@ -3,10 +3,15 @@ name: "🚀 TechRZN Master Build"
 on:
   push:
     paths:
-      # Wir triggern NUR, wenn du Quellen oder das Skript änderst
       - 'sources/**'
       - 'scripts/**'
       - '.github/workflows/**'
+  
+  # --- NEU: TÄGLICHES AUTOMATISCHES UPDATE ---
+  schedule:
+    # Läuft jeden Tag um 04:00 Uhr UTC (ca. 05:00 Uhr in Kleve)
+    - cron: '0 4 * * *'
+  
   # Erlaubt das manuelle Starten per Button (sehr wichtig zum Testen!)
   workflow_dispatch:
 
@@ -18,7 +23,7 @@ jobs:
 
     steps:
       - name: 🛰️ Repository auschecken
-        uses: actions/checkout@v4 # V4 ist der aktuelle stabile Standard
+        uses: actions/checkout@v4
 
       - name: 🐍 Python einrichten
         uses: actions/setup-python@v5
@@ -35,7 +40,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "build: Filter-Listen und Whitelist aktualisiert [bot]"
-          # Hier werden die Ergebnisse aus beiden Ordnern gespeichert
           file_pattern: 'blocklists/*.txt Whitelists/*.txt'
-          # Force-Push ist hier gut, um den Verlauf sauber zu halten
           push_options: '--force'
