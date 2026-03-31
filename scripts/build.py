@@ -4,6 +4,7 @@ import shutil
 from datetime import datetime
 
 # --- KONFIGURATION (Crypto entfernt) ---
+# WICHTIG: Die Dateien in "sources/" dürfen NICHT "requirements.txt" heißen!
 CATEGORIES = {
     "ads": "sources/ads.raw",
     "tracking": "sources/tracking.raw",
@@ -51,17 +52,18 @@ def main():
     if os.path.exists(LOCAL_WHITELIST):
         with open(LOCAL_WHITELIST, 'r', encoding='utf-8') as f:
             for line in f:
-                d = clean_domain(line); 
+                d = clean_domain(line)
                 if d: whitelist.add(d)
     
     # Blocklisten verarbeiten
     for cat_name, src_path in CATEGORIES.items():
         if not os.path.exists(src_path):
-            print(f"⚠️ Überspringe {cat_name} (Quelle fehlt)")
+            print(f"⚠️ Überspringe {cat_name} (Quelle: {src_path} fehlt)")
             continue
         
         category_domains = set()
         with open(src_path, 'r', encoding='utf-8') as f:
+            # Hier liest er die URLs aus deinen .raw Dateien im sources-Ordner
             urls = [l.strip() for l in f if l.strip() and not l.startswith('#')]
         
         for url in urls:
@@ -73,13 +75,15 @@ def main():
                         domain = clean_domain(line)
                         if domain and domain not in whitelist:
                             category_domains.add(domain)
-            except: continue
+            except: 
+                continue
 
         if category_domains:
             output_path = os.path.join(OUTPUT_DIR, f"techrzn_{cat_name}.txt")
             with open(output_path, 'w', encoding='utf-8') as f:
                 f.write(f"### TechRZN - {cat_name.upper()} ###\nStand: {timestamp}\n\n")
-                for d in sorted(list(category_domains)): f.write(f"||{d}^\n")
+                for d in sorted(list(category_domains)): 
+                    f.write(f"||{d}^\n")
             print(f"✅ {cat_name} erstellt.")
 
 if __name__ == "__main__":
