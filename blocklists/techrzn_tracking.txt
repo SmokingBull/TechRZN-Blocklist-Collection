@@ -13101,7 +13101,6 @@
 ||ablink.e.jackpocket.com^
 ||ablink.em.redmart.com^
 ||ablink.email.creator.shopltk.com^
-||ablink.email.etsy.com^
 ||ablink.email.pray.com^
 ||ablink.emails.spothero.com^
 ||ablink.emails.vida.com^
@@ -13773,7 +13772,6 @@
 ||ad.csr11.net.daraz.com^
 ||ad.csr41.application.net.daraz.com^
 ||ad.danawa.com^
-||ad.doubleclick.net^
 ||ad.e-dpe.jp^
 ||ad.ehello.jp^
 ||ad.gbc.criteo.com^
@@ -14707,7 +14705,6 @@
 ||advertiser.wbtrk.net^
 ||advertising.com^
 ||advertisingbait.postaffiliatepro.com^
-||advise.gallup.com^
 ||adviser.legalandgeneral.com^
 ||advisers.kingstonsmith.co.uk^
 ||adviso-ca.eulerian.net^
@@ -15419,7 +15416,6 @@
 ||affiliate.levsalonu.cz^
 ||affiliate.lg-store.cz^
 ||affiliate.licit.cz^
-||affiliate.logitravel.com^
 ||affiliate.luxor.cz^
 ||affiliate.marketingminer.com^
 ||affiliate.martinchudy.sk^
@@ -19026,7 +19022,6 @@
 ||app-stats.supernotes.app^
 ||app-www.rgsdocker.net.daraz.com^
 ||app.12thman.com^
-||app.adjust.com^
 ||app.affi1iate.com^
 ||app.albertina.at^
 ||app.api-static-stage.net.daraz.com^
@@ -19077,7 +19072,6 @@
 ||app.rolltide.com^
 ||app.saldodipje.nl^
 ||app.season.net.daraz.com^
-||app.sephora.com^
 ||app.smumustangs.com^
 ||app.soonersports.com^
 ||app.texassports.com^
@@ -25023,7 +25017,6 @@
 ||brzzj.mondaine.com^
 ||bs-pro-origin-pull.kwai.net.iberostar.com^
 ||bs.besher-sa.com^
-||bs.serving-sys.com^
 ||bsaqlv.cavissima.com^
 ||bsarb.rosemori-moringa.shop^
 ||bsbho.randco.com^
@@ -25478,7 +25471,6 @@
 ||c.lypo-c.shop^
 ||c.menards.com^
 ||c.messinahembry.com^
-||c.msn.com^
 ||c.musicradio.com^
 ||c.ns.apivision.net.daraz.com^
 ||c.ns.eappsvision.net.daraz.com^
@@ -27785,7 +27777,6 @@
 ||ch.sharpmarketing.eu^
 ||ch.tt.omtrdc.net^
 ||ch00-bootstrap.net.daraz.com^
-||ch0p.darty.com^
 ||cha2.chantelle.com^
 ||chachekpcli.gbc.criteo.com^
 ||chaiduangkaew-stageatid.net.daraz.com^
@@ -28768,7 +28759,6 @@
 ||click.qualifyforcare.org^
 ||click.quickenloansnow.com^
 ||click.reclips.ai^
-||click.redditmail.com^
 ||click.socialsecurityupdate.org^
 ||click.surfrider.org^
 ||click.techtree.jp^
@@ -28778,7 +28768,6 @@
 ||click.wealthbox.com^
 ||click.web.thornburg.com^
 ||click.zoom.com^
-||click.zoom.us^
 ||click.zoominfo-notifications.com^
 ||click.zoominformation.com^
 ||click1-icalc.gbc.criteo.com^
@@ -31394,7 +31383,6 @@
 ||csdpn.hurraheroes.mx^
 ||csdri.gardner-white.com^
 ||csdrnf.a24.kr^
-||cse3.chausport.com^
 ||csebt.bloomist.com^
 ||csengb.manfredijewels.com^
 ||csghyg.reginaclinic.jp^
@@ -35008,8 +34996,6 @@
 ||data.diariovasco.com^
 ||data.diekuechedirekt.de^
 ||data.digital.adobe.com^
-||data.digital.costco.ca^
-||data.digital.costco.com^
 ||data.digitalcampusvorarlberg.at^
 ||data.digitalmedia.adobe.com^
 ||data.diks.net^
@@ -41949,7 +41935,6 @@
 ||eulerian.malakoffmederic.com^
 ||eulerian.mathon.fr^
 ||eulerian.monoprix.fr^
-||eulerian.net^
 ||eulerian.org^
 ||eulerian.oxybul.com^
 ||eulerian.sarenza.com^
@@ -41968,7 +41953,6 @@
 ||eulerian.voyage-prive.com^
 ||eulerian.wiki^
 ||euleriancdn.net^
-||eultech.fnac.com^
 ||eum-appdynamics.com^
 ||eumarketing.sedgwick.com^
 ||eumenis.radarassessoriabahia.com.br^
@@ -42186,7 +42170,6 @@
 ||ew.elliswhittam.com^
 ||ew.healthierbazar.shop^
 ||ew.mittwald.de^
-||ew3.io^
 ||ewalxb.epicsports.com^
 ||ewch.ewheels.ch^
 ||ewd.powermoves.com.au^
@@ -45825,7 +45808,6 @@
 ||go.dwk.com^
 ||go.dynamiccatholic.com^
 ||go.e.mailchimp.com^
-||go.e2language.com^
 ||go.eacpds.com^
 ||go.eagletechnologies.com^
 ||go.eapps.com^
@@ -46712,7 +46694,6 @@
 ||go.newtek.com^
 ||go.nexamp.com^
 ||go.nextep.com^
-||go.nextiva.com^
 ||go.nextpoint.com^
 ||go.nfp.com^
 ||go.nfpa.org^
@@ -46831,7 +46812,6 @@
 ||go.parametasolutions.com^
 ||go.paramount.com^
 ||go.parcelshield.com^
-||go.pardot.com^
 ||go.pardot.delzelle.be^
 ||go.pardot.porttechnology.org^
 ||go.pardot.santander.co.uk^
@@ -47840,7 +47820,6 @@
 ||google.yescolours.com^
 ||google00d70000000motieas.net.daraz.com^
 ||googleads.g.doubleclick.net^
-||googleadservices.com^
 ||goose.accountsjs.com^
 ||goose.markerchase.com^
 ||goose.surfboardpayments.com^
@@ -67594,7 +67573,6 @@
 ||m.elevify.com^
 ||m.eversana.com^
 ||m.evolutiondigital.com^
-||m.exactag.com^
 ||m.farmcrediteast.com^
 ||m.firstcry.com^
 ||m.gbc.criteo.com^
@@ -70560,7 +70538,6 @@
 ||marketing.tourismwinnipeg.com^
 ||marketing.toxicology.abbott^
 ||marketing.toyotaofeasley.com^
-||marketing.tr.netsalesmedia.pl^
 ||marketing.trackmarketing.net^
 ||marketing.transcore.com^
 ||marketing.transitair.com^
@@ -84975,7 +84952,6 @@
 ||pi.lpl.com^
 ||pi.msi.org^
 ||pi.ogpnet.com^
-||pi.pardot.com^
 ||pi.piensoymascotas.com^
 ||pi.sfsu.edu^
 ||pi.tiny.cloud^
@@ -87106,17 +87082,12 @@
 ||r-ln-2.net.daraz.com^
 ||r-oa-1.net.daraz.com^
 ||r-oa-2.net.daraz.com^
-||r.akipam.com^
 ||r.dnsdelegation.io^
 ||r.emailvision.panel.net.daraz.com^
 ||r.hokodo.co^
-||r.jakuli.com^
-||r.lafamo.com^
 ||r.mateti.net^
 ||r.mp.gbc.criteo.com^
 ||r.net.daraz.com^
-||r.niwepa.com^
-||r.powuta.com^
 ||r.studiosarte.com^
 ||r.tt.omtrdc.net^
 ||r0l7spzo0klfsepg.administrator.interaction.net.daraz.com^
@@ -87996,7 +87967,6 @@
 ||ressources.promoneuve.fr^
 ||ressources.usine-digitale.com^
 ||ressources.usine-nouvelle.com^
-||restaurant-information.com^
 ||restaurantcom.tt.omtrdc.net^
 ||restime.gbc.criteo.com^
 ||restopascher.net.jumia.sn^
@@ -89305,7 +89275,6 @@
 ||s.shoptruefit.com^
 ||s.shopvitacore.com^
 ||s.shumen.doormann.bg^
-||s.sick.com^
 ||s.silverfox.digital^
 ||s.simcoe.com^
 ||s.sinnovator.com^
@@ -116098,7 +116067,6 @@
 ||tagging.vanbeekart.nl^
 ||tagging.vios.dk^
 ||tagging.wellen-trading.de^
-||tagm.eduscho.at^
 ||tagm.tchibo.ch^
 ||tagm.tchibo.com.tr^
 ||tagm.tchibo.cz^
@@ -116622,7 +116590,6 @@
 ||target.miaprova.com^
 ||target.michaels.com^
 ||target.microchip.com^
-||target.microsoft.com^
 ||target.monaco.pwc.fr^
 ||target.myhealthtoolkit.com^
 ||target.nationwide.com^
@@ -123185,7 +123152,6 @@
 ||vfljt.coffeeandmotivation.com^
 ||vfmahn.slevomat.cz^
 ||vfnab.vegamour.com^
-||vfo.voyage-prive.co.uk^
 ||vfo4.carrefour-banque.fr^
 ||vfoycy.nhk-ep.com^
 ||vfp.intuit.com^
@@ -124915,7 +124881,6 @@
 ||wkuuuj.byther.kr^
 ||wkvjee5b.paviliononline.io^
 ||wkympu.agnesb.co.jp^
-||wl.spotify.com^
 ||wlan-switch.partner.nautilus.net.daraz.com^
 ||wlan.partner-bamboo.net.daraz.com^
 ||wlan.sound.ag^
