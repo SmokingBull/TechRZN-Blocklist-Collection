@@ -5,6 +5,7 @@ on:
     paths:
       - 'sources/**'
       - 'scripts/**'
+      - 'manual_sources/**'  # <--- DIESE ZEILE MUSS REIN!
       - '.github/workflows/**'
   
   # --- NEU: TÄGLICHES AUTOMATISCHES UPDATE ---
@@ -40,5 +41,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "build: Filter-Listen und Whitelist aktualisiert [bot]"
+          # Hier speichern wir ALLES ab, was im Build-Lauf entstanden ist
           file_pattern: 'blocklists/*.txt Whitelists/*.txt'
           push_options: '--force'
