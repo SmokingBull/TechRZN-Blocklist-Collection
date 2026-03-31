@@ -2,26 +2,29 @@ import re
 import os
 import requests
 
-# 1. Konfiguration nach Wichtigkeit (Hagezi-Style)
-# Die oberen Kategorien werden zuerst gefüllt, bis das Limit erreicht ist.
-CATEGORIES = [
-    ("malware", "sources/malware.raw"),
-    ("phishing", "sources/phishing.raw"),
-    ("threat_intel", "sources/threat_intel.raw"),
-    ("ads", "sources/ads.raw"),
-    ("tracking", "sources/tracking.raw"),
-    ("fakeshops", "sources/fakeshops.raw"),
-    ("crypto", "sources/crypto.raw"),
-    ("spam", "sources/spam.raw"),
-    ("native_tracker", "sources/native_tracker.raw"),
-    ("popups", "sources/popups.raw")
-    # Weniger wichtige Kategorien wie 'dating' oder 'porn' 
-    # fliegen hier raus, um die 900k einzuhalten.
-]
+# Alle Quellen für die Einzel-Listen
+CATEGORIES = {
+    "malware": "sources/malware.raw",
+    "phishing": "sources/phishing.raw",
+    "fakeshops": "sources/fakeshops.raw",
+    "ads": "sources/ads.raw",
+    "tracking": "sources/tracking.raw",
+    "jugendschutz": "sources/jugendschutz.raw",
+    "porn": "sources/porn.raw",
+    "dating": "sources/dating.raw",
+    "crypto": "sources/crypto.raw",
+    "gambling": "sources/gambling.raw",
+    "spam": "sources/spam.raw",
+    "fake_science": "sources/fake_science.raw",
+    "domain_squatting": "sources/domain_squatting.raw",
+    "threat_intel": "sources/threat_intel.raw",
+    "bypass": "sources/bypass.raw",
+    "popups": "sources/popups.raw",
+    "native_tracker": "sources/native_tracker.raw"
+}
 
-OUTPUT_FILE = "combined_blocklist.txt"
+OUTPUT_DIR = "blocklists"
 WHITELIST_RAW = "allowlist.raw"
-MAX_TOTAL_DOMAINS = 900000 
 
 def is_valid_domain(domain):
     if not domain or len(domain) > 80: return False
@@ -46,37 +49,31 @@ if __name__ == "__main__":
                 d = clean_domain(line)
                 if d: whitelist.add(d)
 
-    master_domains = []
-    seen_domains = set()
+    if not os.path.exists(OUTPUT_DIR):
+        os.makedirs(OUTPUT_DIR)
 
-    for cat_name, src_file in CATEGORIES:
-        if len(master_domains) >= MAX_TOTAL_DOMAINS:
-            break
-        
+    # Jede Kategorie einzeln verarbeiten
+    for cat_name, src_file in CATEGORIES.items():
         if not os.path.exists(src_file): continue
         
+        category_domains = set()
         with open(src_file, 'r') as f:
             urls = [line.strip() for line in f if line.strip() and not line.startswith('#')]
         
         for url in urls:
-            if len(master_domains) >= MAX_TOTAL_DOMAINS: break
             try:
-                r = requests.get(url, timeout=10)
+                r = requests.get(url, timeout=15)
                 for line in r.text.splitlines():
                     domain = clean_domain(line)
                     if domain and is_valid_domain(domain) and domain not in whitelist:
-                        if domain not in seen_domains:
-                            master_domains.append(domain)
-                            seen_domains.add(domain)
-                            if len(master_domains) >= MAX_TOTAL_DOMAINS: break
+                        category_domains.add(domain)
             except:
                 continue
 
-    # Speichern als EINE All-in-One Datei
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        f.write(f"### TechRZN - HAGEZI-STYLE ALL-IN-ONE ###\n")
-        f.write(f"### Optimized Limit: {len(master_domains)} ###\n\n")
-        for d in sorted(master_domains):
-            f.write(f"||{d}^\n")
-            
-    print(f"✨ Fertig! {len(master_domains)} wichtigste Domains gespeichert.")
+        if category_domains:
+            output_path = os.path.join(OUTPUT_DIR, f"techrzn_{cat_name}.txt")
+            with open(output_path, 'w', encoding='utf-8') as f:
+                f.write(f"### TechRZN - {cat_name.upper()} ###\n\n")
+                for d in sorted(list(category_domains)):
+                    f.write(f"||{d}^\n")
+            print(f"✅ {cat_name} fertig: {len(category_domains)} Domains.")
