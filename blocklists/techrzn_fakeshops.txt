@@ -1,5 +1,5 @@
 ### TechRZN - FAKESHOPS ###
-### Stand: 31.03.2026 10:58 | Regeln: 15.234 ###
+### Stand: 31.03.2026 20:44 | Regeln: 15.231 ###
 
 ||.avito.www.booking.^
 ||.com-idcom^
@@ -5791,7 +5791,6 @@
 ||habituatl.com^
 ||habtoorloyal.com^
 ||haden.at^
-||hadiahslotlogin.com^
 ||hadorn.shop^
 ||hagebauu.com^
 ||hagement.com^
@@ -9590,7 +9589,6 @@
 ||newofferpromo.fun^
 ||newoutdoorsale.com^
 ||newpipe.app^
-||newsee.datevote.shop^
 ||newsexylingerie.com^
 ||newsfinas.de^
 ||newshopmarket.com^
@@ -12263,7 +12261,6 @@
 ||site-shoes.com^
 ||siteusefultool.com^
 ||sixaquis.com^
-||sixgun.datevote.shop^
 ||skanehome.com^
 ||skatedeluxesale.shop^
 ||skechers-at.at^
