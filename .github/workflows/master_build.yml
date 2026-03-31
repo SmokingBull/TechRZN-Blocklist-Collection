@@ -24,7 +24,7 @@ jobs:
 
     steps:
       - name: 🛰️ Repository auschecken
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: 🐍 Python einrichten
         uses: actions/setup-python@v5
