@@ -1,5 +1,5 @@
 ### TechRZN - TRACKING ###
-### Stand: 31.03.2026 01:48 | Regeln: 102.946 ###
+### Stand: 31.03.2026 01:51 | Regeln: 102.947 ###
 
 ||-084-gls-223-www-9-k-0brasil.net.daraz.com^
 ||-access-logs-1.net.daraz.com^
@@ -94598,6 +94598,7 @@
 ||thesalvationarmy.tt.omtrdc.net^
 ||thesearchagency.actonservice.com^
 ||thesuccessstars.actonservice.com^
+||thetake.ai^
 ||thetatapowercompanyl.tt.omtrdc.net^
 ||thetjxcompaniesinc.tt.omtrdc.net^
 ||theuniversityofauckl.tt.omtrdc.net^

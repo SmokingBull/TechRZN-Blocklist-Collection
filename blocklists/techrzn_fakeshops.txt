@@ -1,9 +1,9 @@
 ### TechRZN - FAKESHOPS ###
-### Stand: 31.03.2026 01:48 | Regeln: 15.186 ###
+### Stand: 31.03.2026 01:51 | Regeln: 15.186 ###
 
 ||.avito.www.booking.^
-||.com-id*.com^
-||.com-id*.info^
+||.com-idcom^
+||.com-idinfo^
 ||01broker.com^
 ||01crypto.com^
 ||0dgwn.bemobtrcks.com^
@@ -1835,9 +1835,9 @@
 ||bonprixsho.shop^
 ||bonsaiexperte.com^
 ||boohoo-shop.com^
-||booking.com-id*^
+||booking.com-id^
 ||bookinginfo.at^
-||booklng.com-*^
+||booklng.com-^
 ||bookssale.shop^
 ||boomaya.com^
 ||boomjoo.co^
@@ -14937,7 +14937,7 @@
 ||yahhhoo.com^
 ||yakshart.com^
 ||yali24.de^
-||yandex.avito.sber*^
+||yandex.avito.sber^
 ||yandex.avito.www.^
 ||yandex.pay.avito.^
 ||yangzhi.de^
