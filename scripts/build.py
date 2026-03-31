@@ -1,10 +1,10 @@
 import os
 import requests
 import shutil
+import time  # Neu für die Entlastung
 from datetime import datetime
 
-# --- KONFIGURATION (Crypto entfernt) ---
-# WICHTIG: Die Dateien in "sources/" dürfen NICHT "requirements.txt" heißen!
+# --- KONFIGURATION ---
 CATEGORIES = {
     "ads": "sources/ads.raw",
     "tracking": "sources/tracking.raw",
@@ -27,8 +27,7 @@ CATEGORIES = {
 OUTPUT_DIR = "blocklists"
 WL_DIR = "Whitelists"
 LOCAL_WHITELIST = "sources/whitelist.raw"
-REMOTE_WHITELIST = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/whitelist-referral.txt"
-HEADERS = {'User-Agent': 'Mozilla/5.0 TechRZN-Bot/1.1'}
+HEADERS = {'User-Agent': 'Mozilla/5.0 TechRZN-Bot/1.2'}
 
 def clean_domain(line):
     line = line.strip().lower()
@@ -42,7 +41,7 @@ def clean_domain(line):
 
 def main():
     timestamp = datetime.now().strftime("%d.%m.%Y %H:%M")
-    print(f"🚀 TechRZN Update (Ohne Crypto) gestartet: {timestamp}")
+    print(f"🚀 TechRZN Update gestartet: {timestamp}")
     
     for folder in [OUTPUT_DIR, WL_DIR]:
         os.makedirs(folder, exist_ok=True)
@@ -55,27 +54,38 @@ def main():
                 d = clean_domain(line)
                 if d: whitelist.add(d)
     
-    # Blocklisten verarbeiten
+    # Session starten für bessere Performance
+    session = requests.Session()
+    session.headers.update(HEADERS)
+    
     for cat_name, src_path in CATEGORIES.items():
         if not os.path.exists(src_path):
-            print(f"⚠️ Überspringe {cat_name} (Quelle: {src_path} fehlt)")
+            print(f"⚠️ Überspringe {cat_name} (Quelle fehlt)")
             continue
         
         category_domains = set()
         with open(src_path, 'r', encoding='utf-8') as f:
-            # Hier liest er die URLs aus deinen .raw Dateien im sources-Ordner
             urls = [l.strip() for l in f if l.strip() and not l.startswith('#')]
+        
+        print(f"📦 Verarbeite Kategorie: {cat_name} ({len(urls)} Quellen)")
         
         for url in urls:
             try:
+                # URL Normalisierung
                 fetch_url = url.replace("cdn.jsdelivr.net/gh/", "raw.githubusercontent.com/").replace("@latest/", "/main/") if "jsdelivr" in url else url
-                r = requests.get(fetch_url, headers=HEADERS, timeout=25)
+                
+                r = session.get(fetch_url, timeout=20)
                 if r.status_code == 200:
                     for line in r.text.splitlines():
                         domain = clean_domain(line)
                         if domain and domain not in whitelist:
                             category_domains.add(domain)
-            except: 
+                
+                # KLEINE PAUSE: Entlastet Router und AdGuard (DNS-Latenz-Fix)
+                time.sleep(0.2) 
+                
+            except Exception as e:
+                print(f"❌ Fehler bei URL {url}: {e}")
                 continue
 
         if category_domains:
@@ -84,7 +94,7 @@ def main():
                 f.write(f"### TechRZN - {cat_name.upper()} ###\nStand: {timestamp}\n\n")
                 for d in sorted(list(category_domains)): 
                     f.write(f"||{d}^\n")
-            print(f"✅ {cat_name} erstellt.")
+            print(f"✅ {cat_name} mit {len(category_domains)} Domains erstellt.")
 
 if __name__ == "__main__":
     main()
