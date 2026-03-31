@@ -1733,7 +1733,6 @@ bitcoinnews.ch/bitwala-bitcoin.jpg
 bitcoinnews.ch/coinbase.png
 bitcoinnews.ch/wp-content/uploads/*-300x250px-MediumRectangle.jpg
 bitcoinnews.ch/wp-content/uploads/*/1xbit.jpg
-bitcoinpara.de$third-party
 bitsundso.de
 bitsundso.de/wp-content/uploads/*/ctdi.jpg
 black-dragons-erfurt.de*/Banner/

@@ -1278,6 +1278,7 @@ ae1.indevs.in
 aecoe.xyz
 aerophilately.lesec.dedyn.io
 affcdn.net
+affsoft.cc
 afilite.app
 afilite.app.cdn.cloudflare.net
 afillite140.infotechnology.com
@@ -2780,6 +2781,7 @@ ccyykk.top
 cd.data-express.com.ar
 cd4dcwhdm4rkm.online
 cdn-7xf.pages.dev
+cdn-earnapp.b-cdn.net
 cdn.refined.pro
 cdn.streamr.com
 cdn.waterloomath.com
@@ -6023,6 +6025,7 @@ epicrisis.luminiferous.abrdns.com
 epolx.xyz
 epsteinfuckhermalinda.subsoniclabs.com
 epsteinkilltwinksefn.subsoniclabs.com
+epsteinsideswiththejews.ink
 eq.dawuiiwauidwahyuiwahuioqwd.site
 eqhwuonjkmjewhqunijmemwqhuinjmkhunj.easterndns.com
 eqnar.ints.f5.si
@@ -6056,7 +6059,6 @@ ethology.karrozzin.cloud-ip.cc
 etkarta.easterndns.com
 ettego.com
 eu-browse.startpage.com
-eu1-browse.startpage.com
 eu1.dns.lavate.ch
 eu2-browse.startpage.com
 eu3-browse.startpage.com
@@ -9434,6 +9436,7 @@ lix-ora.ru
 ljlkiwl.com
 ljq6lqx2et2prq.online
 llc.techmaxasia.com
+lleafyyfr.xyz
 llg01.com
 lmasalaka.crabdance.com
 lml2vipaff01.cc
@@ -13845,9 +13848,12 @@ tiptopvpn.xyz
 tirnclash.com
 tirnjc.com
 tisocks.net
+titandev.info
 titaniumnetwork.org
 titaniumnetwork1.codehs.me
 titanjc.com
+titannet.info
+titannet.io
 titanssr.com
 titantunnelvpn.com
 tivaro.ru
@@ -14446,7 +14452,6 @@ url10.org
 urnejesnejfndh.knowhowit.com.au
 urology.wiki
 us-ash-w-f-1.nashkan.net
-us-browse.startpage.com
 us-central1-anku-e1b04.cloudfunctions.net
 us-central1-prod-global-7vpn.cloudfunctions.net
 us-central1-sky-cloud-6227a.cloudfunctions.net
@@ -15486,6 +15491,7 @@ www-p.yvseann.com
 www-pa.linkall.uk
 www-pro.kosite.net
 www-pro.nolife.uk
+www-proxy.2d.su
 www-proxy.777kingslots.fun
 www-proxy.deersserverhosting.com
 www-proxy.facil.wtf
