@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechRZN | Filter-Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0d1117;
+            --card: #161b22;
+            --primary: #58a6ff;
+            --text: #c9d1d9;
+            --border: #30363d;
+            --accent: #238636;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .wrapper {
+            max-width: 1000px;
+            width: 100%;
+            padding: 40px 20px;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo-area h1 { font-weight: 800; margin: 0; color: #fff; font-size: 24px; }
+        .status-badge {
+            background: rgba(35, 134, 54, 0.15);
+            color: var(--accent);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            border: 1px solid var(--accent);
+        }
+        .hero {
+            background: linear-gradient(135deg, #161b22 0%, #0d1117 100%);
+            padding: 40px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            margin-bottom: 30px;
+        }
+        h2 { border-bottom: 1px solid var(--border); padding-bottom: 10px; color: #fff; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: var(--card);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        th, td {
+            text-align: left;
+            padding: 12px 15px;
+            border-bottom: 1px solid var(--border);
+        }
+        th { background: #1f242c; color: #fff; }
+        .btn-link {
+            color: var(--primary);
+            text-decoration: none;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 14px;
+        }
+        .btn-link:hover { text-decoration: underline; }
+        .hw-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .hw-card {
+            background: var(--card);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+        code {
+            font-family: 'JetBrains Mono', monospace;
+            background: #21262d;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="logo-area">
+                <h1>🛰️ TechRZN <span style="font-weight: 400; color: var(--primary);">Filter-Hub</span></h1>
+            </div>
+            <div class="status-badge">● Systems Online (Kleve)</div>
+        </header>
+
+        <section class="hero">
+            <h2 style="border:none; margin-top:0;">Shielding your Network.</h2>
+            <p>Professionelle DNS & Firewall Blocklisten, optimiert für Performance und Sicherheit. Gehostet auf dedizierter Hardware mit 2,5 Gbit/s Anbindung.</p>
+        </section>
+
+        <h2>🛡️ Verfügbare Blocklisten</h2>
+        <p>Kopiere die Links direkt in dein Pi-hole, AdGuard Home oder Unbound Setup.</p>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Liste</th>
+                    <th>Beschreibung</th>
+                    <th>Link (Raw)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>TechRZN IPs</strong></td>
+                    <td>Böswillige IPs (Marius Hosting Basis)</td>
+                    <td><a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_ips.txt" class="btn-link">Direkt-Link</a></td>
+                </tr>
+                <tr>
+                    <td><strong>TechRZN Ads</strong></td>
+                    <td>Globaler Werbe- & Tracker-Filter</td>
+                    <td><a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_ads.txt" class="btn-link">Direkt-Link</a></td>
+                </tr>
+                <tr>
+                    <td><strong>TechRZN Malware</strong></td>
+                    <td>Viren, C2-Server & Phishing</td>
+                    <td><a href="https://raw.githubusercontent.com/TechRZN-DNS/TechRZN-Blocklist-Collection/main/blocklists/techrzn_malware.txt" class="btn-link">Direkt-Link</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>🏗️ Infrastructure Backbone</h2>
+        <div class="hw-grid">
+            <div class="hw-card">
+                <h3>💾 Storage & Compute</h3>
+                <ul>
+                    <li>UGREEN NAS DXP4800 Plus</li>
+                    <li>64 GB DDR5 RAM</li>
+                    <li>80 TB WD Red Pro RAID</li>
+                </ul>
+            </div>
+            <div class="hw-card">
+                <h3>🌐 Connectivity</h3>
+                <ul>
+                    <li>2.5 Gbit/s Hybrid-Power</li>
+                    <li>Zyxel Managed Switches</li>
+                    <li>Cloudflare Protected</li>
+                </ul>
+            </div>
+        </div>
+
+        <footer style="margin-top: 60px; color: #8b949e; font-size: 14px; text-align: center;">
+            <p>&copy; 2026 TechRZN (Jörg Berns) | GitHub: TechRZN-DNS</p>
+        </footer>
+    </div>
+</body>
+</html>
