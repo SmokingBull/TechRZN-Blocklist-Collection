@@ -1,5 +1,5 @@
 ### TechRZN - BYPASS ###
-### Stand: 31.03.2026 10:32 | Regeln: 16.814 ###
+### Stand: 31.03.2026 10:42 | Regeln: 16.822 ###
 
 ||0.6gpaactivities.pce-cihazlari.com.tr^
 ||0.6gpaactivities.pulsaudio.ro^
@@ -2473,6 +2473,7 @@
 ||bravedns.com^
 ||bravetrait.com^
 ||brazilproxy.com^
+||brd-sdk-app-packages.s3.amazonaws.com^
 ||breakwall.net^
 ||brexhack.litecsys.com^
 ||brextyn.malam.or.id^
@@ -4824,6 +4825,7 @@
 ||dns.ostfriese.org^
 ||dns.otezz.net^
 ||dns.ourvau.lt^
+||dns.ovpn.bond^
 ||dns.p3k.sk^
 ||dns.p55k.com^
 ||dns.pacificmonster.com^
@@ -9086,6 +9088,7 @@
 ||kylespringiseeyou.thehomeserver.net^
 ||kyotocatholicchurch.myogaya.jp^
 ||kz-pav-w-p-1.nashkan.net^
+||l-cdn.com^
 ||l-gayte.net^
 ||l.global.ssl.fastly.net^
 ||l4bor.com^
@@ -11625,6 +11628,7 @@
 ||proxyserver.rocks^
 ||proxyserverlist24.top^
 ||proxyshade.com^
+||proxyshare.app^
 ||proxyshare.com^
 ||proxysheep.com^
 ||proxysite.cc^
@@ -13316,6 +13320,8 @@
 ||stopcensoring.me^
 ||stopwatchforteachers.mooo.com^
 ||storefront.ink^
+||storj.io^
+||storjshare.io^
 ||stormproxies.com^
 ||stranged.org.chickenkiller.com^
 ||strangerandomdomain1.space^
@@ -13603,6 +13609,7 @@
 ||taoqituclash.com^
 ||taoqitujichang.com^
 ||taoqitussr.com^
+||tardigrade.io^
 ||tartanbahn.eu.org^
 ||task.edu.hueteinterpreting.com^
 ||task.major.assholetenants.com^
@@ -15501,6 +15508,7 @@
 ||www-proxy.konstl01.xyz^
 ||www-proxy.ladifsoftware.com^
 ||www-proxy.lovekeli.uk^
+||www-proxy.midoghanam.site^
 ||www-proxy.migastep.com^
 ||www-proxy.p2pear.asia^
 ||www-proxy.pyxelworld.com^
