@@ -22,7 +22,9 @@ CATEGORIES = {
     "native_tracker": "sources/native_tracker.raw",
     "popups": "sources/popups.raw",
     "domain_squatting": "sources/domain_squatting.raw",
-    "jugendschutz": "sources/jugendschutz.raw"
+    "jugendschutz": "sources/jugendschutz.raw",
+    # NEU: Newly Registered Domains
+    "nrd": "sources/newly_registered_domains.raw" 
 }
 
 OUTPUT_DIR = "blocklists"
@@ -34,7 +36,7 @@ REMOTE_WHITELIST = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main
 MANUAL_IP_SRC = "manual_sources/deny-ip-list.txt"
 IP_OUTPUT = os.path.join(OUTPUT_DIR, "techrzn_ips.txt")
 
-# WICHTIG: User-Agent verhindert 403-Fehler (z.B. bei GitHub Pages oder AdGuard)
+# WICHTIG: User-Agent verhindert 403-Fehler
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) TechRZN-Bot/1.1'
 }
@@ -122,36 +124,34 @@ def main():
         
         for url in urls:
             try:
-                # Nur GitHub/JsDelivr URLs anpassen, externe (wie AdGuard Crypto) so lassen
                 fetch_url = url
+                # GitHub/JsDelivr URLs anpassen
                 if "cdn.jsdelivr.net" in url:
                     fetch_url = url.replace("cdn.jsdelivr.net/gh/", "raw.githubusercontent.com/").replace("@latest/", "/main/")
                 
-                r = requests.get(fetch_url, headers=HEADERS, timeout=25)
+                # Request mit User-Agent und ausreichend Timeout
+                r = requests.get(fetch_url, headers=HEADERS, timeout=30)
                 if r.status_code == 200:
-                    lines_found = 0
                     for line in r.text.splitlines():
                         domain = clean_domain(line)
                         if domain and domain not in whitelist:
                             category_domains.add(domain)
-                            lines_found += 1
                 else:
                     print(f"   ❌ Fehler {r.status_code} bei URL: {url}")
             except Exception as e:
                 print(f"   ❌ Timeout/Fehler bei URL {url}: {e}")
                 continue
 
-        # WICHTIG: Datei nur schreiben, wenn Domains gefunden wurden
+        # Datei nur schreiben, wenn Domains gefunden wurden
         if category_domains:
             output_path = os.path.join(OUTPUT_DIR, f"techrzn_{cat_name}.txt")
             with open(output_path, 'w', encoding='utf-8') as f:
                 f.write(f"### TechRZN - {cat_name.upper()} ###\n")
-                # Tausende-Trennpunkt für bessere Lesbarkeit
                 count_str = "{:,}".format(len(category_domains)).replace(',', '.')
                 f.write(f"### Stand: {timestamp} | Regeln: {count_str} ###\n\n")
                 for d in sorted(list(category_domains)):
                     f.write(f"||{d}^\n")
-            print(f"   ✅ Fertig! {len(category_domains)} Domains gespeichert.")
+            print(f"   ✅ Fertig! {len(category_domains)} Domains in techrzn_{cat_name}.txt gespeichert.")
         else:
             print(f"   ⚠️ Warnung: Keine Domains für {cat_name} gefunden.")
 
