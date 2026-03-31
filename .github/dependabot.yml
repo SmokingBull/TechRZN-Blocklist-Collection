@@ -1,15 +1,17 @@
 version: 2
 updates:
-  # 1. GitHub Actions bleiben drin
+  # Prüft deine GitHub Actions im Hauptverzeichnis
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
 
-  # 2. Python/Pip Check - NUR wenn du eine requirements.txt hast
+  # Prüft deine requirements.txt im Hauptverzeichnis
   - package-ecosystem: "pip"
-    directory: "/" # Falls deine requirements.txt in einem Ordner ist, hier ändern (z.B. "/scripts")
+    directory: "/"
     schedule:
       interval: "weekly"
-    # Diese Option hilft, wenn er zu viele PRs für falsche Treffer erstellt
-    open-pull-requests-limit: 3
+    open-pull-requests-limit: 5
+    labels:
+      - "security"
+      - "dependencies"
