@@ -1,5 +1,5 @@
 ### TechRZN - FAKESHOPS ###
-Stand: 02.04.2026 05:42
+Stand: 02.04.2026 12:34
 
 ||.avito.www.booking.^
 ||.com-idcom^
@@ -127,7 +127,6 @@ Stand: 02.04.2026 05:42
 ||abm-industrie.com^
 ||abodeare.com^
 ||abodeena.com^
-||abodespot.com^
 ||aboveinvesting.pro^
 ||abrahamr.com^
 ||abrisphere.com^
@@ -222,7 +221,6 @@ Stand: 02.04.2026 05:42
 ||adoreshe.com^
 ||adour-combustibles.com^
 ||adreim.de^
-||advancedglobalsystems41.cc^
 ||advancesecurity.de^
 ||advantagewalldecor.com^
 ||advanziagroup.io^
@@ -280,7 +278,6 @@ Stand: 02.04.2026 05:42
 ||agriandindusupply.com^
 ||agricolaindustrial.com^
 ||agriculturi.com^
-||agrimodul.de^
 ||agserviceplus.com^
 ||aguasco.com^
 ||ahdoftime.com^
@@ -343,7 +340,6 @@ Stand: 02.04.2026 05:42
 ||aktienpros.com^
 ||aktion-motorrad.de^
 ||aktionheizung.de^
-||aktivabenteuer.de^
 ||aktivimfreien.com^
 ||akulaku.me^
 ||akustikholz.shop^
@@ -366,8 +362,6 @@ Stand: 02.04.2026 05:42
 ||alea-mode.com^
 ||aleefai.com^
 ||alessandrozavettijas.com^
-||alessandrozavettiromania.com^
-||alessandrozavettiuk.com^
 ||alessandrozavettiweste.de^
 ||alessoria.de^
 ||alfa-aesar.fr^
@@ -416,7 +410,6 @@ Stand: 02.04.2026 05:42
 ||allergyfl.com^
 ||alles-anhanger.com^
 ||allesescooter.de^
-||allesfuerdengarten.com^
 ||allesfurbaby.de^
 ||allesfurzuhause.de^
 ||allesheizung.de^
@@ -433,7 +426,6 @@ Stand: 02.04.2026 05:42
 ||allincosmetics.club^
 ||allinstockgmbh.company.site^
 ||allkitchen.shop^
-||allmeinasiashopeur.shop^
 ||allmindday.com^
 ||allnewsready.com^
 ||allovernightshipus2us.com^
@@ -490,7 +482,6 @@ Stand: 02.04.2026 05:42
 ||alphaconnectapp.com^
 ||alphaforgood.com^
 ||alphagamers.de^
-||alphaletedeutschland.de^
 ||alphaleteosterreich.at^
 ||alphaletesuomi.com^
 ||alphaluxury.de^
@@ -598,7 +589,6 @@ Stand: 02.04.2026 05:42
 ||anabolikaonlinebestellen.com^
 ||anabolikaonlinedeutschland.com^
 ||anacondanz.com^
-||analystinvest.com^
 ||analyticg.com^
 ||analyticn.com^
 ||anamiboutique.de^
@@ -660,7 +650,6 @@ Stand: 02.04.2026 05:42
 ||anpario.de^
 ||anpicker.com^
 ||anrespond.com^
-||anreutrp.com^
 ||answerafor.com^
 ||antcarry.com^
 ||antenaschile.cl^
@@ -776,7 +765,6 @@ Stand: 02.04.2026 05:42
 ||aredpoook.com^
 ||arem.shop^
 ||arena-jeux.com^
-||arenaswimstore.com^
 ||aresc.de^
 ||aretephoenix.com^
 ||arialscompany.at^
@@ -833,7 +821,6 @@ Stand: 02.04.2026 05:42
 ||arwibon.us^
 ||arzi.de^
 ||arztebedarf.com^
-||as-gruen24.de^
 ||ascelteria.com^
 ||ascreationdecor.com^
 ||asd-rechtsanwaelte.de^
@@ -844,7 +831,6 @@ Stand: 02.04.2026 05:42
 ||asfimarg.com^
 ||asfinac.shop^
 ||asfinag.at-shop.live^
-||asfinag.me^
 ||asfinag.shop^
 ||asfinet.info^
 ||asfintarg.com^
@@ -901,7 +887,6 @@ Stand: 02.04.2026 05:42
 ||atelierkitzbuehel.at^
 ||ateliermunchen.de^
 ||athenabodywear.com^
-||athenafinance.fr^
 ||athletadeutschland.com^
 ||athletpharma.com^
 ||atikisoi.com^
@@ -952,11 +937,9 @@ Stand: 02.04.2026 05:42
 ||aurolonix.com^
 ||aurorahikari.com^
 ||aurorastore.pro^
-||aurudium.com^
 ||aurum-fix-corp.com^
 ||aus-gelassen.de^
 ||ausgewalhtheim.de^
-||ausgnadeeur.shop^
 ||auspitz-shop.com^
 ||aussiecarsupplies.com^
 ||aussiesportfashion.com^
@@ -995,8 +978,6 @@ Stand: 02.04.2026 05:42
 ||autolinie.de^
 ||automaticl.com^
 ||automatiy.com^
-||automeile-hamburg.de^
-||automotives-keim.gmbh^
 ||automotorradkomponente.com^
 ||autopartsbandeira.com^
 ||autopartssave.com^
@@ -1022,7 +1003,6 @@ Stand: 02.04.2026 05:42
 ||autrysale.de^
 ||autryschuhe.de^
 ||autrysneakerdamen.de^
-||autrystore.net^
 ||autryuae.net^
 ||auventri-berlin.de^
 ||availablek.com^
@@ -1058,8 +1038,6 @@ Stand: 02.04.2026 05:42
 ||axelarigatojapan.net^
 ||axelarigatooslo.com^
 ||axelarigatotenisice.com^
-||axessinvest.de^
-||axetradecapital.com^
 ||axilmbient.com^
 ||axiogenesis.com^
 ||axioswatches.com^
@@ -1068,10 +1046,8 @@ Stand: 02.04.2026 05:42
 ||axmof.de^
 ||axxionallliance.com^
 ||aybl.at^
-||aybl.pl^
 ||ayblsuomi.com^
 ||aydinahbeauty.com^
-||aydopro.io^
 ||aylanzo-store.de^
 ||aylica.de^
 ||aynosa.de^
@@ -1099,7 +1075,6 @@ Stand: 02.04.2026 05:42
 ||babyglueckshop.com^
 ||babylissde.de^
 ||babymarkt-deshop.com^
-||babymarktkauf.com^
 ||babymodepur.com^
 ||babymoovdeava.shop^
 ||babyproduce.com^
@@ -1111,6 +1086,7 @@ Stand: 02.04.2026 05:42
 ||bachelorm.com^
 ||bachmann-handel.de^
 ||bachmann-kanzlei.de^
+||back-dani.shop^
 ||backen-shop.com^
 ||backformen-onsale.com^
 ||backformen-shop.com^
@@ -1158,7 +1134,6 @@ Stand: 02.04.2026 05:42
 ||balfourcapitalgroup.com^
 ||balinvest-ch.com^
 ||balitaberlin.de^
-||ballerns.de^
 ||balloret.com^
 ||ballszone.de^
 ||balony.de^
@@ -1206,7 +1181,6 @@ Stand: 02.04.2026 05:42
 ||barbouraustria.at^
 ||barfuss--schuhe.com^
 ||barfussbalance.de^
-||barfussfreedom.com^
 ||bargainplanet.de^
 ||bargnee.com^
 ||baristadiscount.com^
@@ -1245,7 +1219,6 @@ Stand: 02.04.2026 05:42
 ||bauergraz.com^
 ||bauernhofspiele.com^
 ||baugerateprofi.com^
-||baugeraterabatt.com^
 ||bauhobby.com^
 ||baukomps.com^
 ||baumantransporte.com^
@@ -1260,7 +1233,6 @@ Stand: 02.04.2026 05:42
 ||baustoffe-koehn.de^
 ||bauteilegest.com^
 ||bauundwerkzeug.com^
-||bauzeug.de^
 ||bavaria-rechtundberatung.com^
 ||bavariasis.com^
 ||baya-bikini.de^
@@ -1425,7 +1397,6 @@ Stand: 02.04.2026 05:42
 ||beruhmteskajak.com^
 ||bervel-shop.de^
 ||beryour.com^
-||besaferxpills.com^
 ||besamecosmeticsava.shop^
 ||beschlaegeprofi.de^
 ||besellics.com^
@@ -1468,7 +1439,6 @@ Stand: 02.04.2026 05:42
 ||bestebike.de^
 ||besteckgeschirr.de^
 ||bestekaufhauser24.com^
-||bestekreditvergabe.ltd^
 ||bestelektronicshop.de^
 ||bestemed.com^
 ||bestemedikamente.com^
@@ -1486,14 +1456,12 @@ Stand: 02.04.2026 05:42
 ||besteuhren.to^
 ||besteware24.de^
 ||bestgamestopshop.de^
-||bestgenericonline.com^
 ||besthomeship.com^
 ||besthunny.com^
 ||bestkht.com^
 ||bestknifeworld.com^
 ||bestkredits.com^
 ||bestlook.store^
-||bestmaher.com^
 ||bestmakeup.club^
 ||bestmarkt24.com^
 ||bestmedhealth.com^
@@ -1576,7 +1544,6 @@ Stand: 02.04.2026 05:42
 ||bigagnesoutlet.com^
 ||bighomelife.com^
 ||bigoption.com^
-||bigpharmausa.com^
 ||bigsex.is^
 ||bigsofasde.de^
 ||bigstoregaming.com^
@@ -1746,7 +1713,6 @@ Stand: 02.04.2026 05:42
 ||black-shepp-gastroservice.com^
 ||blackabdo.company.site^
 ||blackdiamond-schweiz.com^
-||blackfridaymegastore.com^
 ||blackgurlzsmagickloset.com^
 ||blackoutarchertender.com^
 ||bladebasics.com^
@@ -4440,6 +4406,7 @@ Stand: 02.04.2026 05:42
 ||farmakeiogr.com^
 ||farmspain.com^
 ||farmtiermarkt.com^
+||fashican.com^
 ||fashion-ivora.com^
 ||fashionaarmy.com^
 ||fashionablenew.com^
@@ -4590,7 +4557,6 @@ Stand: 02.04.2026 05:42
 ||filedenzu.com^
 ||filexstorage.site^
 ||fili-cc.tv^
-||fillamoda.com^
 ||fillethumn.com^
 ||fillinger.shop^
 ||filloutlet.com^
@@ -5969,7 +5935,6 @@ Stand: 02.04.2026 05:42
 ||haustierbedarfshop.com^
 ||haustiererabatt.com^
 ||haustiereshop.com^
-||haustierstolz.de^
 ||haustirwelten.de^
 ||hausture.com^
 ||hausundgarten.haus^
@@ -6484,6 +6449,7 @@ Stand: 02.04.2026 05:42
 ||horizoninvestment.ch^
 ||horizons28.com^
 ||horizontaln.com^
+||horizontix.de^
 ||hormanns24.de^
 ||hormans.de^
 ||horngrant.com^
@@ -7348,6 +7314,7 @@ Stand: 02.04.2026 05:42
 ||kashefcog.com^
 ||kasperfit.com^
 ||kassecap.com^
+||kastner-oehler-de.com^
 ||katemond.de^
 ||katespade--online.com^
 ||katespadeoutletscanada.ca^
@@ -8236,6 +8203,7 @@ Stand: 02.04.2026 05:42
 ||lornajanedeutschland.de^
 ||loro-pianas.de^
 ||lorrainefinance.fr^
+||lorrauy.shop^
 ||lorryspottingshop.com^
 ||losmilitares.com^
 ||lospimas.store^
@@ -8907,6 +8875,7 @@ Stand: 02.04.2026 05:42
 ||michel-auto-concpt.com^
 ||michelinsuisse.com^
 ||mici-tech.de^
+||micoczechia.com^
 ||micro-spiele.de^
 ||micromaniaonline.de^
 ||microngroup.pro^
@@ -9603,6 +9572,7 @@ Stand: 02.04.2026 05:42
 ||new-promotions24.com^
 ||new.gdtot.me^
 ||new2.gdtot.sbs^
+||newair.blacktime.sbs^
 ||newatfirst.com^
 ||newaverr.com^
 ||newbaseballus.com^
@@ -9791,6 +9761,7 @@ Stand: 02.04.2026 05:42
 ||northwaveoff.com^
 ||northwestpharmacy.com^
 ||norvatix.io^
+||norwayhotel.net^
 ||norxonline.biz^
 ||nosdaarte.com^
 ||not-bad.shop^
@@ -11463,6 +11434,7 @@ Stand: 02.04.2026 05:42
 ||rheinwing.de^
 ||rhineritz.de^
 ||rhode.co.at^
+||rhodeshotel24.com^
 ||ri-lieeoodu.com^
 ||ricadihotelspage.com^
 ||ricasrucksack.com^
@@ -13654,7 +13626,6 @@ Stand: 02.04.2026 05:42
 ||trade-shop.online^
 ||trade-skins.net^
 ||trade-x.net^
-||trade.amlin-limited.info^
 ||tradealles.com^
 ||tradecapital.net^
 ||tradecapital24.com^

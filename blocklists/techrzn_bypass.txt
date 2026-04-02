@@ -1,5 +1,5 @@
 ### TechRZN - BYPASS ###
-Stand: 02.04.2026 05:42
+Stand: 02.04.2026 12:34
 
 ||0.6gpaactivities.pce-cihazlari.com.tr^
 ||0.6gpaactivities.pulsaudio.ro^
@@ -28,7 +28,6 @@ Stand: 02.04.2026 05:42
 ||1.0rz.space^
 ||1.11i.eu^
 ||1.asistdoc.ar^
-||1.baumgardner.us^
 ||1.dns.noridev.moe^
 ||1.hotelne.com^
 ||1.rock-review.ru^
@@ -283,7 +282,6 @@ Stand: 02.04.2026 05:42
 ||2.alpo.pp.ua^
 ||2.asistdoc.ar^
 ||2.baiyue.eu.org^
-||2.baumgardner.us^
 ||2.dns.noridev.moe^
 ||2.dnscrypt-cert.browser.yandex.net^
 ||2.thetravelingtourguide.com^
@@ -506,7 +504,6 @@ Stand: 02.04.2026 05:42
 ||58ppyun.com^
 ||59561aa13a3300a5399b85b1470e7b9edbe58ad9.com^
 ||5cojvd8ge.online^
-||5eclash.com^
 ||5fvfofc9f.online^
 ||5g.o0o.re^
 ||5noers.xyz^
@@ -700,7 +697,6 @@ Stand: 02.04.2026 05:42
 ||aapljs.com^
 ||aarash.pro^
 ||aaron.listens.to.mango.phonk.bine.me^
-||aaronzweb.xyz^
 ||ab.jsx.pm^
 ||ab.pot8o.dev^
 ||ab.zaydstillhasbraindamage.duckdns.org^
@@ -936,7 +932,6 @@ Stand: 02.04.2026 05:42
 ||adbox-v8.srv64.de^
 ||adbox-v9.dynipv6.de^
 ||adc.bxq.net^
-||adcka74lievia.online^
 ||add.balatro.back.cfisd.spacejamhd.com^
 ||add.how.elementsmi.com^
 ||add.how.mikrolink.one.pl^
@@ -1014,7 +1009,6 @@ Stand: 02.04.2026 05:42
 ||adguard.amscenter.net^
 ||adguard.app.sabino.pro^
 ||adguard.avavd.ru^
-||adguard.avdkishore.dev^
 ||adguard.ayrespace.cc^
 ||adguard.baltes.info^
 ||adguard.bitteeinbyte.de^
@@ -1334,8 +1328,6 @@ Stand: 02.04.2026 05:42
 ||agha.sunryu.site^
 ||aghdns.com^
 ||aghome.jcconnell.com^
-||agurydog.website^
-||ahaan.xyz^
 ||ahaapi.com^
 ||ahadns.net^
 ||ahagad.com^
@@ -1374,7 +1366,6 @@ Stand: 02.04.2026 05:42
 ||ajh.academy^
 ||ajh.academy.cdn.cloudflare.net^
 ||ajh.boats^
-||ajh.college^
 ||ajh.college.cdn.cloudflare.net^
 ||ajh.eats-logi.lol^
 ||ajh.his.strangled.net^
@@ -1459,7 +1450,6 @@ Stand: 02.04.2026 05:42
 ||allorigins.win^
 ||allow.sparks.ddns-ip.net^
 ||allunblocked.com^
-||allyisgoingbacktomexi.co^
 ||alohabrowser.com^
 ||alohaprofile.com^
 ||alon93rus.ru^
@@ -1541,7 +1531,6 @@ Stand: 02.04.2026 05:42
 ||ano404.top^
 ||anomivpn.com^
 ||anonine.com^
-||anonproxy.eu^
 ||anonproxy.org^
 ||anonto.pw^
 ||anonwebproxy.com^
@@ -1778,7 +1767,6 @@ Stand: 02.04.2026 05:42
 ||asleep.zhangmuru.com^
 ||aspen.home.bog.ignorelist.com^
 ||aspheric-zombies.club^
-||assemblymenu.xyz^
 ||assets-prod-a230.s3.serverwild.com^
 ||assignments.lhost.dev^
 ||astarvpn.com^
@@ -1998,7 +1986,6 @@ Stand: 02.04.2026 05:42
 ||bbcincheecks.26252526.xyz^
 ||bbl.lbry.ru^
 ||bcloudv.com^
-||bcohqwqmvyioqg.xyz^
 ||bd-assets.com^
 ||bd2b0c9e.intermath.pages.dev^
 ||bdns.im^
@@ -2035,7 +2022,6 @@ Stand: 02.04.2026 05:42
 ||beibeiyunssr.com^
 ||belkavpn.com^
 ||bella.981377612.xyz^
-||belldream.xyz^
 ||bellproxy.com^
 ||belongdesert.com^
 ||beltruna.ru^
@@ -2082,7 +2068,6 @@ Stand: 02.04.2026 05:42
 ||bestdiandian.com^
 ||bestdota.net^
 ||besteaapp.com^
-||bestepicgames.com^
 ||besteugame.com^
 ||bestexpapp.com^
 ||bestfanqiangtizi.com^
@@ -2280,7 +2265,6 @@ Stand: 02.04.2026 05:42
 ||biology.info.north-kazakhstan.su.cdn.cloudflare.net^
 ||biology.ndr.cl^
 ||biology.nicher.cl^
-||bir2hmi.online^
 ||birgerboy.com^
 ||bit01-mfivuot8.top^
 ||bit02-u6bgppq7.top^
@@ -7904,7 +7888,6 @@ Stand: 02.04.2026 05:42
 ||hsselite.com^
 ||hsu.plus^
 ||hsulun2000.synology.me^
-||hsym5.acerhost.com^
 ||hsym6.omallysplayland.com^
 ||hsyun.cloud^
 ||hsyun.io^
@@ -8225,7 +8208,6 @@ Stand: 02.04.2026 05:42
 ||ingamesmall.com^
 ||ingenmannsland.online^
 ||ininja.org^
-||inlifeyouhaveroadblox.bamapos.com^
 ||inmkayandisuck.info.north-kazakhstan.su.cdn.cloudflare.net^
 ||innov-windows.s3.us-east-2.amazonaws.com^
 ||innov8ivetech.com^
@@ -10555,6 +10537,7 @@ Stand: 02.04.2026 05:42
 ||notgameslol.duckdns.org^
 ||nothard.elmvp.cl^
 ||nothing.computersforpeace.net^
+||nothingtohide.nl^
 ||noticepure.com^
 ||notlong.com^
 ||notorioussymbol.space^
@@ -11312,7 +11295,6 @@ Stand: 02.04.2026 05:42
 ||powerschool.com.de^
 ||powerschool.com.de.cdn.cloudflare.net^
 ||powerschool.it.com^
-||powerschoolportal.bastaff.ru^
 ||powervpn.dlab.link^
 ||powervpn.github.io^
 ||powervpnfree.com^
@@ -12514,7 +12496,6 @@ Stand: 02.04.2026 05:42
 ||scottdylewski.com^
 ||scrabble.zzdhk.com^
 ||scrapbooking-directory.com^
-||scratchdevfourums.5a3bz.cn^
 ||scroogethebest.com^
 ||scur.tent.cloud-ip.cc^
 ||sd.galaxysoft.ro^
@@ -13138,7 +13119,6 @@ Stand: 02.04.2026 05:42
 ||spinalfluid.world^
 ||split-tool.com^
 ||split.clean.abrdns.com^
-||spmx7dh3ijfgzpltcwfjcgw9rpfhkdxfsvnohbgeetthnyq2nfuvbajln478gg.allurescience.com^
 ||spoap.miguelcarrasco.net^
 ||spoc.norton.com^
 ||spoilers.pages.dev^
@@ -14780,7 +14760,6 @@ Stand: 02.04.2026 05:42
 ||voidnetwork.space.cdn.cloudflare.net^
 ||voidnrtowkr93urridudi.geetabasyal.com.np^
 ||voidtickets.xyz^
-||voidvcsa.blackbearshow.com^
 ||voidvoidyesyes.ignorelist.com^
 ||volatr.xyz^
 ||voltrex.ru^
@@ -15143,7 +15122,6 @@ Stand: 02.04.2026 05:42
 ||wassup-guys-sms.renaceracs.xyz^
 ||wassupdanger.strangled.net^
 ||watch-dexter.or-you-now.donciccio.net^
-||watch.blackbearshow.com^
 ||watch.cfcentral.org^
 ||watch.national-birdshow.com^
 ||watchdocumentary.neo-space.space^
