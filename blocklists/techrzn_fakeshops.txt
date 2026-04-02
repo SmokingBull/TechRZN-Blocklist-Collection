@@ -1,5 +1,5 @@
 ### TechRZN - FAKESHOPS ###
-Stand: 01.04.2026 05:56
+Stand: 02.04.2026 05:42
 
 ||.avito.www.booking.^
 ||.com-idcom^
@@ -1658,6 +1658,7 @@ Stand: 01.04.2026 05:56
 ||binoa.com^
 ||binom0-web.com^
 ||binomo-brokers.com^
+||binomo-id.in^
 ||binomo.ai^
 ||binomo.app^
 ||binomo.broker^
@@ -4943,7 +4944,6 @@ Stand: 01.04.2026 05:56
 ||fribooverkauf.com^
 ||friday89.com^
 ||friday99.com^
-||fridaylocalmanager.duckdns.org^
 ||frieda-taschen.de^
 ||friedaskitchen.de^
 ||friedberg-mode.de^
@@ -6376,7 +6376,6 @@ Stand: 01.04.2026 05:56
 ||hoglschuhe.com^
 ||hoiyon.com^
 ||hoka--shoes.com^
-||hoka-italia.it^
 ||hoka-soldes.fr^
 ||hokaat.co.at^
 ||hokacity.shop^
@@ -6999,7 +6998,6 @@ Stand: 01.04.2026 05:56
 ||italyworldbaseballclassic.com^
 ||itcfx.com^
 ||itecshopeur.shop^
-||iteeus.com^
 ||itemdohome.com^
 ||itemunusual.com^
 ||itguruu.com^
@@ -7448,7 +7446,6 @@ Stand: 01.04.2026 05:56
 ||kidgames.life^
 ||kidsstylehub.com^
 ||kidzly.at^
-||kienast-ra.de^
 ||kigurumi-usa.com^
 ||killenclinical.com^
 ||kilokits.com^
@@ -8324,7 +8321,6 @@ Stand: 01.04.2026 05:56
 ||luckyledge.com^
 ||luckyyise.com^
 ||lucrabot-gpt.net^
-||lucysstyle.com^
 ||ludwigmaria.at^
 ||luffglasses.com^
 ||luiliebeeu.shop^
@@ -9281,7 +9277,6 @@ Stand: 01.04.2026 05:56
 ||mtools-outlet.shop^
 ||mtquality.com^
 ||mtr-legal.de^
-||mtr-legal.net^
 ||mubnew.com^
 ||muckbootsosterreich.at^
 ||muckbootsoutletstore.de^
@@ -9489,7 +9484,6 @@ Stand: 01.04.2026 05:56
 ||navi38.ru^
 ||navi39.ru^
 ||navi4.com^
-||navi42.ru^
 ||navi43.com^
 ||navi45.ru^
 ||navi48.com^
@@ -9750,7 +9744,6 @@ Stand: 01.04.2026 05:56
 ||nobullsrbija.com^
 ||nobulprojectnederland.me^
 ||noclegipolanczyk.pl^
-||noerr-mbb.de^
 ||nofotballshop.com^
 ||nofsclothing.de^
 ||nogentais.finance^
@@ -9798,7 +9791,6 @@ Stand: 01.04.2026 05:56
 ||northwaveoff.com^
 ||northwestpharmacy.com^
 ||norvatix.io^
-||norwayhotel.net^
 ||norxonline.biz^
 ||nosdaarte.com^
 ||not-bad.shop^
@@ -11118,7 +11110,6 @@ Stand: 01.04.2026 05:56
 ||qq339.com^
 ||qq51f.short.gy^
 ||qredhaus.de^
-||qriedf.info^
 ||qrixvetra.com^
 ||qrvawuep.shop^
 ||quadrals.de^
@@ -11472,7 +11463,6 @@ Stand: 01.04.2026 05:56
 ||rheinwing.de^
 ||rhineritz.de^
 ||rhode.co.at^
-||rhodeshotel24.com^
 ||ri-lieeoodu.com^
 ||ricadihotelspage.com^
 ||ricasrucksack.com^
@@ -14252,7 +14242,6 @@ Stand: 01.04.2026 05:56
 ||verkettet-dogs.com^
 ||vermoegensvermittler.com^
 ||vermontco.com.br^
-||vernahora.app^
 ||veroshell.com^
 ||versand-fuxx-ug.myshopify.com^
 ||versand-rezeptfrei.de^
@@ -14319,7 +14308,6 @@ Stand: 01.04.2026 05:56
 ||video-markt.com^
 ||videospiel-markt.de^
 ||vider-cda.online^
-||vider-cda.pl^
 ||vider-pl.pl^
 ||vider.cc^
 ||vider.com.pl^
@@ -14776,10 +14764,6 @@ Stand: 01.04.2026 05:56
 ||westhillcapital.pro^
 ||westickers.com^
 ||westkurveretro.futbol^
-||westmeier-partner.net^
-||westmeier-ra.net^
-||westmeier-rechtsanwaelte.com^
-||westmeier-rechtsanwaelte.net^
 ||westri.top^
 ||westshares.com^
 ||weteis.com^
@@ -14966,7 +14950,6 @@ Stand: 01.04.2026 05:56
 ||wunderwild.de^
 ||wunschau.de^
 ||wunschfans.de^
-||wuqrie.info^
 ||wuyuosn.com^
 ||wv-langen.de^
 ||ww25.utilify.me^
