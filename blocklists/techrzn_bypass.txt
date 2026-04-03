@@ -1,5 +1,5 @@
 ### TechRZN - BYPASS ###
-Stand: 02.04.2026 12:34
+Stand: 03.04.2026 05:42
 
 ||0.6gpaactivities.pce-cihazlari.com.tr^
 ||0.6gpaactivities.pulsaudio.ro^
@@ -1278,7 +1278,6 @@ Stand: 02.04.2026 12:34
 ||africadns2.liquidtelecom.net^
 ||ag.alexf.cc^
 ||ag.apollohct.com^
-||ag.brianlee.fun^
 ||ag.coco-tama-hoiku.com^
 ||ag.felixf.eu^
 ||ag.ff0x.ca^
@@ -1967,7 +1966,6 @@ Stand: 02.04.2026 12:34
 ||basha-is-the-genius.ignorelist.com^
 ||bashathegenius.mooo.com^
 ||bashful-stretch.surge.sh^
-||basic.cbu.net^
 ||basildo.beer^
 ||batch.today^
 ||bathshop.ir^
@@ -2335,7 +2333,6 @@ Stand: 02.04.2026 12:34
 ||blockziziidesu.f5.si^
 ||blog.artweb.website^
 ||blog.artweb.website.cdn.cloudflare.net^
-||blog.chirality.forum^
 ||blog.electricpiano.xyz^
 ||blog.kimiblock.top^
 ||blog2.amlegion.org^
@@ -2396,8 +2393,6 @@ Stand: 02.04.2026 12:34
 ||booking.traveling.com.ar^
 ||bookings.verandahotels.com^
 ||bookisgood.work.gd^
-||bookkey82.com^
-||bookpen82.com^
 ||bookphone92.com^
 ||books.quiz.teeman.org^
 ||booksmarts.vercel.app^
@@ -2655,7 +2650,6 @@ Stand: 02.04.2026 12:34
 ||calm-tree-976.blanktext.net^
 ||calmlunch.com^
 ||calvexon.ru^
-||cameraproposal.xyz^
 ||camowolfdog.rest^
 ||camping.tent.cloud-ip.cc^
 ||canaanstoneworks.com^
@@ -2698,7 +2692,6 @@ Stand: 02.04.2026 12:34
 ||carbook92.com^
 ||carcar.netseclabs.gr^
 ||carcar92.com^
-||carchair92.com^
 ||care.daybits.net^
 ||carebuzz.com^
 ||carebuzz.io^
@@ -2707,15 +2700,12 @@ Stand: 02.04.2026 12:34
 ||careers.asistdoc.ar^
 ||careersandjobs.org^
 ||careproxy.com^
-||carkey82.com^
 ||carmineandosvielarecool.crabdance.com^
 ||carolinareaper.heeremans.net^
 ||carpet.lesec.dedyn.io^
 ||carpetcouriers.com^
-||carphone92.com^
 ||carry.registration.abrdns.com^
 ||cars.happyforever.com^
-||cartable92.com^
 ||carth.ns8.org^
 ||cashraven.io^
 ||casinovpn.com^
@@ -2850,14 +2840,11 @@ Stand: 02.04.2026 12:34
 ||cg-extension.s3-eu-west-1.amazonaws.com^
 ||cgahwtlh3.online^
 ||cgfvhujkmnbvcgbn.hgfvjhnkhcvbnhg.sceneco.re^
-||cgwsvqpkllgjo.xyz^
 ||cgzv1i.csb.app^
 ||ch-kuailian.com^
 ||chaich8z.xyz^
 ||chairbook92.com^
 ||chairchair92.com^
-||chairkey82.com^
-||chairphone92.com^
 ||chamvpn.com^
 ||chandr1000.net^
 ||changemyip.com^
@@ -2900,7 +2887,6 @@ Stand: 02.04.2026 12:34
 ||cheesestorecedarhurst.com^
 ||cheesyballsnohomo.smasesorias.cl^
 ||cheetos.rouselegal.com.au^
-||chejfnreeje.vets.co.il^
 ||chemistry.props.org^
 ||chemistrypracticelab.cencopro.cl^
 ||cherryclash.com^
@@ -2922,14 +2908,11 @@ Stand: 02.04.2026 12:34
 ||chinacitybit.click^
 ||chinagrows.com^
 ||chinapeopleinfo.com^
-||chinapolymetallic.com^
 ||chinastoryshop.com^
 ||chinese-kl.com^
-||chinese-kuailian.com^
 ||chinese-lets.com^
 ||chips.run^
 ||chisostinks.jumpingcrab.com^
-||chjwhpcwibbsoz.xyz^
 ||chlaebi.info^
 ||chlaebi.synology.me^
 ||chnia.itafricagroup.com^
@@ -3160,14 +3143,11 @@ Stand: 02.04.2026 12:34
 ||cloud2.holzmannclouddns.de^
 ||cloudbenders.fun^
 ||cloudbob.fr^
-||cloudfisherjc.com^
 ||cloudflare-dns.com^
 ||cloudflare-gateway.com^
 ||cloudflaredns.com^
 ||cloudflareresolve.com^
 ||cloudflares.ddns.net^
-||cloudfoxclash.com^
-||cloudfoxjc.com^
 ||cloudnetcdn.com^
 ||cloudnetwork.pro^
 ||cloudns.bosco.ovh^
@@ -3187,7 +3167,6 @@ Stand: 02.04.2026 12:34
 ||cludenxenibyte.viar3d.com^
 ||cluster-0.gac.edu^
 ||cluster-1.gac.edu^
-||clusters.run^
 ||cmdc.astrodestino.com.ar^
 ||cmdc.chinookyoga.com^
 ||cmdc.envytations.com^
@@ -3221,7 +3200,6 @@ Stand: 02.04.2026 12:34
 ||cns-kuailian.net^
 ||cns-pc-kuailian.com.cn^
 ||cns-web-kuailian.com.cn^
-||cnusxumyiiw.xyz^
 ||cnwangluo.net^
 ||co-kuailian.com^
 ||co-kuailian.com.cn^
@@ -4176,7 +4154,6 @@ Stand: 02.04.2026 12:34
 ||dns-cybersec.nordthreatprotection.com^
 ||dns-family.adguard.com^
 ||dns-family.esegece.com^
-||dns-fr-psv1.cloudsides.com^
 ||dns-fra.imo.im^
 ||dns-free.link^
 ||dns-gcp.aaflalo.me^
@@ -6340,7 +6317,6 @@ Stand: 02.04.2026 12:34
 ||feqfqsweffqwe.myaddr.tools^
 ||fer.verandahotels.com^
 ||fern-is.nice.baumgardner.us^
-||fern-the-goat.vets.co.il^
 ||fern.ape3d.com^
 ||fern.bbvlibrary.com^
 ||fern.best^
@@ -6365,7 +6341,6 @@ Stand: 02.04.2026 12:34
 ||ferniiiiiiiii4.rainbowcreative.web.id^
 ||ferniiiiiiiii5.rainbowcreative.web.id^
 ||fernisbest.blinklab.com^
-||fernisbest.vets.co.il^
 ||fernisgoat.activesearch.org.au^
 ||fernlol.chiangmaiorganics.com^
 ||fernn.fabricecosta.com^
@@ -6541,7 +6516,6 @@ Stand: 02.04.2026 12:34
 ||food.fit-tw.com^
 ||foofriendsgw.com^
 ||fooksun.xyz^
-||football.coach.vets.co.il^
 ||football.coaching2lead.com^
 ||footballresearch.sportconceptmedia.ru^
 ||for-privacy.net^
@@ -8549,7 +8523,6 @@ Stand: 02.04.2026 12:34
 ||jmsssr.com^
 ||jmw-v5.pages.dev^
 ||jmw-v7.pages.dev^
-||jncbfekejd.vets.co.il^
 ||jnprd.com^
 ||jnxhylc.cn^
 ||job.registration.abrdns.com^
@@ -9211,7 +9184,6 @@ Stand: 02.04.2026 12:34
 ||learnsktech.infotechnology.com^
 ||learnsktech.jumpingcrab.com^
 ||learnsowashcoorg.ddnss.org^
-||learnstuff.cbu.net^
 ||learnvcsa.bayworld.net^
 ||learnvcsa.bestprogramsforkids.com^
 ||learnvcsa.bfcontrol.com.mx^
@@ -9663,7 +9635,6 @@ Stand: 02.04.2026 12:34
 ||math.facts.someone.one.pl^
 ||math.goalstep.ru^
 ||math.help.bingo-list.com^
-||math.homework.clubnb.au^
 ||math.info.north-kazakhstan.su.cdn.cloudflare.net^
 ||math.intasarn.com^
 ||math.internetbowser.com^
@@ -9962,7 +9933,6 @@ Stand: 02.04.2026 12:34
 ||mon213.com^
 ||monitoring.gpu74.ru^
 ||monitoring.metropolitanstaffingsolutions.com^
-||monkeys9238822.vets.co.il^
 ||monkeytype.cf^
 ||monopolywolf.org^
 ||monoprivacy.io^
@@ -12881,7 +12851,6 @@ Stand: 02.04.2026 12:34
 ||silentslab.pay-per-head-solutions.com^
 ||sillygaming.org^
 ||sillygoose.coral-shop.ro^
-||sillyinproperlootingacademicalschool.com.chickenkiller.com^
 ||sillykitty.webs.vc^
 ||sillyy.lol^
 ||silvaro.ru^
@@ -15219,7 +15188,6 @@ Stand: 02.04.2026 12:34
 ||webxify.com^
 ||wec-httpdns-platform-dbankcloud-com-drcn.region.dbankedge.cn^
 ||wecanbebees.primeflk.ch^
-||wecookedthistimebri.vets.co.il^
 ||wedding-present.us^
 ||wedgdh.wefds.sharptutor.net^
 ||wegohub.com^
@@ -16317,7 +16285,6 @@ Stand: 02.04.2026 12:34
 ||xn--zuup71g88ae4i.com^
 ||xn--zwwa296b.com^
 ||xnyun11.cc^
-||xocjckekrn.vets.co.il^
 ||xolvento.ru^
 ||xomverta.ru^
 ||xonlrnrujxbx.com^
@@ -16357,7 +16324,6 @@ Stand: 02.04.2026 12:34
 ||xyherb.xyz^
 ||xylophagous.zelator.cloud-ip.cc^
 ||xylophone.complex.abrdns.com^
-||xynproxyschool.chickenkiller.com^
 ||xyz2.zmjflow.com^
 ||xyz3.zmjflow.com^
 ||y05qwm.cn^
@@ -16420,7 +16386,6 @@ Stand: 02.04.2026 12:34
 ||yepijiasujc.com^
 ||yeralin.net^
 ||yes-taro.ru^
-||yes.vets.co.il^
 ||yescool.upcg.xyz^
 ||yessir.happyforever.com^
 ||yestaro.ru^

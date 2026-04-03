@@ -1,5 +1,5 @@
 ### TechRZN - FAKESHOPS ###
-Stand: 02.04.2026 12:34
+Stand: 03.04.2026 05:42
 
 ||.avito.www.booking.^
 ||.com-idcom^
@@ -142,6 +142,7 @@ Stand: 02.04.2026 12:34
 ||acapitalgroup.co^
 ||acastleinthesun.com^
 ||acc.accgn.com^
+||accbing.com^
 ||accbulk.com^
 ||accelerateg.com^
 ||acceleratet.com^
@@ -1804,7 +1805,6 @@ Stand: 02.04.2026 12:34
 ||bolejug.us^
 ||bolivianitaava.shop^
 ||bolt-courier.com^
-||bolvahomeai.com^
 ||bombardina.de^
 ||bombardina.pl^
 ||bombillainteligente.space^
@@ -1887,10 +1887,8 @@ Stand: 02.04.2026 12:34
 ||brandup-grade.de^
 ||branvoirleben.com^
 ||braunboutique.com^
-||brava-berlin.de^
 ||bravedrawer.com^
 ||braviamarket.com^
-||braziloficial.com^
 ||brazuque.com.br^
 ||breadmachineshop.com^
 ||breakingaliennews.com^
@@ -1924,13 +1922,11 @@ Stand: 02.04.2026 12:34
 ||brennholzmeister.com^
 ||brennholzmeister.de^
 ||brennholzpellets.com^
-||brennholzruhl.de^
 ||brennholzs.com^
 ||brennholzschnell24.de^
 ||brennholzstein.de^
 ||brennholzstore.de^
 ||brennholzweber.de^
-||brennholzwerner.de^
 ||brennstoffe-versand.de^
 ||brenstoffe-versand.de^
 ||brettsportde.com^
@@ -1963,7 +1959,6 @@ Stand: 02.04.2026 12:34
 ||brokereins.com^
 ||brokereins1.com^
 ||brokers500.com^
-||brooks-osterreich.at^
 ||brooks-partners.com^
 ||brooks-running-shoes.com^
 ||brooks.co.at^
@@ -2026,13 +2021,11 @@ Stand: 02.04.2026 12:34
 ||buildmaterialstore.com^
 ||builikee.com^
 ||buitifo-fashion.com^
-||bukkwood.com^
 ||bulksellmart.co.uk^
 ||bull-verse.org^
 ||bullbit.net^
 ||bullbittrade.com^
 ||bullplay.de^
-||bundgaardschuh.com^
 ||bunnykachu.com^
 ||bunterstil.com^
 ||burgershirt.com^
@@ -2046,7 +2039,6 @@ Stand: 02.04.2026 12:34
 ||bushyy.com^
 ||bustier-sales.com^
 ||butlep.com^
-||butlersdekoration.com^
 ||butlersneu.com^
 ||butlersonlineshop.com^
 ||butlersrabatt.com^
@@ -2135,7 +2127,6 @@ Stand: 02.04.2026 12:34
 ||campingangebote-de.com^
 ||campingkuche.de^
 ||campinglagern.com^
-||campinglampenbillig.com^
 ||campingmarkise.com^
 ||campingmobel.com^
 ||campingneu.com^
@@ -2167,7 +2158,6 @@ Stand: 02.04.2026 12:34
 ||canadianpharmacyworld.com^
 ||canaryrentalvillas.com^
 ||canaryvacationhome.com^
-||canbeloutlet.com^
 ||canbrace.com^
 ||candia-handel.de^
 ||candlesbymadison.com^
@@ -2175,7 +2165,6 @@ Stand: 02.04.2026 12:34
 ||candykeysangebotes.com^
 ||canillogermany.com^
 ||canjaume.com^
-||cannabisonlinebestellen.com^
 ||cannondalegeschaft.com^
 ||canoefans.com^
 ||cantheme.com^
@@ -2189,7 +2178,6 @@ Stand: 02.04.2026 12:34
 ||capital-rvg.com^
 ||capital888.net^
 ||capitalcourtage.com^
-||capitalfm.io^
 ||capitalfrance.fr^
 ||capitalfxs.com^
 ||capitaliko.com^
@@ -2257,13 +2245,10 @@ Stand: 02.04.2026 12:34
 ||cascosoffroad.com^
 ||caseetepen.com^
 ||cashmerancing.com^
-||casira.de^
 ||casiva.de^
-||casoum.net^
 ||castolonios.de^
 ||casualdating1.com^
 ||cat2fip.co^
-||cataldoonlinedeeur.shop^
 ||catalia.de^
 ||catalunyafarm.com^
 ||catatic.de^
@@ -2368,7 +2353,6 @@ Stand: 02.04.2026 12:34
 ||chat-o-live.com^
 ||chauffabois.com^
 ||chauffage-energie.com^
-||chcierekci.net^
 ||che.com^
 ||cheap-pharma.com^
 ||cheapcharly.de^
@@ -2397,7 +2381,6 @@ Stand: 02.04.2026 12:34
 ||chicattireus.com^
 ||chicboho.com^
 ||chicgant.com^
-||chichome-finds.com^
 ||chickiddos.com^
 ||chicladdy.com^
 ||chiclolo.com^
@@ -2418,7 +2401,6 @@ Stand: 02.04.2026 12:34
 ||chourok.net^
 ||chrisclavelli.com^
 ||chrisgfornevada.com^
-||chrisneuman.shop^
 ||chrissie.at^
 ||christmann-partner.com^
 ||christmasdecorusa.com^
@@ -4404,6 +4386,7 @@ Stand: 02.04.2026 12:34
 ||farmakeioellinika.com^
 ||farmakeioellinika24.com^
 ||farmakeiogr.com^
+||farmer-love.us^
 ||farmspain.com^
 ||farmtiermarkt.com^
 ||fashican.com^
@@ -8289,6 +8272,7 @@ Stand: 02.04.2026 12:34
 ||luckyledge.com^
 ||luckyyise.com^
 ||lucrabot-gpt.net^
+||lucysstyle.com^
 ||ludwigmaria.at^
 ||luffglasses.com^
 ||luiliebeeu.shop^
@@ -8875,7 +8859,6 @@ Stand: 02.04.2026 12:34
 ||michel-auto-concpt.com^
 ||michelinsuisse.com^
 ||mici-tech.de^
-||micoczechia.com^
 ||micro-spiele.de^
 ||micromaniaonline.de^
 ||microngroup.pro^
@@ -9318,6 +9301,7 @@ Stand: 02.04.2026 12:34
 ||mybondify.com^
 ||mycarbon.cc^
 ||myclothesera.com^
+||mycoczechia.com^
 ||mycomfortattire.com^
 ||mycrypto24.com^
 ||myeasykit.com^
@@ -9453,6 +9437,7 @@ Stand: 02.04.2026 12:34
 ||navi38.ru^
 ||navi39.ru^
 ||navi4.com^
+||navi42.ru^
 ||navi43.com^
 ||navi45.ru^
 ||navi48.com^
@@ -9477,6 +9462,7 @@ Stand: 02.04.2026 12:34
 ||navi89.com^
 ||navi9.com^
 ||navi90.com^
+||navi95.com^
 ||navi98.com^
 ||navi99.com^
 ||navigatil.store^
@@ -9743,7 +9729,6 @@ Stand: 02.04.2026 12:34
 ||norge-apt.com^
 ||norge-ed.com^
 ||norgeapotek24.com^
-||norgeshoes.com^
 ||norion.xyz^
 ||norleire.com^
 ||normado.com^
@@ -11473,7 +11458,6 @@ Stand: 02.04.2026 12:34
 ||rinstudio.de^
 ||riokapital.com^
 ||riokapital.eu^
-||ripcurl.co.at^
 ||riptidesoccer.org^
 ||rise-property.com^
 ||risora.de^
@@ -11521,6 +11505,7 @@ Stand: 02.04.2026 12:34
 ||robustwerkzeug.com^
 ||rochobbies.com^
 ||rockanutritionava.shop^
+||rockchief.com^
 ||rockmysleepeu.shop^
 ||rockportbootsireland.com^
 ||rockportjapan.com^
@@ -13480,7 +13465,6 @@ Stand: 02.04.2026 12:34
 ||toko999.shop^
 ||tolleapotheke101.com^
 ||toloco.xyz^
-||tom-ford.co.za^
 ||tomadamsenergy.com^
 ||tomakas.de^
 ||tomhomewine.com^
@@ -13774,7 +13758,6 @@ Stand: 02.04.2026 12:34
 ||truft.de^
 ||trulann.com^
 ||trumanschuhe.com^
-||trumpsupport.help^
 ||trusltwcllet.com^
 ||trust-immo.com^
 ||trusted-help.com^
@@ -13937,11 +13920,13 @@ Stand: 02.04.2026 12:34
 ||uniswap.ro^
 ||uniswapagent.com^
 ||uniswapai.xyz^
+||uniswapdao.xyz^
 ||uniswapdefi.xyz^
 ||uniswapetf.xyz^
 ||uniswapfund.xyz^
 ||uniswaphub.xyz^
 ||uniswaplabs.xyz^
+||uniswaplender.xyz^
 ||uniswapstaking.xyz^
 ||unitechnica.com^
 ||uniteddeliveryagency.com^
